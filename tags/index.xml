@@ -4,34 +4,6 @@
     <title>Tags on Cryspen</title>
     <link>https://cryspen.github.io/tags/</link>
     <description>Recent content in Tags on Cryspen</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>about-hugo</title>
-      <link>https://cryspen.github.io/tags/about-hugo/</link>
-      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cryspen.github.io/tags/about-hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>about-us</title>
-      <link>https://cryspen.github.io/tags/about-us/</link>
-      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cryspen.github.io/tags/about-us/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>contact</title>
-      <link>https://cryspen.github.io/tags/contact/</link>
-      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cryspen.github.io/tags/contact/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://cryspen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
