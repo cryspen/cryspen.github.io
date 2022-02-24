@@ -7,4 +7,4 @@ Our mission is to provide services and software for high assurance cryptography 
 #### Projects
 - [hacspec](https://hacspec.org)
 - [hpke](https://tech.cryspen.com/hpke-spec)
-- [hacl packages](https://github.com/cryspen/hacl-packages) and [hacl-star](https://github.com/cryspen/hacl-star)
+- [hacl packages](https://github.com/cryspen/hacl-packages)
