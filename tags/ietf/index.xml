@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IETF on Cryspen</title>
+    <link>https://www.cryspen.com/tags/ietf/</link>
+    <description>Recent content in IETF on Cryspen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cryspen.com/tags/ietf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenMLS</title>
+      <link>https://www.cryspen.com/post/hello-openmls/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/hello-openmls/</guid>
+      <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.
+The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
+    </item>
+    
+    <item>
+      <title>An Executable HPKE Specification</title>
+      <link>https://www.cryspen.com/post/hpke_spec/</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/hpke_spec/</guid>
+      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.
+📚 Please go and read our TL;DR on HPKE if you nee more background on HPKE.</description>
+    </item>
+    
+    <item>
+      <title>TL;DR - Hybrid Public Key Encryption</title>
+      <link>https://www.cryspen.com/post/tldr-hpke/</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/tldr-hpke/</guid>
+      <description>HPKE, defined in RFC 9180, is a CFRG standard that describes a scheme for hybrid public key encryption. It is co-authored by my Cryspen co-founder Karthikeyan Bhargavan and one of his PhD students Benjamin Lipp as part of his research at Inria.</description>
+    </item>
+    
+  </channel>
+</rss>

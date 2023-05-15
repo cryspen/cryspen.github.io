@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tl;dr on Cryspen</title>
+    <link>https://www.cryspen.com/tags/tldr/</link>
+    <description>Recent content in tl;dr on Cryspen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cryspen.com/tags/tldr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TL;DR - Hybrid Public Key Encryption</title>
+      <link>https://www.cryspen.com/post/tldr-hpke/</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/tldr-hpke/</guid>
+      <description>HPKE, defined in RFC 9180, is a CFRG standard that describes a scheme for hybrid public key encryption. It is co-authored by my Cryspen co-founder Karthikeyan Bhargavan and one of his PhD students Benjamin Lipp as part of his research at Inria.</description>
+    </item>
+    
+  </channel>
+</rss>

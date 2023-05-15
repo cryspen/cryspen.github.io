@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cryspen</title>
+    <link>https://www.cryspen.com/</link>
+    <description>Recent content on Cryspen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cryspen.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Cryspen</title>
+      <link>https://www.cryspen.com/about/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/about/</guid>
+      <description>Cryspen was founded in December 2021 by Franziskus Kiefer, Karthikeyan Bhargavan, and Jonathan Protzenko, with the goal of adapting and extending cutting-edge formal verification tools developed at research labs like Inria and applying them to commercial software development.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Cryptographic Implementations</title>
+      <link>https://www.cryspen.com/advanced-crypto/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/advanced-crypto/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>CIRCUS</title>
+      <link>https://www.cryspen.com/circus/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/circus/</guid>
+      <description>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust, development environment and verification toolchain for security critical software.</description>
+    </item>
+    
+    <item>
+      <title>HACL</title>
+      <link>https://www.cryspen.com/hacl/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/hacl/</guid>
+      <description>HACL is a set of formally verified cryptographic libraries in C, JavaScript, OCaml, and Rust. The libraries are based on the HACL* research project, originally developed by Inria and Microsoft Research.</description>
+    </item>
+    
+    <item>
+      <title>hacspec</title>
+      <link>https://www.cryspen.com/hacspec/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/hacspec/</guid>
+      <description>hacspec is a language and framework for writing succinct, executable, formally verifiable specifications for cryptographic components.
+Syntactically, hacspec is a purely functional subset of Rust that aims to be readable by developers, cryptographers, and verification experts.</description>
+    </item>
+    
+    <item>
+      <title>How we Work</title>
+      <link>https://www.cryspen.com/work/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/work/</guid>
+      <description>Cryspen is a boutique development and consulting studio focused on bringing state-of-the-art privacy and cryptography solutions to customers, using cutting-edge formal methods.</description>
+    </item>
+    
+    <item>
+      <title>HPKE</title>
+      <link>https://www.cryspen.com/hpke/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/hpke/</guid>
+      <description>HPKE is scheme provides a variant of public-key encryption of arbitrary-sized plaintexts for a recipient public key. It includes three authenticated variants, including one which authenticates possession of a pre-shared key, and two optional ones which authenticate possession of a KEM private key.</description>
+    </item>
+    
+    <item>
+      <title>Impressum</title>
+      <link>https://www.cryspen.com/imprint/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/imprint/</guid>
+      <description>Company Name: Cryspen Sarl
+Registered Office: 149 Avenue du Maine, 75014 Paris, France
+Email: info@cryspen.com
+Managing Director: Franziskus Kiefer
+Registration Number: 908 684 848 R.</description>
+    </item>
+    
+    <item>
+      <title>Jobs</title>
+      <link>https://www.cryspen.com/jobs/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/jobs/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>OpenMLS</title>
+      <link>https://www.cryspen.com/openmls/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/openmls/</guid>
+      <description>Messaging Layer Security (MLS) is a security layer for end-to-end encrypting communication in large dynamic groups. It is being specified by the IETF MLS working group and designed to be efficient, practical and secure.</description>
+    </item>
+    
+    <item>
+      <title>Post Quantum Transition</title>
+      <link>https://www.cryspen.com/pq/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/pq/</guid>
+      <description>With the advent of post-quantum cryptography, every organization will be expected to upgrade their systems, protocols and infrastructure to be post-quantum ready.</description>
+    </item>
+    
+    <item>
+      <title>Secure Group Communication</title>
+      <link>https://www.cryspen.com/mls/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/mls/</guid>
+      <description>With new regulations like the Digital Market Act, companies now have to embrace interoperability, especially when it comes to communications and messaging.</description>
+    </item>
+    
+    <item>
+      <title>Verify your Security</title>
+      <link>https://www.cryspen.com/prove/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/prove/</guid>
+      <description>Security protocols and constructions are pervasive. Some are well-known, like TLS; but your organization may be using custom security mechanisms for identity management, key propagation, secure storage… Having complete confidence in such a design requires an in-depth security analysis that covers side-channels, cryptographic design, and software design.</description>
+    </item>
+    
+    <item>
+      <title>HACL Packages v0.6</title>
+      <link>https://www.cryspen.com/post/hacl-0_6/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/hacl-0_6/</guid>
+      <description>Today, we announce the first release of the HACL Packages libraries. 🎉
+This release of HACL packages includes the first release of the HACL C library and a new release of the hacl-star OCaml bindings.</description>
+    </item>
+    
+    <item>
+      <title>OpenMLS</title>
+      <link>https://www.cryspen.com/post/hello-openmls/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/hello-openmls/</guid>
+      <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.
+The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
+    </item>
+    
+    <item>
+      <title>HACL Packages</title>
+      <link>https://www.cryspen.com/post/introducing-hacl-packages/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/introducing-hacl-packages/</guid>
+      <description>Earlier this year, Tezos and Nomadic Labs started to work with Cryspen to improve HACL* and ensure that it is a viable long-term solution for Tezos&#39; cryptographic needs.</description>
+    </item>
+    
+    <item>
+      <title>What is High Assurance Cryptography?</title>
+      <link>https://www.cryspen.com/post/high-assurance-cryptography-1/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/high-assurance-cryptography-1/</guid>
+      <description>Cryspen builds high assurance cryptography. But what does this actually mean?
+Before focusing on cryptography it is interesting to look at high assurance software in general.</description>
+    </item>
+    
+    <item>
+      <title>An Executable HPKE Specification</title>
+      <link>https://www.cryspen.com/post/hpke_spec/</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/hpke_spec/</guid>
+      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.
+📚 Please go and read our TL;DR on HPKE if you nee more background on HPKE.</description>
+    </item>
+    
+    <item>
+      <title>TL;DR - Hybrid Public Key Encryption</title>
+      <link>https://www.cryspen.com/post/tldr-hpke/</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/tldr-hpke/</guid>
+      <description>HPKE, defined in RFC 9180, is a CFRG standard that describes a scheme for hybrid public key encryption. It is co-authored by my Cryspen co-founder Karthikeyan Bhargavan and one of his PhD students Benjamin Lipp as part of his research at Inria.</description>
+    </item>
+    
+    <item>
+      <title>Cryspen ERC PoC Grant</title>
+      <link>https://www.cryspen.com/post/erc-poc/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/erc-poc/</guid>
+      <description>Cryspen co-founder Karthik Bhargavan got awarded an ERC Proof of Concept grant for commercialising the know-how and landmark research results from his Inria research group PROSECCO through Cryspen.</description>
+    </item>
+    
+  </channel>
+</rss>
