@@ -26,15 +26,6 @@
     </item>
     
     <item>
-      <title>CIRCUS</title>
-      <link>https://www.cryspen.com/circus/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.cryspen.com/circus/</guid>
-      <description>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust, development environment and verification toolchain for security critical software.</description>
-    </item>
-    
-    <item>
       <title>HACL</title>
       <link>https://www.cryspen.com/hacl/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
@@ -51,6 +42,15 @@
       <guid>https://www.cryspen.com/hacspec/</guid>
       <description>hacspec is a language and framework for writing succinct, executable, formally verifiable specifications for cryptographic components.
 Syntactically, hacspec is a purely functional subset of Rust that aims to be readable by developers, cryptographers, and verification experts.</description>
+    </item>
+    
+    <item>
+      <title>High Assurance Software Toolchain</title>
+      <link>https://www.cryspen.com/circus/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/circus/</guid>
+      <description>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust, development environment and verification toolchain for security critical software.</description>
     </item>
     
     <item>
