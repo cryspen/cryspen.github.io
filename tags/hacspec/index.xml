@@ -6,7 +6,16 @@
     <description>Recent content in hacspec on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cryspen.com/tags/hacspec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cryspen.com/tags/hacspec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryspen @ RWC 2023</title>
+      <link>https://www.cryspen.com/post/rwc-2023/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cryspen.com/post/rwc-2023/</guid>
+      <description>At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.</description>
+    </item>
+    
     <item>
       <title>hacspec</title>
       <link>https://www.cryspen.com/hacspec/</link>
