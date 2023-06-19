@@ -2,170 +2,170 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cryspen</title>
-    <link>https://www.cryspen.com/tags/</link>
+    <link>https://cryspen.com/tags/</link>
     <description>Recent content in Tags on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cryspen.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hacspec</title>
-      <link>https://www.cryspen.com/tags/hacspec/</link>
+      <link>https://cryspen.com/tags/hacspec/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/hacspec/</guid>
+      <guid>https://cryspen.com/tags/hacspec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hax</title>
-      <link>https://www.cryspen.com/tags/hax/</link>
+      <link>https://cryspen.com/tags/hax/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/hax/</guid>
+      <guid>https://cryspen.com/tags/hax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Libcrux</title>
-      <link>https://www.cryspen.com/tags/libcrux/</link>
+      <link>https://cryspen.com/tags/libcrux/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/libcrux/</guid>
+      <guid>https://cryspen.com/tags/libcrux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>circus</title>
-      <link>https://www.cryspen.com/tags/circus/</link>
+      <link>https://cryspen.com/tags/circus/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/circus/</guid>
+      <guid>https://cryspen.com/tags/circus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hacl</title>
-      <link>https://www.cryspen.com/tags/hacl/</link>
+      <link>https://cryspen.com/tags/hacl/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/hacl/</guid>
+      <guid>https://cryspen.com/tags/hacl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hpke</title>
-      <link>https://www.cryspen.com/tags/hpke/</link>
+      <link>https://cryspen.com/tags/hpke/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/hpke/</guid>
+      <guid>https://cryspen.com/tags/hpke/</guid>
       <description></description>
     </item>
     
     <item>
       <title>openmls</title>
-      <link>https://www.cryspen.com/tags/openmls/</link>
+      <link>https://cryspen.com/tags/openmls/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/openmls/</guid>
+      <guid>https://cryspen.com/tags/openmls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OCaml</title>
-      <link>https://www.cryspen.com/tags/ocaml/</link>
+      <link>https://cryspen.com/tags/ocaml/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/ocaml/</guid>
+      <guid>https://cryspen.com/tags/ocaml/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Release</title>
-      <link>https://www.cryspen.com/tags/release/</link>
+      <link>https://cryspen.com/tags/release/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/release/</guid>
+      <guid>https://cryspen.com/tags/release/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IETF</title>
-      <link>https://www.cryspen.com/tags/ietf/</link>
+      <link>https://cryspen.com/tags/ietf/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/ietf/</guid>
+      <guid>https://cryspen.com/tags/ietf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MLS</title>
-      <link>https://www.cryspen.com/tags/mls/</link>
+      <link>https://cryspen.com/tags/mls/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/mls/</guid>
+      <guid>https://cryspen.com/tags/mls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Engineering</title>
-      <link>https://www.cryspen.com/tags/engineering/</link>
+      <link>https://cryspen.com/tags/engineering/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/engineering/</guid>
+      <guid>https://cryspen.com/tags/engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Formal Methods</title>
-      <link>https://www.cryspen.com/tags/formal-methods/</link>
+      <link>https://cryspen.com/tags/formal-methods/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/formal-methods/</guid>
+      <guid>https://cryspen.com/tags/formal-methods/</guid>
       <description></description>
     </item>
     
     <item>
       <title>High Assurance</title>
-      <link>https://www.cryspen.com/tags/high-assurance/</link>
+      <link>https://cryspen.com/tags/high-assurance/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/high-assurance/</guid>
+      <guid>https://cryspen.com/tags/high-assurance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tl;dr</title>
-      <link>https://www.cryspen.com/tags/tldr/</link>
+      <link>https://cryspen.com/tags/tldr/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/tldr/</guid>
+      <guid>https://cryspen.com/tags/tldr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ERC</title>
-      <link>https://www.cryspen.com/tags/erc/</link>
+      <link>https://cryspen.com/tags/erc/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/erc/</guid>
+      <guid>https://cryspen.com/tags/erc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>grant</title>
-      <link>https://www.cryspen.com/tags/grant/</link>
+      <link>https://cryspen.com/tags/grant/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/grant/</guid>
+      <guid>https://cryspen.com/tags/grant/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>https://www.cryspen.com/tags/index/</link>
+      <link>https://cryspen.com/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/tags/index/</guid>
+      <guid>https://cryspen.com/tags/index/</guid>
       <description></description>
     </item>
     

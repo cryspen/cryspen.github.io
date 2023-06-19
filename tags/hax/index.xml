@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hax on Cryspen</title>
-    <link>https://www.cryspen.com/tags/hax/</link>
+    <link>https://cryspen.com/tags/hax/</link>
     <description>Recent content in hax on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cryspen.com/tags/hax/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/hax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cryspen @ RWC 2023</title>
-      <link>https://www.cryspen.com/post/rwc-2023/</link>
+      <link>https://cryspen.com/post/rwc-2023/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/post/rwc-2023/</guid>
+      <guid>https://cryspen.com/post/rwc-2023/</guid>
       <description>At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.</description>
     </item>
     
     <item>
       <title>High Assurance Software Toolchain</title>
-      <link>https://www.cryspen.com/circus/</link>
+      <link>https://cryspen.com/circus/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/circus/</guid>
+      <guid>https://cryspen.com/circus/</guid>
       <description>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust, development environment and verification toolchain for security critical software.</description>
     </item>
     

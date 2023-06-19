@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>openmls on Cryspen</title>
-    <link>https://www.cryspen.com/tags/openmls/</link>
+    <link>https://cryspen.com/tags/openmls/</link>
     <description>Recent content in openmls on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cryspen.com/tags/openmls/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/openmls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenMLS</title>
-      <link>https://www.cryspen.com/openmls/</link>
+      <link>https://cryspen.com/openmls/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/openmls/</guid>
+      <guid>https://cryspen.com/openmls/</guid>
       <description>Messaging Layer Security (MLS) is a security layer for end-to-end encrypting communication in large dynamic groups. It is being specified by the IETF MLS working group and designed to be efficient, practical and secure.</description>
     </item>
     
     <item>
       <title>OpenMLS</title>
-      <link>https://www.cryspen.com/post/hello-openmls/</link>
+      <link>https://cryspen.com/post/hello-openmls/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/post/hello-openmls/</guid>
+      <guid>https://cryspen.com/post/hello-openmls/</guid>
       <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.
 The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>High Assurance on Cryspen</title>
-    <link>https://www.cryspen.com/tags/high-assurance/</link>
+    <link>https://cryspen.com/tags/high-assurance/</link>
     <description>Recent content in High Assurance on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cryspen.com/tags/high-assurance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/high-assurance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is High Assurance Cryptography?</title>
-      <link>https://www.cryspen.com/post/high-assurance-cryptography-1/</link>
+      <link>https://cryspen.com/post/high-assurance-cryptography-1/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cryspen.com/post/high-assurance-cryptography-1/</guid>
+      <guid>https://cryspen.com/post/high-assurance-cryptography-1/</guid>
       <description>Cryspen builds high assurance cryptography. But what does this actually mean?
 Before focusing on cryptography it is interesting to look at high assurance software in general.</description>
     </item>
