@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cryspen.com/</loc>
-    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/</loc>
-    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/people/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/post/welcome_jonas/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/rwc-2023/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
@@ -18,9 +27,6 @@
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/libcrux/</loc>
-    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/about/</loc>
