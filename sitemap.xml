@@ -3,15 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cryspen.com/</loc>
-    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/</loc>
-    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cryspen.com/tags/people/</loc>
-    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+    <loc>https://cryspen.com/tags/mls/</loc>
+    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/post/mls-rfc-announcement/</loc>
+    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/openmls/</loc>
+    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/rfc/</loc>
+    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/</loc>
+    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/people/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/welcome_jonas/</loc>
@@ -65,9 +77,6 @@
     <loc>https://cryspen.com/jobs/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cryspen.com/tags/openmls/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://cryspen.com/openmls/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -90,9 +99,6 @@
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/ietf/</loc>
-    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/mls/</loc>
     <lastmod>2022-10-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/hello-openmls/</loc>

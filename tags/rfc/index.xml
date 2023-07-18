@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MLS on Cryspen</title>
-    <link>https://cryspen.com/tags/mls/</link>
-    <description>Recent content in MLS on Cryspen</description>
+    <title>RFC on Cryspen</title>
+    <link>https://cryspen.com/tags/rfc/</link>
+    <description>Recent content in RFC on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/mls/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/rfc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MLS - RFC 9420</title>
       <link>https://cryspen.com/post/mls-rfc-announcement/</link>
@@ -15,16 +15,6 @@
       <guid>https://cryspen.com/post/mls-rfc-announcement/</guid>
       <description>✨ We are thrilled to announce the release of the MLS specification as RFC 9420.
 RFC 9420 is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands.</description>
-    </item>
-    
-    <item>
-      <title>OpenMLS</title>
-      <link>https://cryspen.com/post/hello-openmls/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cryspen.com/post/hello-openmls/</guid>
-      <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.
-The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
     </item>
     
   </channel>
