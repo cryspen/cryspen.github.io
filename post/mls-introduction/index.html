@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
   
-  <title>Cryspen  | HACL Packages </title>
+  <title>Cryspen  | Three (thousand) may keep a secret </title>
 
   
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <meta name="description" content="We build an easy to use, high assurance cryptographic library." />
+  <meta name="description" content="An introduction to Messaging Layer Security" />
 
   
   
@@ -48,16 +48,16 @@
   
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://cryspen.com/images/posts/boxes.jpg"/>
+<meta name="twitter:image" content="https://cryspen.com/images/posts/mls-logo.png"/>
 
-<meta name="twitter:title" content="HACL Packages"/>
-<meta name="twitter:description" content="We build an easy to use, high assurance cryptographic library."/>
+<meta name="twitter:title" content="Three (thousand) may keep a secret"/>
+<meta name="twitter:description" content="An introduction to Messaging Layer Security"/>
 
-<meta itemprop="name" content="HACL Packages">
-<meta itemprop="description" content="We build an easy to use, high assurance cryptographic library."><meta itemprop="datePublished" content="2022-06-07T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-06-07T00:00:00+00:00" />
-<meta itemprop="wordCount" content="336"><meta itemprop="image" content="https://cryspen.com/images/posts/boxes.jpg">
-<meta itemprop="keywords" content="HACL," />
+<meta itemprop="name" content="Three (thousand) may keep a secret">
+<meta itemprop="description" content="An introduction to Messaging Layer Security"><meta itemprop="datePublished" content="2023-07-31T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-07-31T00:00:00+00:00" />
+<meta itemprop="wordCount" content="2235"><meta itemprop="image" content="https://cryspen.com/images/posts/mls-logo.png">
+<meta itemprop="keywords" content="MLS,OpenMLS,RFC," />
 
 
 
@@ -232,56 +232,80 @@
     <div class="row justify-content-center">
       <div class="col-12">
         
-        <h2 class="display-1 fw-bold text-center text-primary pb-3">HACL Packages</h2>
+        <h2 class="display-1 fw-bold text-center text-primary pb-3">Three (thousand) may keep a secret</h2>
         
         
         
-        <p class="text-black-61 text-center pb-3">We build an easy to use, high assurance cryptographic library.</p>
+        <p class="text-black-61 text-center pb-3">An introduction to Messaging Layer Security</p>
          
         <p class="text-black-61 text-center pb-3">
-          June 7, 2022 - Franziskus Kiefer
+          July 31, 2023 - Karthikeyan Bhargavan
         </p>
         
       </div>
     </div>
     <div class="row pb-5">
       <div class="col-12 d-flex justify-content-center">
-        <div class="blog-content fs-6"><p>Earlier this year, <a href="https://tezos.foundation/">Tezos</a> and <a href="https://www.nomadic-labs.com/">Nomadic Labs</a> started to work with Cryspen to
-improve <a href="https://hacl-star.github.io/">HACL*</a> and ensure that it is a viable long-term solution for Tezos'
-cryptographic needs.
-HACL is a set of high assurance cryptographic primitives used by Tezos for most
-of its cryptography.</p>
-<p>The original <a href="https://hacl-star.github.io/">HACL*</a> has been developed as part of <a href="https://project-everest.github.io/">Project Everest</a> and is a
-collection of high-assurance cryptographic algorithms.
-Its source is written in <a href="https://www.fstar-lang.org/">F*</a>, which is used to generate C code.
-It also contains verified assembly code from the <a href="https://hacl-star.github.io/HaclValeEverCrypt.html">Vale</a> project and an agile
-multiplexed cryptographic provider called <a href="https://www.microsoft.com/en-us/research/publication/evercrypt-a-fast-veri%EF%AC%81ed-cross-platform-cryptographic-provider/">EverCrypt</a>.</p>
-<p>To ensure the long-term viability of the software, Cryspen is building a usable
-cryptography library based on the research artefacts from <a href="https://hacl-star.github.io/">HACL*</a>.
-The new library lives in the new <a href="https://github.com/cryspen/hacl-packages">hacl-packages repository</a>, where several
-cryptographic packages are developed by Cryspen.
-In particular, it contains a portable C crypto library that selects optimised
-implementations for each platform and Rust, OCaml, and JavaScript bindings for
-this library.</p>
-<p>To increase the usability and performance of the library, Cryspen is also in the
-process of improving some algorithms, adding more usable APIs, and writing
-documentation.</p>
-<blockquote>
-<p>We reached the first milestone for the HACL transition by providing a library
-that is easy to build and use on all major platforms and operating systems.</p>
+        <div class="blog-content fs-6"><blockquote>
+<p><em>“Three may keep a secret, if two of them are dead.”</em> - Benjamin Franklin (1735)</p>
 </blockquote>
-<p>The library is still a work in progress, and especially the bindings for other
-languages such as OCaml, Rust, and JavaScript have not all been moved or
-finished yet.
-But we think this is a good point to let everyone know we&rsquo;re working on this
-project and that the library can be used now.</p>
-<p>If you use cryptography anywhere, we&rsquo;d be happy if you used HACL and told us if
-it&rsquo;s working for you or (why) not.</p>
-<p>Please <a href="mailto:info@cryspen.com">get in touch</a> if you have any questions about high assurance cryptography
-or the HACL library in particular.</p>
-<hr>
-<p>If you want to learn more about HACL and previous efforts around the library in
-the Tezos ecosystem, there&rsquo;s a <a href="https://research-development.nomadic-labs.com/improving-the-implementation-of-cryptography-in-tezos-octez.html">great blog post</a> by Victor from <a href="https://www.nomadic-labs.com/">Nomadic Labs</a>.</p>
+<p>However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes. We exchange confidential work emails through corporate mail servers, discuss project internals on private Slacks, and exchange deeply personal information with family and friends on WhatsApp groups. The loss of this private data to malicious outsiders can result in public embarrassment, financial loss, and for vulnerable persons like journalists or activists, even threats to life and liberty.</p>
+<p>Secure group messaging is now an essential component of modern Internet communication and it deserves an open, transparent, interoperable standard that does not require placing complete trust in any single service provider. Enter <a href="https://www.rfc-editor.org/rfc/rfc9420.html">Messaging Layer Security (MLS), aka RFC 9420</a>, the first messaging protocol standardized by the Internet Engineering Task Force (IETF). MLS aims to provide end-to-end encrypted, authenticated, asynchronous messaging for groups ranging from two to thousands of members, with state-of-the-art guarantees, such as forward secrecy and post-compromise security that protect against compromised or coerced clients and servers.</p>
+<p>The <a href="https://datatracker.ietf.org/wg/mls/about/">MLS working group</a> was created in 2018, with the explicit “intent to follow the pattern of
+TLS 1.3, with specification, implementation, and verification proceeding in parallel.” <a href="https://prosecco.inria.fr">My research group at Inria</a> has been involved in MLS from the beginning, contributing <a href="https://hal.science/hal-02425247/">key design ideas</a> and <a href="https://eprint.iacr.org/2022/1732">formal analyses</a> along the way. Cryspen actively contributes to <a href="https://github.com/openmls/openmls">OpenMLS</a>, an open-source implementation of MLS, and offers consulting and software services around MLS.</p>
+<p>As the first protocol standard of its kind, MLS has no precedent to base itself on and needs to be self-contained. Consequently, the published standard clocks in at 132 pages, with detailed descriptions of novel cryptographic mechanisms, which can seem forbidding to newcomers.</p>
+<p>In this post, we will unpack the key goals and design constraints of MLS and break it down into its essential sub-protocols, to provide the interested reader an entry point to the standard. In future posts, we will dig deeper into the technical details of these sub-protocols.</p>
+<h2 id="dynamic-group-membership">Dynamic Group Membership</h2>
+<p>The goal of MLS is to enable devices, called clients in MLS, to form groups within which they can securely send and receive messages over an extended period of time. Each client is identified by an authentication credential, issued by some mechanism external to the protocol, and holds some cryptographic state, including public encryption keys.
+Any client can create a new group, by creating a fresh group identifier, setting cryptographic parameters like the ciphersuite, and initializing the group’s membership with the creator as the only member. Over time, members can be added to or removed from the group, and they can also update their credentials and cryptographic state. Deciding who is authorized to add or remove group members is left to the application; the MLS protocol treats all clients as equal.</p>
+<p>When a group is first created, we say that it is in epoch 0. Subsequently, each change to the group increments the epoch number. In each epoch, the current membership of the group can be seen as an array, where some entries may be blank, and each non-blank entry contains the credential and public keys of a group member.</p>
+<p><img src="mls-array.png" alt=""></p>
+<p>By convention, the creator of the group is at index 0. When adding a new member, its data is placed at the first empty index, and if all indexes are occupied, by extending the end of the array. Removing a member blanks its index. Updating a member’s credential or key changes the value stored at its index.</p>
+<p>The membership array represents a snapshot of the group membership at a particular epoch and can be used to understand the security goals of MLS. In each epoch, we expect that all group members agree on the current membership array, and can send and receive group messages that will be only visible to the current members.</p>
+<h2 id="security-goals">Security Goals</h2>
+<p>The main threats to messages sent over MLS are from network attackers, from malicious servers, and from compromised group members whose cryptographic state and keys have been obtained by the adversary. By default, we assume that the authentication server (that issues credentials) is honest, but that the network and all other servers are untrusted and can collude with each other and with compromised group members.</p>
+<p>The <a href="https://datatracker.ietf.org/wg/mls/about/">MLS working group charter</a> lists the desired security goals for MLS, and we specify the key security guarantees below using the informal notions we have defined so far.</p>
+<ul>
+<li><strong>Message Confidentiality:</strong> If a client C sends a message M in epoch E of group G, and C believes that the membership of G in E is C0,&hellip;,Cn, then M is kept secret from the adversary as long as none of these members is compromised.</li>
+<li><strong>Forward Secrecy:</strong> If a client C sends (or receives) a message M in epoch E of group G, then any compromise of C after this point does not affect the confidentiality of M.</li>
+<li><strong>Message Authentication:</strong> If a client C accepts a message M in epoch E of group G, and if C believes that the membership of G in E is C0,&hellip;,Cn, and if none of these members are compromised at the time of reception, then M must have been sent by one of these group members for the group G in epoch E.</li>
+<li><strong>Sender Authentication:</strong> If a client C accepts a message M seemingly sent by a client C’ in epoch E of group G, and if C’ is uncompromised at the time of reception, then M must indeed have been sent by C’ in epoch E of group G.</li>
+<li><strong>Membership Agreement:</strong> If a client C accepts a message M from a client C’ in epoch E of group G, then C and C’ must agree on the membership of G at E.</li>
+<li><strong>Post-Remove Security:</strong> If a client C was member of group G in epoch E, and was no longer a member in epoch E+1, then even if C was compromised in epochs &lt;= E, it does not affect the confidentiality of messages sent in epochs &gt;= E+1.</li>
+<li><strong>Post-Update Security:</strong> If a client C was member of group G in epoch E, and has updated its cryptographic keys in epoch E+1, then even if the previous state of C in epochs &lt;= E was compromised, it does not affect the confidentiality of messages sent in epochs &gt;= E+1.</li>
+</ul>
+<p>The first two confidentiality goals will be familiar to anyone who has some experience of two-party secure channel protocols. A message is confidential as long as all the current members of the group remain uncompromised until the message has been received by everyone. After this point, forward secrecy states that later compromises do not matter. Note that this definition of forward secrecy is not restricted to long-term key compromise, it allows for full state compromise of any client.</p>
+<p>The next two authentication goals also feel natural. Only group members can send messages to the group, and the identity of the sender is authenticated. Note that in two-party protocols, these properties are often conflated since there is only one peer, but in groups, it may be important to know which member sent a particular message.</p>
+<p>The first truly novel security goal in MLS is membership agreement, which guarantees that group members agree with each other on the current membership. In practice, MLS requires an even stronger agreement on the entire membership history of the group and its cryptographic states. Note that currently deployed group protocols like Signal Sender Keys do not provide membership agreement.</p>
+<p>The final two goals unpack the notion of Post Compromise Security (PCS) for group messaging. Unlike two-party messaging where we need to explain PCS in terms of hypothetical situations like devices that were temporarily stolen, groups require a more straightforward notion of recovery from compromise after removal. Perhaps the most important security goal for MLS is that once a member has been removed from the group, it can no longer read or write messages. In addition, MLS also provides post-update security, just like two-party protocols like Signal. It is again worth noting that most deployed group messaging protocols, including Signal Sender Keys do not provide either of these two properties.</p>
+<h2 id="performance-constraints">Performance Constraints</h2>
+<p>A key requirement of MLS is that it must support asynchronous operation. That is, members must be able to send messages and make group changes without requiring any other member to be online at the same time. This means that most classic group key exchange protocols from the cryptographic literature are not suitable for MLS. Still, designing a naive asynchronous protocol that meets the security goals outlined above is not hard, and such protocols are already deployed in Signal, WhatsApp, Matrix, etc.</p>
+<p>The main design constraint is scalability. MLS is meant to work for groups with thousands of users, so protocols that require heavy computation at senders or recipients or large messages become infeasible as group sizes grow. Most currently deployed group messaging protocols scale linearly (and sometimes quadratically) with the number of users and can only support groups of between 256 and 1024 members. The main bottleneck is the number of public-key operations required when members are added or updated. The stated requirement of the MLS charter is that resource requirements should scale linearly or sub-linearly in the group size.</p>
+<h2 id="the-mls-approach-treesync-treekem-treedem">The MLS Approach: TreeSync, TreeKEM, TreeDEM</h2>
+<p>The MLS protocol achieves its performance and security goals by using binary trees to represent the group data structure and to efficiently establish group keys. In particular, the membership array depicted above turns into leaves in a binary tree, where the internal nodes represent sub-groups consisting of the members below them.</p>
+<p><img src="mls-array-tree.png" alt=""></p>
+<p>The tree structure allows for an efficient update and removal procedure that scales logarithmically in the size of the group. The full details of the MLS tree data structure and how it works in the protocol will be discussed in future posts.</p>
+<p>At a high-level, MLS can be divided into three sub-protocols that populate, synchronize, and use this tree-data structure to establish shared keys for the group and to use them for secure messaging. We call these three sub-protocols TreeSync, TreeKEM, and TreeDEM. This decomposition of MLS is not explicitly specified in the standard. It was first identified in <a href="https://eprint.iacr.org/2022/1732">our paper on TreeSync</a> and we believe it can help the reader understand better how the different mechanisms in MLS fit together.</p>
+<ul>
+<li><strong>TreeSync:</strong> Authenticated Group Management
+The TreeSync sub-protocol ensures that all group members have a consistent, authenticated view of the group state, including the membership array and the keys stored throughout the MLS tree data structure. TreeSync defines all group management operations and uses multiple tree hashing techniques (not dissimilar to Merkle Trees) and signatures to guarantee membership agreement and group state integrity. This serves as an essential precondition for key establishment.</li>
+<li><strong>TreeKEM:</strong> Efficient Group Key Establishment
+The TreeKEM sub-protocol (first proposed in <a href="https://inria.hal.science/hal-02425247">this short paper</a>) uses the tree data structure to generate sub-group keys for each internal node in the tree, including a group key for the root that is shared between all the members of the group in the current epoch. Whenever the group membership changes, TreeKEM generates a fresh group key and efficiently conveys it to all other members. As long as all members actively contribute to the group, all TreeKEM operations have a cost proportional to the height of the tree, i.e. logarithmic in the size of the group. However, if only a few members actively contribute, the cost of each operation can grow to be linear in the group size.</li>
+<li><strong>TreeDEM:</strong> Forward Secure Group Messaging
+The TreeDEM sub-protocol uses the group keys established by TreeKEM to encrypt and authenticate application messages sent within each epoch. TreeDEM guarantees forward security for application messages, using the tree data structure to decide which keys are derived and when they are deleted.</li>
+</ul>
+<p>In subsequent posts, we will go deeper into these three protocols and understand why they are secure, what their performance limitations are, and how one can best use them in different scenarios. In the meantime, we leave the reader with some reading material:</p>
+<ul>
+<li>Karthikeyan Bhargavan, Benjamin Beurdouche, Prasad Naldurg.
+<a href="https://inria.hal.science/hal-02425229">Formal Models and Verified Protocols for Group Messaging: Attacks and Proofs for IETF MLS.</a> [Research Report] Inria Paris. 2019.</li>
+<li>Théophile Wallez, Jonathan Protzenko, Benjamin Beurdouche, Karthikeyan Bhargavan,
+<a href="https://eprint.iacr.org/2022/1732">TreeSync: Authenticated Group Management for Messaging Layer Security.</a>
+Usenix Security 2023.</li>
+</ul>
+<h2 id="mls--cryspen">MLS @ Cryspen</h2>
+<p>At Cryspen, all of our co-founders are experts on the MLS protocol and its implementations. We have contributed to the published standard, we have published papers on the protocol, and we help maintain one of the main implementations. We provide consulting and software services to help companies understand and deploy MLS, and we help customize MLS for specific user needs, maximizing real-world performance while preserving its security guarantees.</p>
+<p>With the advent of messaging interoperability regulations like the EU’s Digital Markets Act, we believe that implementing MLS now offers companies the most future-proof way of both improving their security and meeting compliance obligations.</p>
+<p>We believe that MLS provides a framework for secure group collaboration that goes beyond messaging, and are working on using the components of MLS for varied use cases including group key management in groups of thousands of users. We are also working on incorporating post-quantum secure cryptography into MLS. If you have questions about any of these projects, or just want to understand what MLS can do for you, do <a href="mailto:info@cryspen.com">contact us</a>.</p>
 </div>
       </div>
     </div>

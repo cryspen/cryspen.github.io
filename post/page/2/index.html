@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
   
-  <title>Cryspen  | HACL Packages </title>
+  <title>Cryspen </title>
 
   
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <meta name="description" content="We build an easy to use, high assurance cryptographic library." />
+  <meta name="description" content="High Assurance Cryptography" />
 
   
   
@@ -47,17 +47,12 @@
   
   
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://cryspen.com/images/posts/boxes.jpg"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="High Assurance Cryptography"/>
 
-<meta name="twitter:title" content="HACL Packages"/>
-<meta name="twitter:description" content="We build an easy to use, high assurance cryptographic library."/>
-
-<meta itemprop="name" content="HACL Packages">
-<meta itemprop="description" content="We build an easy to use, high assurance cryptographic library."><meta itemprop="datePublished" content="2022-06-07T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-06-07T00:00:00+00:00" />
-<meta itemprop="wordCount" content="336"><meta itemprop="image" content="https://cryspen.com/images/posts/boxes.jpg">
-<meta itemprop="keywords" content="HACL," />
+<meta itemprop="name" content="">
+<meta itemprop="description" content="High Assurance Cryptography">
 
 
 
@@ -163,6 +158,7 @@
 
 
   
+  <link rel="alternate" type="application/rss+xml" href="https://cryspen.com/post/index.xml" title="Cryspen" />
   </head>
 
   <body><nav class="navbar navbar-expand-xl navbar-light bg-light py-4">
@@ -227,68 +223,77 @@
   </div>
 </nav>
 
-<section class="section blog-single py-5">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12">
+  <section class="section blog-list py-5">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-xl-6">
+          
+          
+        </div>
+      </div>
+      <div class="row g-4 pb-5">
         
-        <h2 class="display-1 fw-bold text-center text-primary pb-3">HACL Packages</h2>
+        <div class="col-12 col-md-6 col-lg-4">
+          <a class="card text-decoration-none h-100" href="https://cryspen.com/post/tldr-hpke/">
+            <div class="aspect-ratio-62-5">
+              
+                
+  <img class="" src="https://cryspen.com/images/posts/tldr-hpke.jpg" alt="images/posts/tldr-hpke.jpg" width="2221" height="1293">
+
+
+              
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">TL;DR - Hybrid Public Key Encryption</h5>
+              <p class="card-text text-black-61">HPKE, defined in RFC 9180, is a CFRG standard that describes a scheme for hybrid public key encryption. It is co-authored by my Cryspen co-founder Karthikeyan Bhargavan and one of his PhD students Benjamin Lipp as part of his research at Inria.</p>
+            </div>
+          </a>
+        </div>
         
-        
-        
-        <p class="text-black-61 text-center pb-3">We build an easy to use, high assurance cryptographic library.</p>
-         
-        <p class="text-black-61 text-center pb-3">
-          June 7, 2022 - Franziskus Kiefer
-        </p>
+        <div class="col-12 col-md-6 col-lg-4">
+          <a class="card text-decoration-none h-100" href="https://cryspen.com/post/erc-poc/">
+            <div class="aspect-ratio-62-5">
+              
+                
+  <img class="" src="https://cryspen.com/images/posts/erc-cover.jpg" alt="images/posts/erc-cover.jpg" width="1200" height="849">
+
+
+              
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">Cryspen ERC PoC Grant</h5>
+              <p class="card-text text-black-61">Cryspen co-founder Karthik Bhargavan got awarded an ERC Proof of Concept grant for commercialising the know-how and landmark research results from his Inria research group PROSECCO through Cryspen.</p>
+            </div>
+          </a>
+        </div>
         
       </div>
-    </div>
-    <div class="row pb-5">
-      <div class="col-12 d-flex justify-content-center">
-        <div class="blog-content fs-6"><p>Earlier this year, <a href="https://tezos.foundation/">Tezos</a> and <a href="https://www.nomadic-labs.com/">Nomadic Labs</a> started to work with Cryspen to
-improve <a href="https://hacl-star.github.io/">HACL*</a> and ensure that it is a viable long-term solution for Tezos'
-cryptographic needs.
-HACL is a set of high assurance cryptographic primitives used by Tezos for most
-of its cryptography.</p>
-<p>The original <a href="https://hacl-star.github.io/">HACL*</a> has been developed as part of <a href="https://project-everest.github.io/">Project Everest</a> and is a
-collection of high-assurance cryptographic algorithms.
-Its source is written in <a href="https://www.fstar-lang.org/">F*</a>, which is used to generate C code.
-It also contains verified assembly code from the <a href="https://hacl-star.github.io/HaclValeEverCrypt.html">Vale</a> project and an agile
-multiplexed cryptographic provider called <a href="https://www.microsoft.com/en-us/research/publication/evercrypt-a-fast-veri%EF%AC%81ed-cross-platform-cryptographic-provider/">EverCrypt</a>.</p>
-<p>To ensure the long-term viability of the software, Cryspen is building a usable
-cryptography library based on the research artefacts from <a href="https://hacl-star.github.io/">HACL*</a>.
-The new library lives in the new <a href="https://github.com/cryspen/hacl-packages">hacl-packages repository</a>, where several
-cryptographic packages are developed by Cryspen.
-In particular, it contains a portable C crypto library that selects optimised
-implementations for each platform and Rust, OCaml, and JavaScript bindings for
-this library.</p>
-<p>To increase the usability and performance of the library, Cryspen is also in the
-process of improving some algorithms, adding more usable APIs, and writing
-documentation.</p>
-<blockquote>
-<p>We reached the first milestone for the HACL transition by providing a library
-that is easy to build and use on all major platforms and operating systems.</p>
-</blockquote>
-<p>The library is still a work in progress, and especially the bindings for other
-languages such as OCaml, Rust, and JavaScript have not all been moved or
-finished yet.
-But we think this is a good point to let everyone know we&rsquo;re working on this
-project and that the library can be used now.</p>
-<p>If you use cryptography anywhere, we&rsquo;d be happy if you used HACL and told us if
-it&rsquo;s working for you or (why) not.</p>
-<p>Please <a href="mailto:info@cryspen.com">get in touch</a> if you have any questions about high assurance cryptography
-or the HACL library in particular.</p>
-<hr>
-<p>If you want to learn more about HACL and previous efforts around the library in
-the Tezos ecosystem, there&rsquo;s a <a href="https://research-development.nomadic-labs.com/improving-the-implementation-of-cryptography-in-tezos-octez.html">great blog post</a> by Victor from <a href="https://www.nomadic-labs.com/">Nomadic Labs</a>.</p>
-</div>
+      <div class="row pb-5">
+        
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/post/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/post/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/post/" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
       </div>
     </div>
-    <div class="row pb-5"></div>
-  </div>
-</section>
-  <footer class="shared footer bg-red-light py-5">
+  </section>
+<footer class="shared footer bg-red-light py-5">
   <div class="container">
     <div class="row pb-5">
       <div class="col-12 col-xl-4 text-center text-xl-start pb-4">
