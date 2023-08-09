@@ -6,7 +6,16 @@
     <description>Recent content in hax on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/hax/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/hax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prairie and Atlas</title>
+      <link>https://cryspen.com/post/prarie-and-atlas/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cryspen.com/post/prarie-and-atlas/</guid>
+      <description>With the widespread adoption and deployment of machine learning across enterprises, ever-increasing amounts of data are being collected, stored, communicated, combined, and computed over by sophisticated algorithms.</description>
+    </item>
+    
     <item>
       <title>Cryspen @ RWC 2023</title>
       <link>https://cryspen.com/post/rwc-2023/</link>
