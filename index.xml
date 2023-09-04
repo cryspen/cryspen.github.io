@@ -150,6 +150,15 @@ Registration Number: 908 684 848 R.</description>
     </item>
     
     <item>
+      <title>libcrux</title>
+      <link>https://cryspen.com/libcrux/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cryspen.com/libcrux/</guid>
+      <description>Libcrux is a formally verified cryptographic library that brings together verified artifacts from different sources. It uses hacspec as a common language for the specifications underlying the correctness and security proofs.</description>
+    </item>
+    
+    <item>
       <title>OpenMLS</title>
       <link>https://cryspen.com/openmls/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
@@ -164,7 +173,7 @@ Registration Number: 908 684 848 R.</description>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://cryspen.com/pq/</guid>
-      <description>With the advent of post-quantum cryptography, every organization will be expected to upgrade their systems, protocols and infrastructure to be post-quantum ready.</description>
+      <description>As the threat of quantum computing grows, businesses and organizations need to start planning for the post quantum transition. This means migrating their processes and applications to use post quantum cryptography, which is resistant to attacks by quantum computers.</description>
     </item>
     
     <item>

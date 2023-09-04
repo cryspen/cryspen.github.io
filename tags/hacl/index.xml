@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>libcrux</title>
+      <link>https://cryspen.com/libcrux/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cryspen.com/libcrux/</guid>
+      <description>Libcrux is a formally verified cryptographic library that brings together verified artifacts from different sources. It uses hacspec as a common language for the specifications underlying the correctness and security proofs.</description>
+    </item>
+    
+    <item>
       <title>HACL Packages v0.6</title>
       <link>https://cryspen.com/post/hacl-0_6/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
