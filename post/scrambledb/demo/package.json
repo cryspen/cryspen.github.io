@@ -1,0 +1,14 @@
+{
+  "name": "scrambledb",
+  "version": "0.1.0",
+  "files": [
+    "scrambledb_bg.wasm",
+    "scrambledb.js",
+    "scrambledb.d.ts"
+  ],
+  "module": "scrambledb.js",
+  "types": "scrambledb.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
   
-  <title>Cryspen  | libcrux </title>
+  <title>Cryspen  | Specifying Oblivious Pseudonymization </title>
 
   
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <meta name="description" content="The Formally Verified Crypto Library" />
+  <meta name="description" content="High Assurance Cryptography" />
 
   
   
@@ -47,15 +47,17 @@
   
   
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="libcrux"/>
-<meta name="twitter:description" content="The Formally Verified Crypto Library"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://cryspen.com/images/posts/pexels-egor-kamelev-751689.jpeg"/>
 
-<meta itemprop="name" content="libcrux">
-<meta itemprop="description" content="The Formally Verified Crypto Library"><meta itemprop="datePublished" content="2023-01-01T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2023-01-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="284">
-<meta itemprop="keywords" content="hacl,hacspec," />
+<meta name="twitter:title" content="Specifying Oblivious Pseudonymization"/>
+<meta name="twitter:description" content="In this blog post we announce an executable specification in the hacspec specification language for the ScrambleDB pseudonymization system, developed by Cryspen as part of the BMBF ATLAS project."/>
+
+<meta itemprop="name" content="Specifying Oblivious Pseudonymization">
+<meta itemprop="description" content="In this blog post we announce an executable specification in the hacspec specification language for the ScrambleDB pseudonymization system, developed by Cryspen as part of the BMBF ATLAS project."><meta itemprop="datePublished" content="2023-09-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-09-18T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1171"><meta itemprop="image" content="https://cryspen.com/images/posts/pexels-egor-kamelev-751689.jpeg">
+<meta itemprop="keywords" content="ATLAS,ScrambleDB,hacspec,hax," />
 
 
 
@@ -166,12 +168,9 @@
   <body><nav class="navbar navbar-expand-xl navbar-light bg-light py-4">
   <div class="container">
     
-    <a
-      class="navbar-brand d-flex align-items-center"
-      href="https://cryspen.com/"
-    >
+    <a class="navbar-brand d-flex align-items-center" href="/post">
       
-  <img class="" src="https://cryspen.com/images/logo.png" alt="images/logo.png" width="2461" height="558">
+  <img class="" src="https://cryspen.com/images/blog-logo.png" alt="images/blog-logo.png" width="3875" height="558">
 
 
     </a>
@@ -233,160 +232,173 @@
     <div class="row justify-content-center">
       <div class="col-12">
         
-        <h2 class="display-1 fw-bold text-center text-primary pb-3">libcrux</h2>
+        <h2 class="display-1 fw-bold text-center text-primary pb-3">Specifying Oblivious Pseudonymization</h2>
         
         
-        
-        <p class="text-black-61 text-center pb-3">The Formally Verified Crypto Library</p>
          
+        <p class="text-black-61 text-center pb-3">
+          September 18, 2023 - Jonas Schneider-Bensch
+        </p>
+        
       </div>
     </div>
     <div class="row pb-5">
       <div class="col-12 d-flex justify-content-center">
-        <div class="blog-content fs-6"><p>Libcrux is a formally verified cryptographic library that brings together verified
-artifacts from different sources. It uses <a href="https://cryspen.com/hacspec/">hacspec</a>
-as a common language for the specifications underlying the correctness and security
-proofs. Libcrux is written in Rust, a modern programming language that is known
-for its safety and performance. Underneath, it uses verified Rust, C, and Assembly code.</p>
-<p>Libcrux provides a wide range of cryptographic primitives, including symmetric encryption, asymmetric encryption, digital signatures, and hash functions. It also provides a number of higher-level cryptographic constructs, such as authenticated encryption and key exchange protocols.</p>
-<p>If you are looking for a secure, fast, and portable cryptographic library, then libcrux is a great option. It is the perfect choice for applications where security and safety is critical, such as financial services, healthcare, automotive, and government.</p>
-<h3 id="features--benefits">Features &amp; Benefits</h3>
-<ul>
-<li><strong>Formally Verified:</strong> libcrux has been formally verified. This gives you the highest level of assurance that it is safe to use and free of bugs.</li>
-<li><strong>Speed:</strong> libcrux has been optimized for performance, so you can be sure that your applications will not be slowed down by cryptography.</li>
-<li><strong>Portability:</strong> libcrux runs on all platforms, including Linux, macOS, Windows, and Android. This makes it ideal for developing applications that run everywhere.</li>
-<li><strong>Flexibility:</strong> libcrux provides a wide range of cryptographic primitives, so you don&rsquo;t need multiple dependencies for you application.</li>
-<li><strong>Open source:</strong> libcrux is open source with an Apache 2.0 license, so you can inspect the source code and modify it to your specific needs for integration.</li>
-<li><strong>Maintenance:</strong> Cryspen offers support for libcrux to ensure that it still works and is safe to use in 20 years.</li>
-</ul>
-<h3 id="contact-us">Contact Us</h3>
-<p>To learn more about libcrux, please contact us today.</p>
-<p><a class="btn btn-outline-primary px-4" href="mailto:info@cryspen.com">Get in touch</a>
-
-<a class="btn btn-outline-primary px-4" href="https://github.com/cryspen/libcrux">Get started</a>
-</p>
+        <div class="blog-content fs-6"><p>In this blog post we announce an executable specification in the
+<code>hacspec</code> specification language for the <code>ScrambleDB</code> pseudonymization
+system, developed by Cryspen as part of the <a href="https://www.forschung-it-sicherheit-kommunikationssysteme.de/projekte/atlas">BMBF ATLAS project</a>.</p>
+<p><em>Find the specification at our <a href="https://github.com/cryspen/atlas/tree/main/hacspec-scrambledb">GitHub
+repository</a>.</em></p>
+<p>First, we will motivate the need for utility-preserving
+pseudonymization. Then we will describe how <code>ScrambleDB</code> addresses the
+issues found with conventional pseudonymization approaches. We
+conclude with a demo of our executable specification that takes you
+through a full protocol flow running right here in your browser.</p>
+<h2 id="the-need-for-utility-preserving-pseudonymization">The Need for Utility-Preserving Pseudonymization</h2>
+<p>In data analysis, pseudonymization of data records is a standard
+practice to protect the privacy of people whose data is subject to
+analysis. As a basic precaution against privacy threats, personal
+identifiers are removed from the data and replaced with non-sensitive
+pseudonyms.</p>
+<p>Areas where pseudonymization of sensitive data is mandated by law in
+the United States are e.g. in the context of medical data (via HIPAA)
+or financial transactions (PCI DSS). In Europe, the General Data
+Protection Regulation (GDPR) recommends pseudonymization as one way to
+safeguard personal information.</p>
+<p>To preserve as much of the utility of the original data,
+pseudonymization should allow linking data belonging to the same
+original entity for the purposes of running a specific analysis.
+The simplest way to achieve this is to pseudonymize sensitive
+identifiers consistently across all data sets they occur in.</p>
+<p>This approach, however, raises several issues:</p>
+<ol>
+<li>A record must be kept of the mapping between sensitive
+identifiers and their pseudonyms, pseudonymization of new data
+must be performed consistently in order preserve data utility.  If
+this record is misappropriated or leaked during a data breach all
+pseudonymization can be fully undone with potentially huge harms
+to privacy.</li>
+<li>While subsets of the pseudonymized data can be given out
+selectively for different analysis, this incurrs a piece-meal
+privacy degradation with every analysis performed, since
+consistent pseudonymization allows linking the data between
+different analysis, potentially revealing more information about
+the subjects than the data for any single analysis.</li>
+</ol>
+<h2 id="cryptography-to-the-rescue-scrambledb">Cryptography to the Rescue: ScrambleDB</h2>
+<p>ScrambleDB is a cryptographic solution for consistent and
+utility-preserving pseudonymization of sensitive information which was
+introduced by Anja Lehmann in her paper <a href="https://petsymposium.org/2019/files/papers/issue3/popets-2019-0048.pdf">ScrambleDB: Oblivious
+(Chameleon) Pseudonymization-as-a-Service</a> published in Proceedings of
+Privacy Enhancing Technologies 2019.</p>
+<p><code>ScrambleDB</code> operates on tables of data provided, stored and/or
+requested by different protocol parties. A table is a collection of
+attribute entries for entities identified by unique keys. The original,
+unpseudonymized data is provided by Data Sources to a Data Lake where
+they should be stored in pseudonymized form. Data Processors can make
+requests to the Data Lake to receive a subset of the pseudonymized
+data for analysis.</p>
+<p>To realize this, there are sub-protocols for converting between
+different table types:</p>
+<h3 id="conversion-from-original-tables-to-pseudonymized-columns">Conversion from original tables to pseudonymized columns</h3>
+<p>An original unpseudonymized table contains attribute data addressed by
+(possibly sensitive) entity identifiers, e.g. a table might store
+attribute data for attributes <code>Address</code> and <code>Date of Birth (DoB)</code>
+under the entity identifier <code>Full Name</code>.</p>
+<p><code>ScrambleDB</code> pseudonymization of such a table can be thought of as
+computed in two steps:</p>
+<ol>
+<li>
+<p>Splitting the original table by attributes, resulting in
+single-column tables, one per attribute, indexed by the original
+identifier.</p>
+</li>
+<li>
+<p>Pseudonymization and shuffling of split columns, such that the original
+identifiers are replaced by pseudonyms which are different and thus
+unlinkable between different columns.</p>
+</li>
+</ol>
+<p><img src="/post/scrambledb/scrambledb_pseudonymization.png" alt=""></p>
+<p>Since the result of pseudonymizing a plain text table is a set of
+pseudonymized single-column tables we refer to this operation as a
+split conversion.</p>
+<h3 id="conversion-from-pseudonymized-columns-to-non-transitively-joined-tables">Conversion from pseudonymized columns to non-transitively joined tables</h3>
+<p>Pseudonymized columns may be selectively re-joined such that the
+original link between data is restored, but under a fresh pseudonymous
+identifier instead of the original (sensitive) identifier.</p>
+<p>Join-pseudonyms are fresh for each join and are thus non-transitive,
+i.e. it is not possible to further join two join-results based on the
+join pseudonym.</p>
+<p><img src="/post/scrambledb/scrambledb_join.png" alt=""></p>
+<p>Since the result of this conversion is a joined table, we refer to the
+operation as a join conversion.</p>
+<h2 id="performing-scrambledb-pseudonymization-obliviously">Performing ScrambleDB Pseudonymization Obliviously</h2>
+<p>The above approach to pseudonymization addresses the problem of
+oversharing data during analysis by only re-linking pseudonyms for the
+actual data the is necessary to serve a join-request. Further, the
+data stored in unlinkable pseudonymized tables minimizes the risk of
+data breaches leading to the dissemination of linkable (if
+pseudonymized) data present with the naive approach.</p>
+<p>To implement the pseudonymization regime, however, the question arises
+how to generate unlinkable pseudonyms which can still be selectively
+re-linked without re-introducing the problem of the Data Lake having
+to keep a record of the links between different pseudonyms. For this
+reason, <code>ScrambleDB</code> introduces a fourth participant in the
+pseudonymization process, which converts original identifiers to
+unlinkable pseudonyms and unlinkable pseudonyms to non-transitively
+linkable join-pseudonyms. This entity is thus aptly named the
+Converter and performs its conversion operations fully oblivious to
+both the pseudonyms and the data that pass through it.</p>
+<p>The clever piece of cryptography which allows the Converter to work
+fully obliviously is called Convertible Pseudorandom Function (CoPRF).
+Like a regular oblivious pseudorandom function (OPRF), it allows the
+oblivious evaluation of a pseudorandom function such that the
+evaluator learns neither the input nor the output that he obliviously
+computed. Unlike a regular OPRF, where the input is provided by a
+requester and that same requester wants to learn the output, in a
+CoPRF, the requester asks for the PRF to be obliviously evaluated towards a third
+party, the receiver of the PRF output, who in turn will not learn of
+the original input.</p>
+<p>In ScrambleDB, this means a Data Source can ask for the oblivious
+generation of pseudonyms, i.e. PRF outputs, towards the Data
+Lake. Because of the security properties of the CoPRF, the Data Source
+will not learn the generated pseudonym, the Data Lake will not learn
+what the original identifier was and the Converter will learn nothing
+at all.</p>
+<p><img src="/post/scrambledb/coprf_pseudonymization.png" alt=""></p>
+<p>The second handy property of CoPRFs is the convertibility property
+hinted at by the name of the technique. Intuitively it means that PRF
+outputs generated under a given evaluation key can be obliviously
+converted from that original key to a different key (as long as you
+know both keys.)  For the initial pseudonymization we have different
+evaluation keys for different identifier-attribute pairs, hence
+different, unlinkable pseudonyms. In the join subprotocol, these
+different pseudonyms are converted to a common, ephemeral evaluation
+key that is unique to the given join request. Again, because of the
+security properties of the CoPRF, the Data Lake will not learn the
+resulting join-pseudonyms, the Data Processor will not learn the
+pseudonyms as they are stored at the Data Lake and the Converter will
+be fully oblivious during the conversion.</p>
+<p><img src="/post/scrambledb/coprf_conversion.png" alt=""></p>
+<h2 id="demo">Demo</h2>
+<p>The demo below runs the executable specification right here in your
+browser.</p>
+<p>You can edit the values in the table below and follow them through the
+protocol stages once you push the <code>Read Table</code> button.</p>
+<p>At each stage we include a small snippet of code that illustrates
+roughly how the data transformation is modelled in our specification
+API.
+<em>Note that it may take a few seconds to compute everything after clicking the &ldquo;Read Table&rdquo; button.</em></p>
+<iframe width="100%" height="800px"
+src="/post/scrambledb/demo/index.html"><iframe>
 </div>
       </div>
     </div>
     <div class="row pb-5"></div>
   </div>
 </section>
- 
-<section class="section blog-list py-5 bg-red-light">
-  <div class="container">
-    <div class="row justify-content-center pb-5">
-      <div class="col-12 col-xl-6">
-        <h2 class="fs-1 fw-bold text-center text-primary pb-3">
-          Related Posts
-        </h2>
-      </div>
-    </div>
-     
-    <div class="row g-4 pb-5">
-           
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/hacl-0_6/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/hacl-0_6.jpeg" alt="images/posts/hacl-0_6.jpeg" width="1920" height="1280">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">HACL Packages v0.6</h5>
-            <p class="card-text text-black-61">Today, we announce the first release of the HACL Packages libraries. 🎉
-This release of HACL packages includes the first release of the HACL C library and a new release of the hacl-star OCaml bindings.</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/introducing-hacl-packages/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/boxes.jpg" alt="images/posts/boxes.jpg" width="2000" height="1333">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">HACL Packages</h5>
-            <p class="card-text text-black-61">Earlier this year, Tezos and Nomadic Labs started to work with Cryspen to improve HACL* and ensure that it is a viable long-term solution for Tezos&rsquo; cryptographic needs.</p>
-          </div>
-        </a>
-      </div>
-       
-    </div>
-    <div class="row pb-5"></div>
-    
-    <div class="row g-4 pb-5">
-       
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/scrambledb/scrambldb/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/pexels-egor-kamelev-751689.jpeg" alt="images/posts/pexels-egor-kamelev-751689.jpeg" width="1279" height="828">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Specifying Oblivious Pseudonymization</h5>
-            <p class="card-text text-black-61">In this blog post we announce an executable specification in the hacspec specification language for the ScrambleDB pseudonymization system, developed by Cryspen as part of the BMBF ATLAS project.</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/prarie-and-atlas/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/ai-pic.jpeg" alt="images/ai-pic.jpeg" width="800" height="733">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Prairie and Atlas</h5>
-            <p class="card-text text-black-61">With the widespread adoption and deployment of machine learning across enterprises, ever-increasing amounts of data are being collected, stored, communicated, combined, and computed over by sophisticated algorithms.</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/rwc-2023/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/rwc-karthik-franziskus.jpeg" alt="images/posts/rwc-karthik-franziskus.jpeg" width="2265" height="1543">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Cryspen @ RWC 2023</h5>
-            <p class="card-text text-black-61">At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.</p>
-          </div>
-        </a>
-      </div>
-            
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/hpke_spec/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/hpke_spec.png" alt="images/posts/hpke_spec.png" width="1229" height="908">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">An Executable HPKE Specification</h5>
-            <p class="card-text text-black-61">HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.
-📚 Read our TL;DR on HPKE if you need more background on HPKE.</p>
-          </div>
-        </a>
-      </div>
-       
-    </div>
-    <div class="row pb-5"></div>
-    
-  </div>
-</section>
- <footer class="shared footer bg-red-light py-5">
+  <footer class="shared footer bg-red-light py-5">
   <div class="container">
     <div class="row pb-5">
       <div class="col-12 col-xl-4 text-center text-xl-start pb-4">
