@@ -56,7 +56,7 @@
 <meta itemprop="name" content="An Analysis of Signal&#39;s PQXDH">
 <meta itemprop="description" content="A comprehensive, machine-checked, post-quantum security proof of the Signal PQXDH protocol."><meta itemprop="datePublished" content="2023-10-20T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-10-20T00:00:00+00:00" />
-<meta itemprop="wordCount" content="2837"><meta itemprop="image" content="https://cryspen.com/images/posts/vector_ring_pqxdh.jpeg">
+<meta itemprop="wordCount" content="2838"><meta itemprop="image" content="https://cryspen.com/images/posts/vector_ring_pqxdh.jpeg">
 <meta itemprop="keywords" content="services,analysis," />
 
 
@@ -313,7 +313,7 @@ Note that the fourth <code>DH4</code> may be omitted if no curve one-time prekey
 <li>The initiator then tries to compute an encapsulation but using a curve element instead of a KEM public key.</li>
 <li>Since the security guarantees of the KEM only hold with honestly generated public keys, the shared secret is likely to be weak and guessable by the attacker.</li>
 </ul>
-<p>A similar attack appears if the attacker sends the KEM public key <code>PQPK</code> in the place of the curve public key<code>SPK</code>. Here, we in fact make 3 out of the 4 DH weak, and downgrade the security of even the classic X3DH.</p>
+<p>A similar attack appears if the attacker sends the KEM public key <code>PQPK</code> in the place of the curve public key <code>SPK</code>. Here, we in fact make 3 out of the 4 DH weak, and downgrade the security of even the classic X3DH.</p>
 <p>In both cases, the attacker has used one crypto construction (KEM or DH) to attack the other because of an encoding ambiguity.</p>
 <p>Interestingly, this issue illustrates how adding an extra, provably-secure component to an already-secure protocol may in fact downgrade the guarantees of the protocol. This serves as a cautionary tale for other protocols seeking to use hybrid constructions for post-quantum security.</p>
 <p>In the Signal implementation, this attack is prevented, since the key sizes of Kyber and X25519 cannot match, and in addition each key is prefixed by a byte identifying the algorithm. Yet, adding format disjointness as an explicit condition to the specification prevents any future problems with other KEM/DH combinations, or for other independent implementations.</p>
