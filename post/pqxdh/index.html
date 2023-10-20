@@ -259,7 +259,7 @@
 <p>In response to these findings, Signal published a <a href="https://signal.org/docs/specifications/pqxdh/">new version 2</a> of the specification and is considering some breaking changes for the next version of the protocol.</p>
 <p>Over the new version 2 of the protocol, we were able to obtain the following positive results:</p>
 <ul>
-<li>Using the Proverif symbolic analysis tool, we prove authentication and secrecy in the Dolev-Yao model, and enumerate the precise conditions under which the attacker can break these properties. Notably, we verify forward secrecy, resistance to store-now-decrypt-later quantum attacks, resistance to key compromise impersonation, and session independence.</li>
+<li>Using the ProVerif symbolic analysis tool, we prove authentication and secrecy in the Dolev-Yao model, and enumerate the precise conditions under which the attacker can break these properties. Notably, we verify forward secrecy, resistance to store-now-decrypt-later quantum attacks, resistance to key compromise impersonation, and session independence.</li>
 <li>Using the CryptoVerif prover, we prove the computational secrecy and authentication of any completed key exchange under the GapDH assumption for the X25519 curve, the UF-CMA assumption on XEdDSA (assuming no key reuse between XEdDSA and X25519), the hash function modeled as a random oracle, and the IND-CPA+INT-CTXT assumptions for the AEAD.</li>
 <li>In CryptoVerif, we also show forward secrecy when the signature was UF-CMA secure at the time the key exchange took place, assuming post-quantum IND-CCA security for the KEM, modelling the hash function as a PRF, and IND-CPA+INT-CTXT security for the AEAD.</li>
 </ul>
@@ -271,11 +271,11 @@ Note that the fourth <code>DH4</code> may be omitted if no curve one-time prekey
 <p>The following figure depicts the different keys used by the different parties.</p>
 <p><img src="pqxdh.png" alt=""></p>
 <p>The initiator (A) retrieves the responder&rsquo;s prekey bundle from the server, containing the responder&rsquo;s (B) signed post-quantum public key (either a one-time key <code>PQOPK_B</code> or a last-resort key <code>PQSPK_B</code>), signed curve prekey <code>SPK_B</code>, and an optional one-time curve prekey <code>OPK_B</code>. A verifies the signatures using B&rsquo;s identity public key <code>IPK_B</code>, generates an ephemeral curve key <code>ESK_A</code>, and feeds its private keys and all of B&rsquo;s public keys to PQXDH, which generates with a key derivation based on several curve computations and an additional KEM computation an AEAD encryption key <code>SK</code> that is used to encrypt the first application message from A to B.</p>
-<p>At the other end, upon receiving the encrypted PQXDH message, the responder B passes in its own private keys and A&rsquo;s identity public key <code>IPK_A</code> to PQXDH, which proceeds to generate <code>SK</code>, verify the incoming message, and decrypt the first application message from A.</p>
+<p>At the other end, upon receiving the encrypted PQXDH message, the responder B passes in its own private keys and A&rsquo;s identity public key <code>IPK_A</code> to PQXDH, which proceeds to generate <code>SK</code>, verifies the incoming message, and decrypts the first application message from A.</p>
 <h2 id="some-background-on-formal-verification">Some Background on Formal Verification</h2>
 <p>Formal verification tools like <a href="https://bblanche.gitlabpages.inria.fr/CryptoVerif/">ProVerif</a> and <a href="https://bblanche.gitlabpages.inria.fr/proverif/">CryptoVerif</a> aim to provide strong security guarantees for cryptographic protocols by building machine-checkable security proofs.</p>
-<p>ProVerif works in an abstract model of cryptography, sometimes called the symbolic or Dolev-Yao model, which treats cryptographic primitives as symbolic functions, abstracting away from the precise treatment of probabilities in cryptographic assumptions. ProVerif is very efficient and fully automated, and it allows users to quickly analyze protocols in many scenarios and search for potential attacks.</p>
-<p>CryptoVerif formalizes and partially automates classical cryptographic proof techniques, where we can obtain security under common cryptographic notions such as IND-CCA or UF-CMA. Thanks to a recent extension in [PQCV], CryptoVerif also allows us to analyse protocols against passive quantum attackers, which is especially valuable in a setting like PQXDH, where the protocol is designed to defend against store-now-decrypt-later attacks.</p>
+<p>ProVerif works in an abstract model of cryptography, sometimes called the symbolic or Dolev-Yao model, which treats cryptographic primitives as symbolic functions, abstracting away from the precise treatment of probabilities in cryptographic assumptions. ProVerif is very efficient and fully automated, and it allows users to quickly analyse protocols in many scenarios and search for potential attacks.</p>
+<p>CryptoVerif formalises and partially automates classical cryptographic proof techniques, where we can obtain security under common cryptographic notions such as IND-CCA or UF-CMA. Thanks to a recent extension in [PQCV], CryptoVerif also allows us to analyse protocols against passive quantum attackers, which is especially valuable in a setting like PQXDH, where the protocol is designed to defend against store-now-decrypt-later attacks.</p>
 <h2 id="formal-modeling">Formal Modeling</h2>
 <p>The first step in analysing the PQXDH mechanism is modelling it in ProVerif and CryptoVerif, together with the desired security properties. The models we wrote can be found on <a href="https://github.com/Inria-Prosecco/pqxdh-analysis">Github</a>.</p>
 <p>At a high level, the ProVerif and CryptoVerif models for PQXDH account for the following:</p>
@@ -285,7 +285,7 @@ Note that the fourth <code>DH4</code> may be omitted if no curve one-time prekey
 <li>each connection consists of one message from the initiator to the responder (with no follow-up messages);</li>
 <li>the long-term Curve and KEM keys of certain devices may be compromised;</li>
 <li>the one-time Curve and KEM keys are never compromised;</li>
-<li>an attacker may suddenly be able to compute discrete logs (simulating the arrival of a powerful quantum computer), or be able to break all KEM encapsulation (capturing the possibility that a recently standardized KEM may not be as secure as we hope).</li>
+<li>an attacker may suddenly be able to compute discrete logs (simulating the arrival of a powerful quantum computer), or be able to break all KEM encapsulation (capturing the possibility that a recently standardised KEM may not be as secure as we hope).</li>
 </ul>
 <h3 id="security-properties">Security Properties</h3>
 <p>In both models, we want to prove the following security properties:</p>
@@ -304,9 +304,9 @@ Note that the fourth <code>DH4</code> may be omitted if no curve one-time prekey
 <h2 id="findings">Findings</h2>
 <p>In this section we describe the specific issues we found while modelling the protocol and trying to prove the previously stated properties.</p>
 <h3 id="public-key-confusion-attack">Public Key Confusion Attack</h3>
-<p>The encoding functions are left a bit loose in the specification, so the model needs to make a choice. In our Cryptoverif model, we were forced to assume that <code>EncodeEC</code> and <code>EncodeKEM</code> have disjoint co-domains in order to complete the proof.</p>
+<p>The encoding functions are left a bit loose in the specification, so the model needs to make a choice. In our CryptoVerif model, we were forced to assume that <code>EncodeEC</code> and <code>EncodeKEM</code> have disjoint co-domains in order to complete the proof.</p>
 <p>We do not model multiple curves and KEMs, but if we did, we would also assume that <code>EncodeEC</code> for different curves has different results, and similarly for <code>EncodeKEM</code>. These properties are crucial for security, and without them we cannot prove unambiguity for the cryptographic formats. <a href="https://eprint.iacr.org/2023/1390">A recent analysis</a> of formats for several protocols by Théophile Wallez shows the general issues that arise from encoding collisions.</p>
-<p>In Proverif, we in fact did model that <code>EncodeEC</code> and <code>EncodeKEM</code> used ambiguous formats. ProVerif then gave us a potential attack on PQXDH that goes as follows:</p>
+<p>In ProVerif, we in fact did model that <code>EncodeEC</code> and <code>EncodeKEM</code> used ambiguous formats. ProVerif then gave us a potential attack on PQXDH that goes as follows:</p>
 <ul>
 <li>An attacker (acting as the untrusted server) sends an <code>SPK</code> instead of the <code>PQPK</code> to an initiator.</li>
 <li>If the length of the KEM public keys and curve public keys are equal, the initiator would accept these keys and the PQXDH protocol would proceed.</li>
