@@ -56,7 +56,7 @@
 <meta itemprop="name" content="An Analysis of Signal&#39;s PQXDH">
 <meta itemprop="description" content="A comprehensive, machine-checked, post-quantum security proof of the Signal PQXDH protocol."><meta itemprop="datePublished" content="2023-10-20T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-10-20T00:00:00+00:00" />
-<meta itemprop="wordCount" content="2836"><meta itemprop="image" content="https://cryspen.com/images/posts/vector_ring_pqxdh.jpeg">
+<meta itemprop="wordCount" content="2833"><meta itemprop="image" content="https://cryspen.com/images/posts/vector_ring_pqxdh.jpeg">
 <meta itemprop="keywords" content="services,analysis," />
 
 
@@ -263,7 +263,7 @@
 <li>Using the CryptoVerif prover, we prove the computational secrecy and authentication of any completed key exchange under the GapDH assumption for the X25519 curve, the UF-CMA assumption on XEdDSA (assuming no key reuse between XEdDSA and X25519), the hash function modeled as a random oracle, and the IND-CPA+INT-CTXT assumptions for the AEAD.</li>
 <li>In CryptoVerif, we also show forward secrecy when the signature was UF-CMA secure at the time the key exchange took place, assuming post-quantum IND-CCA security for the KEM, modelling the hash function as a PRF, and IND-CPA+INT-CTXT security for the AEAD.</li>
 </ul>
-<p>Notably, this is the first machine-checked post-quantum security proof of a real-world cryptographic protocol. We were able to obtain it thanks to the recent extension of CryptoVerif that support post-quantum attackers [PQCV].</p>
+<p>Notably, this is the first machine-checked post-quantum security proof of a real-world cryptographic protocol. We were able to obtain it thanks to the recent extension of CryptoVerif that supports post-quantum attackers [PQCV].</p>
 <h2 id="quantum-resistance-and-the-signal-protocol-pqxdh">Quantum Resistance and the Signal Protocol (PQXDH)</h2>
 <p><em>You can find a high level description of the PQXDH protocol in Signal&rsquo;s <a href="https://signal.org/blog/pqxdh/">blog post</a> and a detailed description of PQXDH in the protocol <a href="https://signal.org/docs/specifications/pqxdh/">specification</a>.</em></p>
 <p>At a high level, the PQXDH protocol can be seen as injecting a post-quantum secure shared key into the classical <a href="https://signal.org/docs/specifications/x3dh/">X3DH</a> protocol. The shared secret, output by the post-quantum KEM <code>(CT, SS) = PQKEM-ENC(PQPK_B)</code>, is used in a key derivation function <code>SK = KDF(DH1 || DH2 || DH3 || DH4 || SS)</code> together with the four Diffie-Hellman values <code>DH1</code> to <code>DH4</code> from the <a href="https://signal.org/docs/specifications/x3dh/">X3DH</a>.
@@ -305,7 +305,12 @@ Note that the fourth <code>DH4</code> may be omitted if no curve one-time prekey
 <p>In this section we describe the specific issues we found while modelling the protocol and trying to prove the previously stated properties.</p>
 <h3 id="public-key-confusion-attack">Public Key Confusion Attack</h3>
 <p>The encoding functions are left a bit loose in the specification, so the model needs to make a choice. In our CryptoVerif model, we were forced to assume that <code>EncodeEC</code> and <code>EncodeKEM</code> have disjoint co-domains in order to complete the proof.</p>
-<p>We do not model multiple curves and KEMs, but if we did, we would also assume that <code>EncodeEC</code> for different curves has different results, and similarly for <code>EncodeKEM</code>. These properties are crucial for security, and without them we cannot prove unambiguity for the cryptographic formats. <a href="https://eprint.iacr.org/2023/1390">A recent analysis</a> of formats for several protocols by Théophile Wallez shows the general issues that arise from encoding collisions.</p>
+<p>We do not model multiple curves and KEMs, but if we did, we would also
+assume that <code>EncodeEC</code> for different curves has different results, and
+similarly for <code>EncodeKEM</code>. These properties are crucial for security,
+and without them we cannot prove unambiguity for the cryptographic
+formats. <a href="https://eprint.iacr.org/2023/1390">A recent analysis</a> of formats for several protocols
+shows the general issues that arise from encoding collisions.</p>
 <p>In ProVerif, we in fact did model that <code>EncodeEC</code> and <code>EncodeKEM</code> used ambiguous formats. ProVerif then gave us a potential attack on PQXDH that goes as follows:</p>
 <ul>
 <li>An attacker (acting as the untrusted server) sends an <code>SPK</code> instead of the <code>PQPK</code> to an initiator.</li>
@@ -333,7 +338,7 @@ Note that the fourth <code>DH4</code> may be omitted if no curve one-time prekey
 <li>An attacker is able to compromise some <code>PQPK</code> of responder B, while another <code>PQPK2</code> of the same responder is uncompromised.</li>
 <li>The attacker makes initiator A use <code>PQPK</code>, and obtain a ciphertext <code>CT</code>, from which it can learn the shared secret <code>SS</code>, as <code>PQPK</code> was compromised.</li>
 <li>Now, the attacker, not violating IND-CCA, comes up with a new ciphertext <code>CT'</code>, valid for <code>PQPK2</code>, such that the decapsulation of <code>CT'</code> is also <code>SS</code>.</li>
-<li>The attacker then forwards to B the message from <code>A</code>, but swaps <code>CT</code> by <code>CT´</code>, and the key identifier of <code>PQPK</code> by <code>PQPK2</code>.</li>
+<li>The attacker then forwards to B the message from <code>A</code>, but swaps <code>CT</code> by <code>CT'</code>, and the key identifier of <code>PQPK</code> by <code>PQPK2</code>.</li>
 <li>The responder B succeeds in computing the key using <code>PQPK2</code>.</li>
 </ol>
 <p>The main issue here is that the compromise of a single <code>PQPK</code> in fact enables an attacker to compromise all future KEM shared secrets of the responder, and this even after the responder deleted the compromised <code>PQPK</code>.</p>
@@ -348,15 +353,18 @@ While many schemes such as Kyber/ML-KEM do include the public key in the shared 
 <p>Based on our findings above, we worked with the Signal protocol designers on addressing all the issues we found in the protocol specification. In the updated specification document:</p>
 <ul>
 <li>The description of the parameters now includes the security properties of the PQ KEM scheme (IND-CCA), the AEAD (IND-CPA and INT-CTXT), and the disjointness of the encoding functions.</li>
-<li>The protocol specification now emphasizes that the clients should be able to identify whether a PQ KEM key is the last-resort or an ephemeral key.</li>
+<li>The protocol specification now emphasises that the clients should be able to identify whether a PQ KEM key is the last-resort or an ephemeral key.</li>
 <li>The specification now requires that <code>PQPK_B</code> is added to the additional data <code>AD</code> of the AEAD if it is not used internaly in the KEM to derive the shared secret. Combined, this prevents the KEM re-encapsulation issues described above.</li>
 </ul>
 <p>We modeled all these changes in our ProVerif and CryptoVerif models and were able to prove all the desired security properties of the protocol, hence establishing machine-checked symbolic and computational security theorems for PQXDH.</p>
-<p>Like all formal analyses, our theorems also have limitations. The results only hold for our models of PQXDH, which may (and do) miss some low-level details of the protocol implementation. For example, we assume that the the protocol uses different identity keys for signatures and Diffie-Hellman, which is not true in practice.</p>
+<p>Like all formal analyses, our theorems also have limitations. The results only hold for our models of PQXDH, which may (and do) miss some low-level details of the protocol implementation. For example, we assume that the protocol uses different identity keys for signatures and Diffie-Hellman, which is not true in practice.</p>
 <p>The ProVerif results only hold in the symbolic model, but consider a wide range of compromise scenarios, and should be seen as providing confidence against a large class of logical protocol vulnerabilities. Conversely, the CryptoVerif model amounts to a full cryptographic proof based on precise computational assumptions, but it does not capture all possible combinations of compromises, in order to bound proof complexity.</p>
 <p>Despite these limitations, we find it remarkable that these tools enabled us to produce machine-checked proofs for a real-world protocol within a month of its publication. By sharing these models and working on them together with experts from Signal, we were able to quickly validate various proposed changes to the specification. This bodes well for the applicability and effectiveness of formal verification tools for new post-quantum protocol designs.</p>
 <h2 id="acknowledgements">Acknowledgements</h2>
-<p>This analysis is joint work between INRIA, Cryspen and Signal. It was inspired by a previous CryptoVerif model for TextSecure (a variant of X3DH) made by Bruno Blanchet. Théophile Wallez gave precious insights w.r.t. to the encodings used in the specification.</p>
+<p>This analysis is joint work between INRIA, Cryspen and Signal. It was
+inspired by a previous CryptoVerif model for TextSecure (a variant of
+X3DH) made by Bruno Blanchet. Théophile Wallez gave precious insights
+about the potentially ambiguous encodings used in the specification.</p>
 <h1 id="references">References</h1>
 <!-- some references are recalled here for ease of reading and simple links. PQCV is to appear -->
 <ul>
