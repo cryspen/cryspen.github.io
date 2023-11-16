@@ -6,156 +6,125 @@
     <description>Recent content on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Analysis of Signal&#39;s PQXDH</title>
       <link>https://cryspen.com/post/pqxdh/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/pqxdh/</guid>
       <description>Signal recently published a new, post-quantum secure, version of their X3DH protocol called PQXDH. As with any new cryptographic protocol, it is important to precisely analyse its security properties, especially for something as important as Signal.</description>
     </item>
-    
     <item>
       <title>Announcing Campus Cyber Circus Project</title>
       <link>https://cryspen.com/post/cyber-campus-hax/</link>
       <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/cyber-campus-hax/</guid>
       <description>🎉 We&amp;rsquo;re excited to announce that Cryspen partnered with Inria on a transfer project to build a new integrated development and verification environment (IDVE).</description>
     </item>
-    
     <item>
       <title>Specifying Oblivious Pseudonymization</title>
       <link>https://cryspen.com/post/scrambledb/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/scrambledb/</guid>
       <description>In this blog post we announce an executable specification in the hacspec specification language for the ScrambleDB pseudonymization system, developed by Cryspen as part of the BMBF ATLAS project.</description>
     </item>
-    
     <item>
       <title>Internet Defense Prize 2023</title>
       <link>https://cryspen.com/post/internet-defense-prize-2023/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/internet-defense-prize-2023/</guid>
       <description>At the 32nd Usenix Security Symposium in Anaheim CA, a paper on the Messaging Layer Security Protocol, co-authored by our founders Jonathan Protzenko and Karthikeyan Bhargavan, was awarded both the Distinguished Paper Award and the prestigious Internet Defense Prize.</description>
     </item>
-    
     <item>
       <title>Prairie and Atlas</title>
       <link>https://cryspen.com/post/prarie-and-atlas/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/prarie-and-atlas/</guid>
       <description>With the widespread adoption and deployment of machine learning across enterprises, ever-increasing amounts of data are being collected, stored, communicated, combined, and computed over by sophisticated algorithms.</description>
     </item>
-    
     <item>
       <title>Three (thousand) may keep a secret</title>
       <link>https://cryspen.com/post/mls-introduction/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/mls-introduction/</guid>
       <description>“Three may keep a secret, if two of them are dead.” - Benjamin Franklin (1735)
 However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes.</description>
     </item>
-    
     <item>
       <title>MLS - RFC 9420</title>
       <link>https://cryspen.com/post/mls-rfc-announcement/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/mls-rfc-announcement/</guid>
       <description>✨ We are thrilled to announce the release of the MLS specification as RFC 9420.
 RFC 9420 is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands.</description>
     </item>
-    
     <item>
       <title>Welcome Jonas</title>
       <link>https://cryspen.com/post/welcome_jonas/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/welcome_jonas/</guid>
       <description>📢 Exciting News! 🚀 We are thrilled to welcome Dr. Jonas Schneider-Bensch, to the Cryspen family as our newest R&amp;amp;D Cryptography Engineer!</description>
     </item>
-    
     <item>
       <title>Cryspen @ RWC 2023</title>
       <link>https://cryspen.com/post/rwc-2023/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/rwc-2023/</guid>
       <description>At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.</description>
     </item>
-    
     <item>
       <title>HACL Packages v0.6</title>
       <link>https://cryspen.com/post/hacl-0_6/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/hacl-0_6/</guid>
       <description>Today, we announce the first release of the HACL Packages libraries. 🎉
 This release of HACL packages includes the first release of the HACL C library and a new release of the hacl-star OCaml bindings.</description>
     </item>
-    
     <item>
       <title>OpenMLS</title>
       <link>https://cryspen.com/post/hello-openmls/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/hello-openmls/</guid>
       <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.
 The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
     </item>
-    
     <item>
       <title>HACL Packages</title>
       <link>https://cryspen.com/post/introducing-hacl-packages/</link>
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/introducing-hacl-packages/</guid>
       <description>Earlier this year, Tezos and Nomadic Labs started to work with Cryspen to improve HACL* and ensure that it is a viable long-term solution for Tezos&#39; cryptographic needs.</description>
     </item>
-    
     <item>
       <title>What is High Assurance Cryptography?</title>
       <link>https://cryspen.com/post/high-assurance-cryptography-1/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/high-assurance-cryptography-1/</guid>
       <description>Cryspen builds high assurance cryptography. But what does this actually mean?
 Before focusing on cryptography it is interesting to look at high assurance software in general.</description>
     </item>
-    
     <item>
       <title>An Executable HPKE Specification</title>
       <link>https://cryspen.com/post/hpke_spec/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/hpke_spec/</guid>
       <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.
 📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
     </item>
-    
     <item>
       <title>TL;DR - Hybrid Public Key Encryption</title>
       <link>https://cryspen.com/post/tldr-hpke/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/tldr-hpke/</guid>
       <description>HPKE, defined in RFC 9180, is a CFRG standard that describes a scheme for hybrid public key encryption. It is co-authored by my Cryspen co-founder Karthikeyan Bhargavan and one of his PhD students Benjamin Lipp as part of his research at Inria.</description>
     </item>
-    
     <item>
       <title>Cryspen ERC PoC Grant</title>
       <link>https://cryspen.com/post/erc-poc/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/erc-poc/</guid>
       <description>Cryspen co-founder Karthik Bhargavan got awarded an ERC Proof of Concept grant for commercialising the know-how and landmark research results from his Inria research group PROSECCO through Cryspen.</description>
     </item>
-    
   </channel>
 </rss>

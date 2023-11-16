@@ -6,16 +6,15 @@
     <description>Recent content in Release on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/release/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HACL Packages v0.6</title>
       <link>https://cryspen.com/post/hacl-0_6/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/hacl-0_6/</guid>
       <description>Today, we announce the first release of the HACL Packages libraries. 🎉
 This release of HACL packages includes the first release of the HACL C library and a new release of the hacl-star OCaml bindings.</description>
     </item>
-    
   </channel>
 </rss>

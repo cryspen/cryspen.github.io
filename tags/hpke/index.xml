@@ -6,34 +6,29 @@
     <description>Recent content in hpke on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/hpke/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/hpke/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HPKE</title>
       <link>https://cryspen.com/hpke/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/hpke/</guid>
       <description>HPKE is scheme provides a variant of public-key encryption of arbitrary-sized plaintexts for a recipient public key. It includes three authenticated variants, including one which authenticates possession of a pre-shared key, and two optional ones which authenticate possession of a KEM private key.</description>
     </item>
-    
     <item>
       <title>An Executable HPKE Specification</title>
       <link>https://cryspen.com/post/hpke_spec/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/hpke_spec/</guid>
       <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.
 📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
     </item>
-    
     <item>
       <title>TL;DR - Hybrid Public Key Encryption</title>
       <link>https://cryspen.com/post/tldr-hpke/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/tldr-hpke/</guid>
       <description>HPKE, defined in RFC 9180, is a CFRG standard that describes a scheme for hybrid public key encryption. It is co-authored by my Cryspen co-founder Karthikeyan Bhargavan and one of his PhD students Benjamin Lipp as part of his research at Inria.</description>
     </item>
-    
   </channel>
 </rss>

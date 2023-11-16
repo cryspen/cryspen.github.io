@@ -6,15 +6,14 @@
     <description>Recent content in People on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/people/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome Jonas</title>
       <link>https://cryspen.com/post/welcome_jonas/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/welcome_jonas/</guid>
       <description>📢 Exciting News! 🚀 We are thrilled to welcome Dr. Jonas Schneider-Bensch, to the Cryspen family as our newest R&amp;amp;D Cryptography Engineer!</description>
     </item>
-    
   </channel>
 </rss>

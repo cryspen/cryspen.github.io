@@ -6,54 +6,45 @@
     <description>Recent content in openmls on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/openmls/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/openmls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Internet Defense Prize 2023</title>
       <link>https://cryspen.com/post/internet-defense-prize-2023/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/internet-defense-prize-2023/</guid>
       <description>At the 32nd Usenix Security Symposium in Anaheim CA, a paper on the Messaging Layer Security Protocol, co-authored by our founders Jonathan Protzenko and Karthikeyan Bhargavan, was awarded both the Distinguished Paper Award and the prestigious Internet Defense Prize.</description>
     </item>
-    
     <item>
       <title>Three (thousand) may keep a secret</title>
       <link>https://cryspen.com/post/mls-introduction/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/mls-introduction/</guid>
       <description>“Three may keep a secret, if two of them are dead.” - Benjamin Franklin (1735)
 However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes.</description>
     </item>
-    
     <item>
       <title>MLS - RFC 9420</title>
       <link>https://cryspen.com/post/mls-rfc-announcement/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/mls-rfc-announcement/</guid>
       <description>✨ We are thrilled to announce the release of the MLS specification as RFC 9420.
 RFC 9420 is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands.</description>
     </item>
-    
     <item>
       <title>OpenMLS</title>
       <link>https://cryspen.com/openmls/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/openmls/</guid>
       <description>Messaging Layer Security (MLS) is a security layer for end-to-end encrypting communication in large dynamic groups. It is being specified by the IETF MLS working group and designed to be efficient, practical and secure.</description>
     </item>
-    
     <item>
       <title>OpenMLS</title>
       <link>https://cryspen.com/post/hello-openmls/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://cryspen.com/post/hello-openmls/</guid>
       <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.
 The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
     </item>
-    
   </channel>
 </rss>
