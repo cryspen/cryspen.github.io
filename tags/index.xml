@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>People</title>
+      <link>https://cryspen.com/tags/people/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/tags/people/</guid>
+      <description></description>
+    </item>
     <item>
       <title>analysis</title>
       <link>https://cryspen.com/tags/analysis/</link>
@@ -76,13 +83,6 @@
       <link>https://cryspen.com/tags/rfc/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/tags/rfc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>People</title>
-      <link>https://cryspen.com/tags/people/</link>
-      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/people/</guid>
       <description></description>
     </item>
     <item>

@@ -20,8 +20,7 @@
       <link>https://cryspen.com/post/hpke_spec/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/post/hpke_spec/</guid>
-      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.
-📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
+      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.&#xA;📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
     </item>
     <item>
       <title>TL;DR - Hybrid Public Key Encryption</title>

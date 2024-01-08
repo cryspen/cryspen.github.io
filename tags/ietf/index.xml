@@ -13,16 +13,14 @@
       <link>https://cryspen.com/post/hello-openmls/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/post/hello-openmls/</guid>
-      <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.
-The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
+      <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.&#xA;The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
     </item>
     <item>
       <title>An Executable HPKE Specification</title>
       <link>https://cryspen.com/post/hpke_spec/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/post/hpke_spec/</guid>
-      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.
-📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
+      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.&#xA;📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
     </item>
     <item>
       <title>TL;DR - Hybrid Public Key Encryption</title>

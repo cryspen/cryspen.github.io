@@ -41,8 +41,7 @@
       <link>https://cryspen.com/hacspec/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/hacspec/</guid>
-      <description>hacspec is a language and framework for writing succinct, executable, formally verifiable specifications for cryptographic components.
-Syntactically, hacspec is a purely functional subset of Rust that aims to be readable by developers, cryptographers, and verification experts.</description>
+      <description>hacspec is a language and framework for writing succinct, executable, formally verifiable specifications for cryptographic components.&#xA;Syntactically, hacspec is a purely functional subset of Rust that aims to be readable by developers, cryptographers, and verification experts.</description>
     </item>
     <item>
       <title>libcrux</title>
@@ -56,8 +55,7 @@ Syntactically, hacspec is a purely functional subset of Rust that aims to be rea
       <link>https://cryspen.com/post/hpke_spec/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/post/hpke_spec/</guid>
-      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.
-📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
+      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.&#xA;📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
     </item>
   </channel>
 </rss>

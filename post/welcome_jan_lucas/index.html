@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
   
-  <title>Cryspen  | TL;DR - Hybrid Public Key Encryption </title>
+  <title>Cryspen  | Welcome Jan &amp; Lucas </title>
 
   
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <meta name="description" content="A new standard for public key encryption" />
+  <meta name="description" content="High Assurance Cryptography" />
 
   
   
@@ -48,15 +48,15 @@
   
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://cryspen.com/images/posts/tldr-hpke.jpg" /><meta name="twitter:title" content="TL;DR - Hybrid Public Key Encryption"/>
-<meta name="twitter:description" content="A new standard for public key encryption"/>
+<meta name="twitter:image" content="https://cryspen.com/images/team.png" /><meta name="twitter:title" content="Welcome Jan &amp; Lucas"/>
+<meta name="twitter:description" content="📢 Exciting News! Cryspen is thrilled to announce the addition of two exceptional minds to our team: Dr. Lucas Franceschino and Jan Winkelmann."/>
 <meta name="twitter:site" content="@https://twitter.com/CryspenHQ"/>
 
-<meta itemprop="name" content="TL;DR - Hybrid Public Key Encryption">
-<meta itemprop="description" content="A new standard for public key encryption"><meta itemprop="datePublished" content="2022-02-24T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-02-24T00:00:00+00:00" />
-<meta itemprop="wordCount" content="1299"><meta itemprop="image" content="https://cryspen.com/images/posts/tldr-hpke.jpg" />
-<meta itemprop="keywords" content="tl;dr,HPKE,IETF," />
+<meta itemprop="name" content="Welcome Jan &amp; Lucas">
+<meta itemprop="description" content="📢 Exciting News! Cryspen is thrilled to announce the addition of two exceptional minds to our team: Dr. Lucas Franceschino and Jan Winkelmann."><meta itemprop="datePublished" content="2024-01-08T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2024-01-08T00:00:00+00:00" />
+<meta itemprop="wordCount" content="312"><meta itemprop="image" content="https://cryspen.com/images/team.png" />
+<meta itemprop="keywords" content="People," />
 
 
 
@@ -231,7 +231,7 @@
     <div class="row justify-content-center">
       <div class="col-12">
         
-        <h2 class="display-1 fw-bold text-center text-primary pb-3">TL;DR - Hybrid Public Key Encryption</h2>
+        <h2 class="display-1 fw-bold text-center text-primary pb-3">Welcome Jan &amp; Lucas</h2>
         
         
         
@@ -239,153 +239,20 @@
         <p class="text-black-61 text-center pb-3"> 
           Franziskus Kiefer
           <br/>
-          February 24, 2022
+          January 8, 2024
         </p>
         
       </div>
     </div>
     <div class="row pb-5">
       <div class="col-12 d-flex justify-content-center">
-        <div class="blog-content fs-6"><p><a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a>, defined in <a href="https://www.rfc-editor.org/rfc/rfc9180.html">RFC 9180</a>, is a <a href="https://datatracker.ietf.org/rg/cfrg/about/">CFRG</a> standard that describes a scheme for hybrid public key encryption.
-It is co-authored by my <a href="https://www.cryspen.com">Cryspen</a> co-founder <a href="https://bhargavan.info/index.html">Karthikeyan Bhargavan</a> and one of
-his PhD students <a href="https://www.benjaminlipp.de">Benjamin Lipp</a> as part of his research at <a href="https://team.inria.fr/prosecco">Inria</a>.</p>
-<p>This blog post will give a brief overview of the specification and describes some use cases.</p>
-<p>If you want to learn more about the security proofs behind HPKE and the RFC process,
-Benjamin wrote an <a href="https://www.benjaminlipp.de/p/hpke-cryptographic-standard/">excellent blog post</a> about it.</p>
-<p>Hybrid Public Key Encryption, or short HPKE, is a cyrptographic mechanism that
-allows encrypting payload to a public key.
-It is called &ldquo;hybrid&rdquo; because the payload is encrypted with a symmetric scheme.
-The symmetric key is then encrypted to the receivers public key.
-The <a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a> standard defines a number of natural extensions to the basic setting
-that allow the sender to authenticate themselves.</p>
-<h2 id="hybrid-crypto-systems">Hybrid Crypto Systems</h2>
-<p>Hybrid public key encryption has been used in different ways since the early 1990s in protocols such as <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">PGP</a> or <a href="https://en.wikipedia.org/wiki/Cryptographic_Message_Syntax">SMIME</a>.
-While these two protocols are for a very specific use case a more general version of hybrid encryption is described in <a href="https://en.wikipedia.org/wiki/Integrated_Encryption_Scheme">ECIES</a>.
-<a href="https://en.wikipedia.org/wiki/Integrated_Encryption_Scheme">ECIES</a> is part of many systems nowadays.
-<a href="https://developer.apple.com/documentation/security/certificate_key_and_trust_services/keys/storing_keys_in_the_secure_enclave">Storing keys in the secure enclave on an iOS</a> device for example uses <a href="https://en.wikipedia.org/wiki/Integrated_Encryption_Scheme">ECIES</a>.
-For a deeper explanation and history of hybrid crypto systems I recommend reading
-<a href="https://blog.cloudflare.com/hybrid-public-key-encryption/">Christopher Wood&rsquo;s blog post</a>.</p>
-<p>However, there&rsquo;s no general description of hybrid public key encryption with modern primitives.
-The <a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a> standard solves this issue.
-Even before the RFC is finalised it is used in specifications for <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-esni/">ECH</a>, <a href="https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/">MLS</a>, <a href="https://datatracker.ietf.org/doc/draft-pauly-dprive-oblivious-doh/">ODOH</a>, and <a href="https://datatracker.ietf.org/doc/draft-gpew-priv-ppm/">PPM</a>.
-This shows the high demand for <a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a>.</p>
-<p>HPKE has four distinct modes of operation: Base, Auth, PSK, AuthPSK.
-In this blog post we only describe the two most commonly used modes Base and Auth.</p>
-<p><strong>HPKE Modes</strong></p>
-<p>The <em>Base</em> mode is the most common use case for HPKE where payload is encrypted
-to a public key.
-All other modes are authenticated in different ways.</p>
-<ul>
-<li><em>Auth</em> uses the sender&rsquo;s private key for authentication</li>
-<li><em>PSK</em> uses a pre-shared, high-entropy, key for authentication</li>
-<li><em>AuthPSK</em> uses the sender&rsquo;s private key as well as a pre-shared, high-entropy, key for authentication</li>
-</ul>
-<h3 id="encrypting-to-a-public-key">Encrypting to a public key</h3>
-<p>The following figure depicts the general flow of encrypting to a public key.
-This is the Base mode in HPKE.
-This is the most basic application of hybrid crypto systems.
-Alex knows the public key from Sasha and wants to send some <code>Data</code> to them.
-Shasha&rsquo;s public key is used to encrypt a shared secret, which is used to encrypt
-the <code>Data</code>.
-The encrypted shared secret as well as the encrypted data is sent to Sasha, who
-can retrieve the shared secret with their corresponding private key.</p>
-<p><img src="hybrid-encryption.png" alt=""></p>
-<h3 id="encrypting-to-a-public-key--authenticating-with-an-asymmetric-key">Encrypting to a public key &amp; Authenticating with an asymmetric key</h3>
-<p>Sometimes it is useful or necessary to authenticate the sender of the data.
-This is depicted in the figure below and represents the HPKE Auth mode.
-The authentication is achieved by mixing in the sender&rsquo;s private key such that
-the receiver will only retrieve the correct shared secret if the public key
-they use for the sender corresponds to the used private key.</p>
-<p><img src="authenticated-hybrid-encryption.png" alt=""></p>
-<h2 id="hpke">HPKE</h2>
-<p><a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a> is essentially standardising how to use <a href="https://en.wikipedia.org/wiki/Key_encapsulation">Key Encapsulation Mechanisms (KEM)</a>
-for hybrid encryption.
-The sender in <a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a> uses a KEM to generate the shared secret as well as the
-encapsulation.
-The shared secret is then used in an <a href="https://en.wikipedia.org/wiki/Authenticated_encryption#Authenticated_encryption_with_associated_data_(AEAD)">AEAD</a> (after running it through a key schedule)
-in order to encrypt a payload.</p>
-<p>All HPKE use cases so far only take advantage of the single-shot APIs from HPKE.
-In order to encrypt a payload to a public key the sender needs to provide the
-receiver&rsquo;s public key <code>pkR</code>, some information <code>info</code> and additional data <code>aad</code> to bind the encryption
-to a certain context, as well as the payload <code>pt</code>.
-HPKE returns the cipher text <code>ct</code> as well as the encapsulation <code>enc</code> that are both sent to
-the receiver.</p>
-<pre tabindex="0"><code>enc, ct &lt;- Seal(pkR, info, aad, pt)
-</code></pre><p>When using the Auth mode the sender&rsquo;s private key <code>sk</code> is needed in addition.</p>
-<p>The receiver takes the encapsulation <code>enc</code> and cipher text <code>ct</code> together with their
-private key to retrieve the payload.</p>
-<pre tabindex="0"><code>pt &lt;- Open(enc, skR, info, aad, ct)
-</code></pre><p>When using the Auth mode the sender&rsquo;s public key <code>pkS</code> is needed in addition.</p>
-<h3 id="multiple-encryptions">Multiple Encryptions</h3>
-<p>HPKE allows multiple encryptions with the same shared secret.
-This is favourable if multiple messages are sent from the sender to the receiver.
-To this end HPKE generates a context that allows encrypting (and decrypting) multiple
-messages.</p>
-<pre tabindex="0"><code>enc, ContextS &lt;- SetupS(pkR, info)
-ContextR &lt;- SetupR(enc, skR, info)
-</code></pre><p>Note that HPKE goes a step further than the <a href="https://datatracker.ietf.org/doc/html/rfc5116">AEAD RFC</a> and simplifies the API.
-The consumer only needs to provide the payload and (potentially empty) additional
-data.
-HPKE takes care of providing unique nonces to the AEAD and fails if the maximum
-number of encryptions with the context have been performed &mdash; in particular if
-the nonce would overflow.</p>
-<pre tabindex="0"><code>ct &lt;- ContextS.Seal(aad, pt)
-pt &lt;- ContextR.Open(aad, ct)
-</code></pre><h3 id="exporting-secrets">Exporting Secrets</h3>
-<p>In some scenarios applications need to establish additional shared secrets.
-This can be achieved with the HPKE exporter interface.
-The API is similar to the <code>Seal</code> and <code>Open</code> functions above but don&rsquo;t require
-a payload or additional data.
-Instead an <code>exporter_context</code> and the length of the exported secret <code>L</code> have to
-be provided.</p>
-<pre tabindex="0"><code>enc, exported_secret &lt;- SendExport(pkR, info, exporter_context, L)
-exported_secret &lt;- ReceiveExport(enc, skR, info, exporter_context, L)
-</code></pre><h3 id="use-cases">Use Cases</h3>
-<p>Instead of inventing new use cases for HPKE we describe how HPKE is used in <a href="https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/">MLS</a>
-and <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-esni/">ECH</a> as they reflect common uses of hybrid public key encryption.</p>
-<h4 id="hpke-in-mls">HPKE in MLS</h4>
-<p><a href="https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/">MLS</a> (Message Layer Security) is an IETF draft that standardises a new way of efficiently encrypting messages
-between participants in groups.
-It aims to solve the problem of end-to-end encryption in instant messaging.
-<a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a> is a core building block.
-In order to encrypt a message to a specific entity in the protocol, <a href="https://datatracker.ietf.org/doc/draft-ietf-mls-protocol/">MLS</a> uses <a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a>
-to encrypt the message to the specific public key.</p>
-<h4 id="hpke-in-ech">HPKE in ECH</h4>
-<p><a href="https://datatracker.ietf.org/doc/draft-ietf-tls-esni/">ECH</a> (Encrypted Client Hello) is a mechanism in <a href="https://tools.ietf.org/html/rfc8446">TLS</a> (Transport Layer Security)
-for encrypting a ClientHello message under a server public key.
-This description from the <a href="https://datatracker.ietf.org/doc/draft-ietf-tls-esni/">ECH</a> draft corresponds directly to the Base mode of <a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a>
-as described above.
-This allows <a href="https://tools.ietf.org/html/rfc8446">TLS</a> connections to become more private because they don&rsquo;t leak
-information about the connection, in particular the exact server the client wants
-to connect to.</p>
-<h2 id="demo">Demo</h2>
-<p>In order to better understand the message flow and working of HPKE we put together
-an interactive demo below to demonstrate how HPKE works.</p>
-<ol>
-<li>First generate a key pair for the receiver.</li>
-<li>Then populate the info, additional data, and payload fields on the sender side.</li>
-<li>When clicking the &ldquo;HPKE Seal&rdquo; button on the sender the following happens</li>
-</ol>
-<ul>
-<li>The sender retrieves the public key from the receiver that has been generated in the first step.</li>
-<li>The sender uses HPKE to encrypt the payload together with the info and additional data to the receiver&rsquo;s public key.</li>
-<li>The result is written into the Encoded Shared Secret and Ciphertext fields.</li>
-</ul>
-<ol start="4">
-<li>When clicking &ldquo;HPKE Open&rdquo; the receiver uses the private key to retrieve the shared secret and decrypt the ciphertext.
-The &ldquo;Info&rdquo; and &ldquo;Additional Data&rdquo; are the same as entered on the sender&rsquo;s side.</li>
-</ol>
-<h3 id="try-it-out-now">Try it out now!</h3>
-<iframe width="100%" height="800px" src="./hpke_demo/index.html"></iframe>
-<p>The demo is written in <a href="https://hacspec.org">hacspec</a> (a subset of Rust) with a <a href="https://webassembly.org/">WASM</a> frontend.
-Please stay tuned for a follow-up blog post diving into the details of this implementation.</p>
-<h2 id="summary">Summary</h2>
-<p><a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a> is a simple, but very powerful new tool that allows to efficiently solve
-key distribution problems (see the MLS use case) as well as increase privacy
-in existing protocols (see the ECH use case).</p>
-<p><a href="https://www.cryspen.com">Cryspen</a> offers support for using <a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE</a> as well as high assurance implementations
-of HPKE and other protocols.
-<a href="mailto:franziskus@cryspen.com">Get in touch for more information.</a></p>
+        <div class="blog-content fs-6"><p>📢 Exciting News! Cryspen is thrilled to announce the addition of two exceptional minds to our team: <a href="https://lucas.franceschino.fr/">Dr. Lucas Franceschino</a> and <a href="https://github.com/keks">Jan Winkelmann</a>.</p>
+<p>🎓 Lucas, our new R&amp;D Proof &amp; Tool Engineer, brings a remarkable background in formal verification, dependently typed languages, and abstract interpretation techniques. His expertise in functional programming, evident in his work with languages like Haskell, PureScript, OCaml, Coq, Idris, and F*, is complemented by his proficiency in NixOS and Emacs. Notably, Lucas is the main author of <a href="/hax">hax</a>, our groundbreaking tool for formally verifying Rust code.</p>
+<p>In his role at Cryspen, Lucas will spearhead our efforts to establish hax as the premier Rust verification toolkit.</p>
+<p>📚 Jan, our new Cryptography Engineer, joins us with a wealth of experience in reviewing code and documentation across a diverse range of projects. His deep understanding of cryptography, programming languages, and concepts has been honed through his exposure to a variety of projects. Jan&rsquo;s background extends beyond cryptography, encompassing strategic planning and formal methods. He is for example currently involved in an ambitious endeavor to develop mechanized cryptographic proofs using <a href="https://eprint.iacr.org/2018/306.pdf">SSPs</a>.</p>
+<p>At Cryspen, Jan will play a pivotal role in advancing our <a href="/mls">MLS</a> and <a href="https://github.com/openmls/openmls">OpenMLS</a> projects. His expertise will be instrumental in ensuring the security and reliability of these critical tools.</p>
+<p>🌟 The arrival of Lucas and Jan is a testament to our unwavering commitment to attracting top talent and fostering a collaborative environment. We are confident that their unparalleled knowledge and passion for formal methods and cryptography will propel Cryspen to new levels of excellence.</p>
+<p>🤝 Please join us in extending a warm welcome to Lucas and Jan! Their contributions will be instrumental in solidifying Cryspen&rsquo;s position as a leader in high-assurance security and privacy solutions. We are excited to partner with them as we revolutionize the digital landscape and empower businesses to thrive in an increasingly secure and private world.</p>
 </div>
       </div>
     </div>

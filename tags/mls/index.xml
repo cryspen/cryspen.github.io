@@ -20,24 +20,21 @@
       <link>https://cryspen.com/post/mls-introduction/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/post/mls-introduction/</guid>
-      <description>“Three may keep a secret, if two of them are dead.” - Benjamin Franklin (1735)
-However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes.</description>
+      <description>“Three may keep a secret, if two of them are dead.” - Benjamin Franklin (1735)&#xA;However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes.</description>
     </item>
     <item>
       <title>MLS - RFC 9420</title>
       <link>https://cryspen.com/post/mls-rfc-announcement/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/post/mls-rfc-announcement/</guid>
-      <description>✨ We are thrilled to announce the release of the MLS specification as RFC 9420.
-RFC 9420 is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands.</description>
+      <description>✨ We are thrilled to announce the release of the MLS specification as RFC 9420.&#xA;RFC 9420 is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands.</description>
     </item>
     <item>
       <title>OpenMLS</title>
       <link>https://cryspen.com/post/hello-openmls/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/post/hello-openmls/</guid>
-      <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.
-The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
+      <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.&#xA;The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
     </item>
   </channel>
 </rss>
