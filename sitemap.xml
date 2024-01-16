@@ -3,15 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cryspen.com/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cryspen.com/tags/people/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
+    <loc>https://cryspen.com/tags/libcrux/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/pqc/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/post/ml-kem-implementation/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/people/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/welcome_jan_lucas/</loc>
@@ -72,9 +81,6 @@
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/rwc-2023/</loc>
-    <lastmod>2023-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/libcrux/</loc>
     <lastmod>2023-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/about/</loc>
