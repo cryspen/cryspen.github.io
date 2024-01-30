@@ -6,8 +6,15 @@
     <description>Recent content on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verifying Libcrux&#39;s ML-KEM</title>
+      <link>https://cryspen.com/post/ml-kem-verification/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/ml-kem-verification/</guid>
+      <description>In a recent blog post, we described Cryspen&amp;rsquo;s new Rust implementation of ML-KEM in Rust, and talked about how our high-assurance development methodology helped us find a new timing bug in various other Kyber implementations.</description>
+    </item>
     <item>
       <title>Verified ML-KEM (Kyber) in Rust</title>
       <link>https://cryspen.com/post/ml-kem-implementation/</link>
