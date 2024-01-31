@@ -55,7 +55,7 @@
 <meta itemprop="name" content="An Analysis of Signal&#39;s PQXDH">
 <meta itemprop="description" content="A comprehensive, machine-checked, post-quantum security proof of the Signal PQXDH protocol."><meta itemprop="datePublished" content="2023-10-20T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-10-20T00:00:00+00:00" />
-<meta itemprop="wordCount" content="2836"><meta itemprop="image" content="https://cryspen.com/images/posts/vector_ring_pqxdh.jpeg" />
+<meta itemprop="wordCount" content="2855"><meta itemprop="image" content="https://cryspen.com/images/posts/vector_ring_pqxdh.jpeg" />
 <meta itemprop="keywords" content="services,analysis," />
 
 
@@ -331,7 +331,8 @@ shows the general issues that arise from encoding collisions.</p>
 <p>Even after accounting for the <code>info</code> field, there remains a concern that the format of the KDF input key material between X3DH and PQXDH can be confused with each other. For example, X3DH may use 3 or 4 DH shared secrets concatenated with each other as the KDF input, while PQXDH concatenates either 3 DH and 1 KEM secret, or 4 DH and 1 KEM secret. Within PQXDH, the <code>info</code> field prevents confusions, but there could still theoretically be a cross-protocol attack between PQXDH (3DH+SS) and X3DH (4DH) depending on what info field the application chooses in X3DH, since the X3DH specification does not mandate the contents of its <code>info</code> fields.</p>
 <p>This is another interesting instance where the composition of two protocols can potentially result in attacks even if both protocols are individually secure.</p>
 <h3 id="kem-re-encapsulation-attack">KEM Re-Encapsulation Attack</h3>
-<p>We show that when using an IND-CCA secure public key encryption scheme to build an IND-CCA secure KEM, an attacker can make two parties compute the same key, even though both used a distinct <code>PQPK</code>, as soon as only one of the <code>PQPK</code> was compromised.</p>
+<p>We show that when using an IND-CCA secure public key encryption scheme to build an IND-CCA secure KEM, an attacker can make two parties compute the same key, even though both used a distinct <code>PQPK</code>, as soon as only one of the <code>PQPK</code> was compromised.
+This attack is a new attack in the class of re-encapsulation attacks as introduced by <a href="https://eprint.iacr.org/2023/1933">Cremers, Dax, and Medinger</a>.</p>
 <p>Consider the following execution:</p>
 <ol>
 <li>An attacker is able to compromise some <code>PQPK</code> of responder B, while another <code>PQPK2</code> of the same responder is uncompromised.</li>
