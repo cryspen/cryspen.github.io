@@ -169,7 +169,7 @@
     
     <a class="navbar-brand d-flex align-items-center" href="/post">
       
-  <img class="" src="https://cryspen.com/images/blog-logo.png" alt="images/blog-logo.png" width="3875" height="558">
+  <img class="" src="https://cryspen.com/images/blog-logo.png" alt="/images/blog-logo.png" width="3875" height="558">
 
 
     </a>
@@ -248,7 +248,7 @@
       <div class="col-12 d-flex justify-content-center">
         <div class="blog-content fs-6"><!-- _Karthikeyan Bhargavan ([Cryspen]), Charlie Jacomme ([Inria Paris](https://www.inria.fr/en/inria-paris-centre)), Franziskus Kiefer ([Cryspen]) and Rolfe Schmidt ([Signal](https://signal.org/))_ -->
 <p>Signal recently <a href="https://signal.org/docs/specifications/pqxdh/">published</a> a new, post-quantum secure, version of their <a href="https://signal.org/docs/specifications/x3dh/">X3DH</a> protocol called <a href="https://signal.org/docs/specifications/pqxdh/">PQXDH</a>. As with any new cryptographic protocol, it is important to precisely analyse its security properties, especially for something as important as Signal.</p>
-<p>In this blog post we give an overview of PQXDH and describe how we modeled its security using two formal verification tools (<a href="https://bblanche.gitlabpages.inria.fr/CryptoVerif/">ProVerif</a> and <a href="https://bblanche.gitlabpages.inria.fr/proverif/">CryptoVerif</a>). We detail some issues we found, and how we, a mix of Inria researchers, Cryspen researchers and Signal developers, worked together to improve the PQXDH specification.</p>
+<p>In this blog post we give an overview of PQXDH and describe how we modeled its security using two formal verification tools (<a href="https://bblanche.gitlabpages.inria.fr/proverif/">ProVerif</a> and <a href="https://bblanche.gitlabpages.inria.fr/CryptoVerif/">CryptoVerif</a>). We detail some issues we found, and how we, a mix of Inria researchers, Cryspen researchers and Signal developers, worked together to improve the PQXDH specification.</p>
 <p>First and most important: we did not find any serious issues in the design of the protocol. Nonetheless, there were a few imprecisions and potential pitfalls that the analysis pointed out:</p>
 <ul>
 <li>A potential public key encoding confusion attack between Diffie-Hellman keys and PQ KEM keys, which could theoretically break the security of PQXDH, and also (surprisingly) of X3DH. We verified that this attack was impossible to exploit in the current Signal implementation.</li>
@@ -272,7 +272,7 @@ Note that the fourth <code>DH4</code> may be omitted if no curve one-time prekey
 <p>The initiator (A) retrieves the responder&rsquo;s prekey bundle from the server, containing the responder&rsquo;s (B) signed post-quantum public key (either a one-time key <code>PQOPK_B</code> or a last-resort key <code>PQSPK_B</code>), signed curve prekey <code>SPK_B</code>, and an optional one-time curve prekey <code>OPK_B</code>. A verifies the signatures using B&rsquo;s identity public key <code>IPK_B</code>, generates an ephemeral curve key <code>ESK_A</code>, and feeds its private keys and all of B&rsquo;s public keys to PQXDH, which generates with a key derivation based on several curve computations and an additional KEM computation an AEAD encryption key <code>SK</code> that is used to encrypt the first application message from A to B.</p>
 <p>At the other end, upon receiving the encrypted PQXDH message, the responder B passes in its own private keys and A&rsquo;s identity public key <code>IPK_A</code> to PQXDH, which proceeds to generate <code>SK</code>, verifies the incoming message, and decrypts the first application message from A.</p>
 <h2 id="some-background-on-formal-verification">Some Background on Formal Verification</h2>
-<p>Formal verification tools like <a href="https://bblanche.gitlabpages.inria.fr/CryptoVerif/">ProVerif</a> and <a href="https://bblanche.gitlabpages.inria.fr/proverif/">CryptoVerif</a> aim to provide strong security guarantees for cryptographic protocols by building machine-checkable security proofs.</p>
+<p>Formal verification tools like <a href="https://bblanche.gitlabpages.inria.fr/proverif/">ProVerif</a> and <a href="https://bblanche.gitlabpages.inria.fr/CryptoVerif/">CryptoVerif</a> aim to provide strong security guarantees for cryptographic protocols by building machine-checkable security proofs.</p>
 <p>ProVerif works in an abstract model of cryptography, sometimes called the symbolic or Dolev-Yao model, which treats cryptographic primitives as symbolic functions, abstracting away from the precise treatment of probabilities in cryptographic assumptions. ProVerif is very efficient and fully automated, and it allows users to quickly analyse protocols in many scenarios and search for potential attacks.</p>
 <p>CryptoVerif formalises and partially automates classical cryptographic proof techniques, where we can obtain security under common cryptographic notions such as IND-CCA or UF-CMA. Thanks to a recent extension in [PQCV], CryptoVerif also allows us to analyse protocols against passive quantum attackers, which is especially valuable in a setting like PQXDH, where the protocol is designed to defend against store-now-decrypt-later attacks.</p>
 <h2 id="formal-modeling">Formal Modeling</h2>
