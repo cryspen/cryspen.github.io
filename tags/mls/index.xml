@@ -6,8 +6,15 @@
     <description>Recent content in MLS on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/tags/mls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post-Quantum Group Messaging</title>
+      <link>https://cryspen.com/post/pq-mls/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/pq-mls/</guid>
+      <description>With multiple post-quantum cryptographic algorithms (ML-KEM, ML-DSA) nearing standardization, enterprises, research groups, and standards bodies have started investigating what post-quantum secure protocols should look like and what properties they should satisfy.</description>
+    </item>
     <item>
       <title>Internet Defense Prize 2023</title>
       <link>https://cryspen.com/post/internet-defense-prize-2023/</link>
