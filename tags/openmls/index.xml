@@ -6,8 +6,15 @@
     <description>Recent content in OpenMLS on Cryspen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/tags/openmls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post-Quantum OpenMLS</title>
+      <link>https://cryspen.com/post/pq-openmls/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/pq-openmls/</guid>
+      <description>OpenMLS now offers security against harvest-now-decrypt-later (HNDL) quantum adversaries.&#xA;In #1546 we merged support for the X-Wing KEM draft, which is an early draft for securely combining elliptic-curve-based Diffie-Hellman with ML-KEM.</description>
+    </item>
     <item>
       <title>Post-Quantum Group Messaging</title>
       <link>https://cryspen.com/post/pq-mls/</link>
