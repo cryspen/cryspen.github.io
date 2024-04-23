@@ -3,16 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cryspen.com/</loc>
-    <lastmod>2024-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/</loc>
-    <lastmod>2024-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/post/rwc2024/</loc>
+    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/hax/</loc>
+    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/index/</loc>
-    <lastmod>2024-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/mls/</loc>
-    <lastmod>2024-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/pq/</loc>
+    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/</loc>
+    <lastmod>2024-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/openmls/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
@@ -20,17 +32,8 @@
     <loc>https://cryspen.com/post/pq-openmls/</loc>
     <lastmod>2024-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cryspen.com/tags/pq/</loc>
-    <lastmod>2024-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/</loc>
-    <lastmod>2024-04-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://cryspen.com/post/pq-mls/</loc>
     <lastmod>2024-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/hax/</loc>
-    <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/libcrux/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>

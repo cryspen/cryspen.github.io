@@ -4,10 +4,17 @@
     <title>PQ on Cryspen</title>
     <link>https://cryspen.com/tags/pq/</link>
     <description>Recent content in PQ on Cryspen</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/tags/pq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conference Talks</title>
+      <link>https://cryspen.com/post/rwc2024/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/rwc2024/</guid>
+      <description>Cryspen attended a number of conference in April and March. Here is a list of all slides and videos.&#xA;We will update links when more resources become available.</description>
+    </item>
     <item>
       <title>Post-Quantum OpenMLS</title>
       <link>https://cryspen.com/post/pq-openmls/</link>
