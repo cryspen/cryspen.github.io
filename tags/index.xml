@@ -4,9 +4,9 @@
     <title>Tags on Cryspen</title>
     <link>https://cryspen.com/tags/</link>
     <description>Recent content in Tags on Cryspen</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hax</title>
@@ -20,6 +20,13 @@
       <link>https://cryspen.com/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ProVerif</title>
+      <link>https://cryspen.com/tags/proverif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/tags/proverif/</guid>
       <description></description>
     </item>
     <item>
