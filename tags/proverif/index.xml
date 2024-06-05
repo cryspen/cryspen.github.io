@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ProVerif on Cryspen</title>
+    <link>https://cryspen.com/tags/proverif/</link>
+    <description>Recent content in ProVerif on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/proverif/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptographic protocol verification with hax</title>
+      <link>https://cryspen.com/post/hax-pv/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/hax-pv/</guid>
+      <description>This blog post details an example of how to use our hax toolchain for verifying the security of cryptographic protocol implementations written in Rust.</description>
+    </item>
+  </channel>
+</rss>
