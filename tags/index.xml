@@ -6,20 +6,34 @@
     <description>Recent content in Tags on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bertie</title>
-      <link>https://cryspen.com/tags/bertie/</link>
-      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/bertie/</guid>
+      <title>Hacspec</title>
+      <link>https://cryspen.com/tags/hacspec/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/tags/hacspec/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hax</title>
+      <link>https://cryspen.com/tags/hax/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/tags/hax/</guid>
       <description></description>
     </item>
     <item>
       <title>Index</title>
       <link>https://cryspen.com/tags/index/</link>
-      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bertie</title>
+      <link>https://cryspen.com/tags/bertie/</link>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/tags/bertie/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +55,6 @@
       <link>https://cryspen.com/tags/tls/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/tags/tls/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hax</title>
-      <link>https://cryspen.com/tags/hax/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/hax/</guid>
       <description></description>
     </item>
     <item>
@@ -111,13 +118,6 @@
       <link>https://cryspen.com/tags/services/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://cryspen.com/tags/services/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hacspec</title>
-      <link>https://cryspen.com/tags/hacspec/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/hacspec/</guid>
       <description></description>
     </item>
     <item>

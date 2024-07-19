@@ -6,8 +6,15 @@
     <description>Recent content in Hax on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/tags/hax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking New Possibilities</title>
+      <link>https://cryspen.com/post/hax-sandbox/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/hax-sandbox/</guid>
+      <description>We have been developing the hax toolchain over the last two years, in collaboration with research teams at Inria and the University of Aarhus.</description>
+    </item>
     <item>
       <title>Cryptographic protocol verification with hax</title>
       <link>https://cryspen.com/post/hax-pv/</link>

@@ -3,15 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cryspen.com/</loc>
-    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/</loc>
-    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cryspen.com/tags/bertie/</loc>
-    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
+    <loc>https://cryspen.com/tags/hacspec/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/hax/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/index/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/post/hax-sandbox/</loc>
+    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/bertie/</loc>
     <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/kyber/</loc>
@@ -23,16 +35,10 @@
     <loc>https://cryspen.com/post/pq-bertie/</loc>
     <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cryspen.com/tags/</loc>
-    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://cryspen.com/tags/tls/</loc>
     <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/hax-pv/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/hax/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/proverif/</loc>
@@ -84,9 +90,6 @@
     <lastmod>2023-10-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/cyber-campus-hax/</loc>
-    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/hacspec/</loc>
     <lastmod>2023-09-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/atlas/</loc>
