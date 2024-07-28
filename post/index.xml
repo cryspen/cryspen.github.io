@@ -6,8 +6,15 @@
     <description>Recent content on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryspen @ FMCP 2024</title>
+      <link>https://cryspen.com/post/fmcp/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/fmcp/</guid>
+      <description>The US National Institute of Standards and Technology (NIST) publishes a number of important cryptographic standards (including upcoming ones for post-quantum cryptography), and runs the cryptographic algorithm and module validation programs that validate and issue certificates to cryptographic libraries.</description>
+    </item>
     <item>
       <title>Unlocking New Possibilities</title>
       <link>https://cryspen.com/post/hax-sandbox/</link>
