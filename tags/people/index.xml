@@ -6,8 +6,15 @@
     <description>Recent content in People on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryspen Welcomes Maxime</title>
+      <link>https://cryspen.com/post/welcome_maxime/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/welcome_maxime/</guid>
+      <description>We&amp;rsquo;re thrilled to announce that Maxime Buyse has joined the Cryspen team as a Formal Verification Engineer! 🎉&#xA;Maxime is a whiz when it comes to formal methods, software verification, compilers, and functional programming.</description>
+    </item>
     <item>
       <title>Welcome Jan &amp; Lucas</title>
       <link>https://cryspen.com/post/welcome_jan_lucas/</link>

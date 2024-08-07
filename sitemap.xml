@@ -3,24 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cryspen.com/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cryspen.com/post/pqc-iot-announce/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
+    <loc>https://cryspen.com/post/welcome_maxime/</loc>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/index/</loc>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/people/</loc>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/</loc>
+    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/post/pqc-iot-announce/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/iot/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/pq/</loc>
-    <lastmod>2024-08-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/</loc>
     <lastmod>2024-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/fmcp/</loc>
@@ -82,9 +88,6 @@
   </url><url>
     <loc>https://cryspen.com/post/ml-kem-implementation/</loc>
     <lastmod>2024-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/people/</loc>
-    <lastmod>2024-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/welcome_jan_lucas/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
