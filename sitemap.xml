@@ -3,21 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cryspen.com/</loc>
-    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/</loc>
-    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/post/announcement-playground/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/hax/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/index/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cryspen.com/tags/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/welcome_maxime/</loc>
     <lastmod>2024-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cryspen.com/tags/index/</loc>
-    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://cryspen.com/tags/people/</loc>
-    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/</loc>
     <lastmod>2024-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/post/pqc-iot-announce/</loc>
@@ -33,9 +39,6 @@
     <lastmod>2024-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/hacspec/</loc>
-    <lastmod>2024-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cryspen.com/tags/hax/</loc>
     <lastmod>2024-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cryspen.com/tags/libcrux/</loc>

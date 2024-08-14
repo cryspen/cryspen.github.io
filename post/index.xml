@@ -6,8 +6,15 @@
     <description>Recent content on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cryspen.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing the hax Playground</title>
+      <link>https://cryspen.com/post/announcement-playground/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/announcement-playground/</guid>
+      <description>We&amp;rsquo;re proud to announce the hax playground! Inspired by the Rust Playground, the hax playground allows you to play with hax directly in your web browser!</description>
+    </item>
     <item>
       <title>Cryspen Welcomes Maxime</title>
       <link>https://cryspen.com/post/welcome_maxime/</link>

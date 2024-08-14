@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
   
-  <title>Cryspen  | High Assurance Software Toolchain </title>
+  <title>Cryspen  | Announcing the hax Playground </title>
 
   
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <meta name="description" content="High Assurance Cryptography" />
+  <meta name="description" content="Our Rust verification framework now has a web playground!" />
 
   
   
@@ -48,18 +48,20 @@
   
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="High Assurance Software Toolchain">
-  <meta name="twitter:description" content="Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust, development environment and verification toolchain for security critical software.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://cryspen.com/images/posts/hax-playground-cover.jpg">
+  <meta name="twitter:title" content="Announcing the hax Playground">
+  <meta name="twitter:description" content="Our Rust verification framework now has a web playground!">
       <meta name="twitter:site" content="@https://twitter.com/CryspenHQ">
 
 
-  <meta itemprop="name" content="High Assurance Software Toolchain">
-  <meta itemprop="description" content="Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust, development environment and verification toolchain for security critical software.">
-  <meta itemprop="datePublished" content="2023-01-01T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2023-01-01T00:00:00+00:00">
-  <meta itemprop="wordCount" content="87">
-  <meta itemprop="keywords" content="Circus,Hax">
+  <meta itemprop="name" content="Announcing the hax Playground">
+  <meta itemprop="description" content="Our Rust verification framework now has a web playground!">
+  <meta itemprop="datePublished" content="2024-08-14T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-08-14T00:00:00+00:00">
+  <meta itemprop="wordCount" content="563">
+  <meta itemprop="image" content="https://cryspen.com/images/posts/hax-playground-cover.jpg">
+  <meta itemprop="keywords" content="Hax">
 
 
 
@@ -170,12 +172,9 @@
   <body><nav class="navbar navbar-expand-xl navbar-light bg-light py-4">
   <div class="container">
     
-    <a
-      class="navbar-brand d-flex align-items-center"
-      href="https://cryspen.com/"
-    >
+    <a class="navbar-brand d-flex align-items-center" href="/post">
       
-  <img class="" src="https://cryspen.com/images/logo.png" alt="/images/logo.png" width="2461" height="558">
+  <img class="" src="https://cryspen.com/images/blog-logo.png" alt="/images/blog-logo.png" width="3875" height="558">
 
 
     </a>
@@ -237,223 +236,125 @@
     <div class="row justify-content-center">
       <div class="col-12">
         
-        <h2 class="display-1 fw-bold text-center text-primary pb-3">High Assurance Software Toolchain</h2>
+        <h2 class="display-1 fw-bold text-center text-primary pb-3">Announcing the hax Playground</h2>
         
         
         
         
-        
+        <p class="text-black-61 text-center pb-3"> 
+          Lucas Franceschino
+          <br/>
+          August 14, 2024
+        </p>
         
       </div>
     </div>
     <div class="row pb-5">
       <div class="col-12 d-flex justify-content-center">
-        <div class="blog-content fs-6"><p>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust,
-development environment and verification toolchain for security critical software.</p>
-<div class="m-3 flex-column justify-content-center">
-   
-  <img class="img-fluid" src="https://cryspen.com/images/circus.png" alt="/images/circus.png" width="1917" height="1619">
+        <div class="blog-content fs-6"><p>We&rsquo;re proud to announce the <a href="https://hax-playground.cryspen.com/">hax
+playground</a>! Inspired by the
+<a href="https://play.rust-lang.org/">Rust Playground</a>, the hax playground
+allows you to play with hax directly in your web browser!</p>
+<p>
+  <div class="alert alert-primary text-center my-4" role="alert">
+    Try it now on <a href="https://hax-playground.cryspen.com/">https://hax-playground.cryspen.com</a> 🚀
+  </div>
+</p>
 
- 
+<p>The hax playground provides a first glimpse at Cryspen&rsquo;s upcoming
+verification workbench!
+From the playground, you can:</p>
+<ul>
+<li>Run the hax toolchain on your Rust code to see the F*, Coq or ProVerif output</li>
+<li>Run the F* typechecker to verify the generated F* code</li>
+<li>Inspect Rust internal ASTs interactively</li>
+<li>Share snippets with others</li>
+<li>Submit issues to the hax repository on GitHub</li>
+</ul>
+<img src="diagram.png" class="py-4">
+<p>We believe such a playground can be a great and useful tool, whether
+it be for newcomers, for people that already use hax, for hax
+developers, but also for people interested in Rust in general!</p>
+<p>We hope to make hax more accessible and nicer to use with this web
+playground, please try it, play with it, and give us feedback!</p>
+<h2 id="-how-to-prove-rust-code-with-f-online">💥 How to prove Rust code with F*, online</h2>
+<p>Just type some Rust code and click &ldquo;Extract &amp; Verify F*&rdquo;. You can then
+play with the resulting F* code, edit it, typecheck it.</p>
+<p>Below is an example of a simple proof conducted entirely in Rust,
+where we prove that a function that increments a <code>u8</code> integer by one
+never panics. Writing such a naive <code>incr</code> function, F* complains
+about a value not being in range. That&rsquo;s legitimate: adding one to the
+value <code>255</code> might overflow! Thus, we add a pre-condition to the
+function (the <code>requires</code> clause), and we&rsquo;re able to prove our function
+always returns the expected result! 🎉</p>
+<div style="text-align: right; font-size: 70%;">
+    
+    <video width="100%" autoplay loop>
+        <source src="fstar-proof.webm" type="video/webm" />
+        <source src="fstar-proof.mp4" type="video/mp4" />
+    </video>
+
+    <a href="https://hax-playground.cryspen.com/#fstar/latest-main/gist=d35f8bc5625f0ad70c4cd9a898235cb4">Open in the playground ↗</a>
 </div>
 
-<p>The toolchain supports security analysis and full functional verification of
-production software.
-Software engineers, cryptographers, and proof engineers work together to
-implement the software and formalise critical properties.
-Once verification is complete, the toolchain guarantees clean, well-documented,
-deployable code in Rust, C, or WebAssembly.
-Conversely, if an attack or bug is found, it is presented back to the cryptography
-or software engineer.</p>
-<br/>
-<a class="btn btn-outline-primary px-4" href="mailto:info@cryspen.com">Get in touch</a>
+<h2 id="-share-it">🙌 Share it!</h2>
+<p>You can create shareable links to the code you wrote in the
+playground, which include the exact hax commit you used as well: just
+click the &ldquo;Share&rdquo; button in the top-right corner. From there, you get
+a link you can share. You can also open the snippet in the Rust
+playground, and if something is off with hax, in one click you can
+open an issue in hax repository on GitHub.</p>
+<div style="text-align: right; font-size: 70%;">
+    
+    <video width="100%" autoplay loop>
+        <source src="share.webm" type="video/webm" />
+        <source src="share.mp4" type="video/mp4" />
+    </video>
 
+    <a href="https://hax-playground.cryspen.com/#fstar/latest-main/gist=0fb18eccd2406a33075ee78fa2ad51d1">Open in the playground ↗</a>
+</div>
+
+<h2 id="-advanced-usage-inspect-the-rust-asts-thir-and-mir">🧐 Advanced Usage: Inspect the Rust ASTs (THIR and MIR)</h2>
+<p>The hax frontend extracts abstract syntax trees (AST) from the Rust
+compiler, and advanced users may want to explore those ASTs to
+understand how the Rust compiler or hax itself transforms the source
+code.</p>
+<p>The Rust compiler aims at being fast, those ASTs are computed lazily,
+on-demand, making them hard to explore. The hax frontend defines its
+own versions of the THIR and MIR AST, removing a plethora of
+indirections (i.e. instead of a unique ID to an expression, you get the
+expression), and adding useful information (trait resolution for
+instance).</p>
+<p>The frontend is currently used both by
+<a href="https://github.com/hacspec/hax">hax</a> and <a href="https://github.com/AeneasVerif/">Charon /
+Aeneas</a>: we want it to be as
+reusable as possible. Thus, the frontend might be useful to others
+that are writing tools operating on Rust code.</p>
+<p>To have a glimpse of what the frontend of hax can do, just right-click
+on any Rust chunk of code and inspect an enriched THIR or MIR abstract
+syntax tree!</p>
+<p>In the video below we demonstrate that browsing the AST for a
+subexpression is only one right-click away:</p>
+<div style="text-align: right; font-size: 70%;">
+    
+    <video width="100%" autoplay loop/>
+        <source src="explore-thir.webm" type="video/webm" />
+        <source src="explore-thir.mp4" type="video/mp4" />
+    </video>
+
+    <a href="https://hax-playground.cryspen.com/#fstar/latest-main/gist=5554b8fc9c982e811ebd982fdca7229f">Open in the playground ↗</a>
+</div>
+
+<h2 id="-try-it-out">👉 Try it out!</h2>
+<p><a href="https://hax-playground.cryspen.com/">Go and use it</a>, ask us about it, give us feedback, and stay tuned for
+more features on the playground and the workbench!</p>
 </div>
       </div>
     </div>
     <div class="row pb-5"></div>
   </div>
 </section>
- 
-<section class="section blog-list py-5 bg-red-light">
-  <div class="container">
-    <div class="row justify-content-center pb-5">
-      <div class="col-12 col-xl-6">
-        <h2 class="fs-1 fw-bold text-center text-primary pb-3">
-          Related Posts
-        </h2>
-      </div>
-    </div>
-     
-    <div class="row g-4 pb-5">
-          
-    </div>
-    <div class="row pb-5"></div>
-    
-    <div class="row g-4 pb-5">
-       
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/announcement-playground/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/hax-playground-cover.jpg" alt="/images/posts/hax-playground-cover.jpg" width="829" height="517">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Announcing the hax Playground</h5>
-            <p class="card-text text-black-61">We’re proud to announce the hax playground! Inspired by the Rust Playground, the hax playground allows you to play with hax directly in your web browser!</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/fmcp/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/NCCoE-Building.png" alt="/images/posts/NCCoE-Building.png" width="901" height="507">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Cryspen @ FMCP 2024</h5>
-            <p class="card-text text-black-61">The US National Institute of Standards and Technology (NIST) publishes a number of important cryptographic standards (including upcoming ones for post-quantum cryptography), and runs the cryptographic algorithm and module validation programs that validate and issue certificates to cryptographic libraries.</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/hax-sandbox/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/hax-sandbox.jpg" alt="/images/posts/hax-sandbox.jpg" width="1280" height="853">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Unlocking New Possibilities</h5>
-            <p class="card-text text-black-61">We have been developing the hax toolchain over the last two years, in collaboration with research teams at Inria and the University of Aarhus.</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/hax-pv/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/pexels-punchbrandstock-2249429.jpg" alt="/images/posts/pexels-punchbrandstock-2249429.jpg" width="5472" height="3648">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Cryptographic protocol verification with hax</h5>
-            <p class="card-text text-black-61">This blog post details an example of how to use our hax toolchain for verifying the security of cryptographic protocol implementations written in Rust.</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/rwc2024/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/conference-talks-2024.jpg" alt="/images/posts/conference-talks-2024.jpg" width="1920" height="1280">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Conference Talks</h5>
-            <p class="card-text text-black-61">Cryspen attended a number of conference in April and March. Here is a list of all slides and videos.
-We will update links when more resources become available.</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/ml-kem-verification/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/cut-crystal.jpeg" alt="/images/posts/cut-crystal.jpeg" width="1280" height="960">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Verifying Libcrux&#39;s ML-KEM</h5>
-            <p class="card-text text-black-61">In a recent blog post, we described Cryspen’s new Rust implementation of ML-KEM in Rust, and talked about how our high-assurance development methodology helped us find a new timing bug in various other Kyber implementations.</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/cyber-campus-hax/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/circus-cyber-campus.png" alt="/images/posts/circus-cyber-campus.png" width="983" height="491">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Announcing Campus Cyber Circus Project</h5>
-            <p class="card-text text-black-61">🎉 We’re excited to announce that Cryspen partnered with Inria on a transfer project to build a new integrated development and verification environment (IDVE).</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/scrambledb/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/posts/pexels-egor-kamelev-751689.jpeg" alt="/images/posts/pexels-egor-kamelev-751689.jpeg" width="1279" height="828">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Specifying Oblivious Pseudonymization</h5>
-            <p class="card-text text-black-61">In this blog post we announce an executable specification in the hacspec specification language for the ScrambleDB pseudonymization system, developed by Cryspen as part of the BMBF ATLAS project.</p>
-          </div>
-        </a>
-      </div>
-        
-      <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="https://cryspen.com/post/prarie-and-atlas/">
-          <div class="aspect-ratio-62-5">
-             
-  <img class="" src="https://cryspen.com/images/ai-pic.jpeg" alt="/images/ai-pic.jpeg" width="800" height="733">
-
- 
-          </div>
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Prairie and Atlas</h5>
-            <p class="card-text text-black-61">With the widespread adoption and deployment of machine learning across enterprises, ever-increasing amounts of data are being collected, stored, communicated, combined, and computed over by sophisticated algorithms.</p>
-          </div>
-        </a>
-      </div>
-       
-    </div>
-    <div class="row pb-5">
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/hax/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/hax/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/tags/hax/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul></div>
-    
-  </div>
-</section>
- <footer class="shared footer bg-red-light py-5">
+  <footer class="shared footer bg-red-light py-5">
   <div class="container">
     <div class="row pb-5">
       <div class="col-12 col-xl-4 text-center text-xl-start pb-4">
