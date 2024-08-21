@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Circus on Cryspen</title>
-    <link>http://localhost:1313/tags/circus/</link>
+    <link>https://cryspen.com/tags/circus/</link>
     <description>Recent content in Circus on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/circus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cryspen.com/tags/circus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>High Assurance Software Toolchain</title>
-      <link>http://localhost:1313/circus/</link>
+      <link>https://cryspen.com/circus/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/circus/</guid>
+      <guid>https://cryspen.com/circus/</guid>
       <description>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust, development environment and verification toolchain for security critical software.</description>
     </item>
     <item>
       <title>High Assurance Software Toolchain</title>
-      <link>http://localhost:1313/hax/</link>
+      <link>https://cryspen.com/hax/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hax/</guid>
+      <guid>https://cryspen.com/hax/</guid>
       <description>With hax, you can achieve a new level of confidence in the safety, security, and reliability of your software.&#xA;Try it online Key benefits of Hax:</description>
     </item>
   </channel>

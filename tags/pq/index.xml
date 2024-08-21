@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PQ on Cryspen</title>
-    <link>http://localhost:1313/tags/pq/</link>
+    <link>https://cryspen.com/tags/pq/</link>
     <description>Recent content in PQ on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cryspen.com/tags/pq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formally Verified Post-Quantum Cryptography</title>
-      <link>http://localhost:1313/post/fospqc/</link>
+      <link>https://cryspen.com/post/fospqc/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/fospqc/</guid>
+      <guid>https://cryspen.com/post/fospqc/</guid>
       <description>The US National Institute of Standards and Technology (NIST) just released the first three standards for Post-Quantum KEMs (ML-KEM) and Signatures (ML-DSA, SLH-DSA).</description>
     </item>
     <item>
       <title>High Assurance IoT PQC</title>
-      <link>http://localhost:1313/post/pqc-iot-announce/</link>
+      <link>https://cryspen.com/post/pqc-iot-announce/</link>
       <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/pqc-iot-announce/</guid>
+      <guid>https://cryspen.com/post/pqc-iot-announce/</guid>
       <description>Together with our sister-company CryptoEng, we extend our libcrux cryptographic library with support for resource constrained IoT devices. Read their announcement here.</description>
     </item>
     <item>
       <title>Conference Talks</title>
-      <link>http://localhost:1313/post/rwc2024/</link>
+      <link>https://cryspen.com/post/rwc2024/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/rwc2024/</guid>
+      <guid>https://cryspen.com/post/rwc2024/</guid>
       <description>Cryspen attended a number of conference in April and March. Here is a list of all slides and videos.&#xA;We will update links when more resources become available.</description>
     </item>
     <item>
       <title>Post-Quantum OpenMLS</title>
-      <link>http://localhost:1313/post/pq-openmls/</link>
+      <link>https://cryspen.com/post/pq-openmls/</link>
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/pq-openmls/</guid>
+      <guid>https://cryspen.com/post/pq-openmls/</guid>
       <description>OpenMLS now offers security against harvest-now-decrypt-later (HNDL) quantum adversaries.&#xA;In #1546 we merged support for the X-Wing KEM draft, which is an early draft for securely combining elliptic-curve-based Diffie-Hellman with ML-KEM.</description>
     </item>
     <item>
       <title>Post-Quantum Group Messaging</title>
-      <link>http://localhost:1313/post/pq-mls/</link>
+      <link>https://cryspen.com/post/pq-mls/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/pq-mls/</guid>
+      <guid>https://cryspen.com/post/pq-mls/</guid>
       <description>With multiple post-quantum cryptographic algorithms (ML-KEM, ML-DSA) nearing standardization, enterprises, research groups, and standards bodies have started investigating what post-quantum secure protocols should look like and what properties they should satisfy.</description>
     </item>
   </channel>

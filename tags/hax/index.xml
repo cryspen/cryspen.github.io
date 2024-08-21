@@ -2,108 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hax on Cryspen</title>
-    <link>http://localhost:1313/tags/hax/</link>
+    <link>https://cryspen.com/tags/hax/</link>
     <description>Recent content in Hax on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hax/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cryspen @ Crypto 2024</title>
-      <link>http://localhost:1313/post/crypto2024/</link>
-      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/crypto2024/</guid>
-      <description>Crypto is the top international conference on cryptography and is held every year (since 1981) in Santa Barbara, California. This year, Crypto invited Karthikeyan Bhargavan, our Chief Research Scientist, to give a talk on the use of formal methods in cryptography.</description>
-    </item>
+    <lastBuildDate>Mon, 19 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/hax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formally Verified Post-Quantum Cryptography</title>
-      <link>http://localhost:1313/post/fospqc/</link>
+      <link>https://cryspen.com/post/fospqc/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/fospqc/</guid>
+      <guid>https://cryspen.com/post/fospqc/</guid>
       <description>The US National Institute of Standards and Technology (NIST) just released the first three standards for Post-Quantum KEMs (ML-KEM) and Signatures (ML-DSA, SLH-DSA).</description>
     </item>
     <item>
       <title>Announcing the hax Playground</title>
-      <link>http://localhost:1313/post/announcement-playground/</link>
+      <link>https://cryspen.com/post/announcement-playground/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/announcement-playground/</guid>
+      <guid>https://cryspen.com/post/announcement-playground/</guid>
       <description>We&amp;rsquo;re proud to announce the hax playground! Inspired by the Rust Playground, the hax playground allows you to play with hax directly in your web browser!</description>
     </item>
     <item>
       <title>Cryspen @ FMCP 2024</title>
-      <link>http://localhost:1313/post/fmcp/</link>
+      <link>https://cryspen.com/post/fmcp/</link>
       <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/fmcp/</guid>
+      <guid>https://cryspen.com/post/fmcp/</guid>
       <description>The US National Institute of Standards and Technology (NIST) publishes a number of important cryptographic standards (including upcoming ones for post-quantum cryptography), and runs the cryptographic algorithm and module validation programs that validate and issue certificates to cryptographic libraries.</description>
     </item>
     <item>
       <title>Unlocking New Possibilities</title>
-      <link>http://localhost:1313/post/hax-sandbox/</link>
+      <link>https://cryspen.com/post/hax-sandbox/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hax-sandbox/</guid>
+      <guid>https://cryspen.com/post/hax-sandbox/</guid>
       <description>We have been developing the hax toolchain over the last two years, in collaboration with research teams at Inria and the University of Aarhus.</description>
     </item>
     <item>
       <title>Cryptographic protocol verification with hax</title>
-      <link>http://localhost:1313/post/hax-pv/</link>
+      <link>https://cryspen.com/post/hax-pv/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hax-pv/</guid>
+      <guid>https://cryspen.com/post/hax-pv/</guid>
       <description>This blog post details an example of how to use our hax toolchain for verifying the security of cryptographic protocol implementations written in Rust.</description>
     </item>
     <item>
       <title>Conference Talks</title>
-      <link>http://localhost:1313/post/rwc2024/</link>
+      <link>https://cryspen.com/post/rwc2024/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/rwc2024/</guid>
+      <guid>https://cryspen.com/post/rwc2024/</guid>
       <description>Cryspen attended a number of conference in April and March. Here is a list of all slides and videos.&#xA;We will update links when more resources become available.</description>
     </item>
     <item>
       <title>Verifying Libcrux&#39;s ML-KEM</title>
-      <link>http://localhost:1313/post/ml-kem-verification/</link>
+      <link>https://cryspen.com/post/ml-kem-verification/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/ml-kem-verification/</guid>
+      <guid>https://cryspen.com/post/ml-kem-verification/</guid>
       <description>In a recent blog post, we described Cryspen&amp;rsquo;s new Rust implementation of ML-KEM in Rust, and talked about how our high-assurance development methodology helped us find a new timing bug in various other Kyber implementations.</description>
     </item>
     <item>
       <title>Announcing Campus Cyber Circus Project</title>
-      <link>http://localhost:1313/post/cyber-campus-hax/</link>
+      <link>https://cryspen.com/post/cyber-campus-hax/</link>
       <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/cyber-campus-hax/</guid>
+      <guid>https://cryspen.com/post/cyber-campus-hax/</guid>
       <description>🎉 We&amp;rsquo;re excited to announce that Cryspen partnered with Inria on a transfer project to build a new integrated development and verification environment (IDVE).</description>
     </item>
     <item>
       <title>Specifying Oblivious Pseudonymization</title>
-      <link>http://localhost:1313/post/scrambledb/</link>
+      <link>https://cryspen.com/post/scrambledb/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/scrambledb/</guid>
+      <guid>https://cryspen.com/post/scrambledb/</guid>
       <description>In this blog post we announce an executable specification in the hacspec specification language for the ScrambleDB pseudonymization system, developed by Cryspen as part of the BMBF ATLAS project.</description>
     </item>
     <item>
       <title>Prairie and Atlas</title>
-      <link>http://localhost:1313/post/prarie-and-atlas/</link>
+      <link>https://cryspen.com/post/prarie-and-atlas/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/prarie-and-atlas/</guid>
+      <guid>https://cryspen.com/post/prarie-and-atlas/</guid>
       <description>With the widespread adoption and deployment of machine learning across enterprises, ever-increasing amounts of data are being collected, stored, communicated, combined, and computed over by sophisticated algorithms.</description>
     </item>
     <item>
       <title>Cryspen @ RWC 2023</title>
-      <link>http://localhost:1313/post/rwc-2023/</link>
+      <link>https://cryspen.com/post/rwc-2023/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/rwc-2023/</guid>
+      <guid>https://cryspen.com/post/rwc-2023/</guid>
       <description>At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.</description>
     </item>
     <item>
       <title>High Assurance Software Toolchain</title>
-      <link>http://localhost:1313/circus/</link>
+      <link>https://cryspen.com/circus/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/circus/</guid>
+      <guid>https://cryspen.com/circus/</guid>
       <description>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust, development environment and verification toolchain for security critical software.</description>
     </item>
     <item>
       <title>High Assurance Software Toolchain</title>
-      <link>http://localhost:1313/hax/</link>
+      <link>https://cryspen.com/hax/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hax/</guid>
+      <guid>https://cryspen.com/hax/</guid>
       <description>With hax, you can achieve a new level of confidence in the safety, security, and reliability of your software.&#xA;Try it online Key benefits of Hax:</description>
     </item>
   </channel>

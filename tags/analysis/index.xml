@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Analysis on Cryspen</title>
-    <link>http://localhost:1313/tags/analysis/</link>
+    <link>https://cryspen.com/tags/analysis/</link>
     <description>Recent content in Analysis on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cryspen.com/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Analysis of Signal&#39;s PQXDH</title>
-      <link>http://localhost:1313/post/pqxdh/</link>
+      <link>https://cryspen.com/post/pqxdh/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/pqxdh/</guid>
+      <guid>https://cryspen.com/post/pqxdh/</guid>
       <description>Signal recently published a new, post-quantum secure, version of their X3DH protocol called PQXDH. As with any new cryptographic protocol, it is important to precisely analyse its security properties, especially for something as important as Signal.</description>
     </item>
   </channel>
