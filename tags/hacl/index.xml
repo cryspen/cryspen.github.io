@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HACL on Cryspen</title>
-    <link>https://cryspen.com/tags/hacl/</link>
+    <link>http://localhost:1313/tags/hacl/</link>
     <description>Recent content in HACL on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cryspen.com/tags/hacl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hacl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HACL</title>
-      <link>https://cryspen.com/hacl/</link>
+      <link>http://localhost:1313/hacl/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/hacl/</guid>
+      <guid>http://localhost:1313/hacl/</guid>
       <description>HACL is a set of formally verified cryptographic libraries in C, JavaScript, OCaml, and Rust. The libraries are based on the HACL* research project, originally developed by Inria and Microsoft Research.</description>
     </item>
     <item>
       <title>libcrux</title>
-      <link>https://cryspen.com/libcrux/</link>
+      <link>http://localhost:1313/libcrux/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/libcrux/</guid>
+      <guid>http://localhost:1313/libcrux/</guid>
       <description>Libcrux is a formally verified cryptographic library that brings together verified artifacts from different sources. It uses hacspec as a common language for the specifications underlying the correctness and security proofs.</description>
     </item>
     <item>
       <title>HACL Packages v0.6</title>
-      <link>https://cryspen.com/post/hacl-0_6/</link>
+      <link>http://localhost:1313/post/hacl-0_6/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hacl-0_6/</guid>
+      <guid>http://localhost:1313/post/hacl-0_6/</guid>
       <description>Today, we announce the first release of the HACL Packages libraries. 🎉&#xA;This release of HACL packages includes the first release of the HACL C library and a new release of the hacl-star OCaml bindings.</description>
     </item>
     <item>
       <title>HACL Packages</title>
-      <link>https://cryspen.com/post/introducing-hacl-packages/</link>
+      <link>http://localhost:1313/post/introducing-hacl-packages/</link>
       <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/introducing-hacl-packages/</guid>
+      <guid>http://localhost:1313/post/introducing-hacl-packages/</guid>
       <description>Earlier this year, Tezos and Nomadic Labs started to work with Cryspen to improve HACL* and ensure that it is a viable long-term solution for Tezos&#39; cryptographic needs.</description>
     </item>
   </channel>

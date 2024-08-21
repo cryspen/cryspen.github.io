@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>People on Cryspen</title>
-    <link>https://cryspen.com/tags/people/</link>
+    <link>http://localhost:1313/tags/people/</link>
     <description>Recent content in People on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cryspen.com/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/people/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cryspen Welcomes Maxime</title>
-      <link>https://cryspen.com/post/welcome_maxime/</link>
+      <link>http://localhost:1313/post/welcome_maxime/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/welcome_maxime/</guid>
+      <guid>http://localhost:1313/post/welcome_maxime/</guid>
       <description>We&amp;rsquo;re thrilled to announce that Maxime Buyse has joined the Cryspen team as a Formal Verification Engineer! 🎉&#xA;Maxime is a whiz when it comes to formal methods, software verification, compilers, and functional programming.</description>
     </item>
     <item>
       <title>Welcome Jan &amp; Lucas</title>
-      <link>https://cryspen.com/post/welcome_jan_lucas/</link>
+      <link>http://localhost:1313/post/welcome_jan_lucas/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/welcome_jan_lucas/</guid>
+      <guid>http://localhost:1313/post/welcome_jan_lucas/</guid>
       <description>📢 Exciting News! Cryspen is thrilled to announce the addition of two exceptional minds to our team: Dr. Lucas Franceschino and Jan Winkelmann.</description>
     </item>
     <item>
       <title>Welcome Jonas</title>
-      <link>https://cryspen.com/post/welcome_jonas/</link>
+      <link>http://localhost:1313/post/welcome_jonas/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/welcome_jonas/</guid>
+      <guid>http://localhost:1313/post/welcome_jonas/</guid>
       <description>📢 Exciting News! 🚀 We are thrilled to welcome Dr. Jonas Schneider-Bensch, to the Cryspen family as our newest R&amp;amp;D Cryptography Engineer!</description>
     </item>
   </channel>

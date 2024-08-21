@@ -2,241 +2,241 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cryspen</title>
-    <link>https://cryspen.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cryspen.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacspec</title>
+      <link>http://localhost:1313/tags/hacspec/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hacspec/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hax</title>
-      <link>https://cryspen.com/tags/hax/</link>
-      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/hax/</guid>
+      <link>http://localhost:1313/tags/hax/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hax/</guid>
       <description></description>
     </item>
     <item>
       <title>Index</title>
-      <link>https://cryspen.com/tags/index/</link>
-      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/index/</guid>
+      <link>http://localhost:1313/tags/index/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/index/</guid>
       <description></description>
     </item>
     <item>
       <title>Libcrux</title>
-      <link>https://cryspen.com/tags/libcrux/</link>
-      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/libcrux/</guid>
+      <link>http://localhost:1313/tags/libcrux/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/libcrux/</guid>
       <description></description>
     </item>
     <item>
       <title>PQ</title>
-      <link>https://cryspen.com/tags/pq/</link>
+      <link>http://localhost:1313/tags/pq/</link>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/pq/</guid>
+      <guid>http://localhost:1313/tags/pq/</guid>
       <description></description>
     </item>
     <item>
       <title>People</title>
-      <link>https://cryspen.com/tags/people/</link>
+      <link>http://localhost:1313/tags/people/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/people/</guid>
+      <guid>http://localhost:1313/tags/people/</guid>
       <description></description>
     </item>
     <item>
       <title>IoT</title>
-      <link>https://cryspen.com/tags/iot/</link>
+      <link>http://localhost:1313/tags/iot/</link>
       <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/iot/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hacspec</title>
-      <link>https://cryspen.com/tags/hacspec/</link>
-      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/hacspec/</guid>
+      <guid>http://localhost:1313/tags/iot/</guid>
       <description></description>
     </item>
     <item>
       <title>Bertie</title>
-      <link>https://cryspen.com/tags/bertie/</link>
+      <link>http://localhost:1313/tags/bertie/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/bertie/</guid>
+      <guid>http://localhost:1313/tags/bertie/</guid>
       <description></description>
     </item>
     <item>
       <title>Kyber</title>
-      <link>https://cryspen.com/tags/kyber/</link>
+      <link>http://localhost:1313/tags/kyber/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/kyber/</guid>
+      <guid>http://localhost:1313/tags/kyber/</guid>
       <description></description>
     </item>
     <item>
       <title>Post-Quantum</title>
-      <link>https://cryspen.com/tags/post-quantum/</link>
+      <link>http://localhost:1313/tags/post-quantum/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/post-quantum/</guid>
+      <guid>http://localhost:1313/tags/post-quantum/</guid>
       <description></description>
     </item>
     <item>
       <title>TLS</title>
-      <link>https://cryspen.com/tags/tls/</link>
+      <link>http://localhost:1313/tags/tls/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/tls/</guid>
+      <guid>http://localhost:1313/tags/tls/</guid>
       <description></description>
     </item>
     <item>
       <title>ProVerif</title>
-      <link>https://cryspen.com/tags/proverif/</link>
+      <link>http://localhost:1313/tags/proverif/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/proverif/</guid>
+      <guid>http://localhost:1313/tags/proverif/</guid>
       <description></description>
     </item>
     <item>
       <title>MLS</title>
-      <link>https://cryspen.com/tags/mls/</link>
+      <link>http://localhost:1313/tags/mls/</link>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/mls/</guid>
+      <guid>http://localhost:1313/tags/mls/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenMLS</title>
-      <link>https://cryspen.com/tags/openmls/</link>
+      <link>http://localhost:1313/tags/openmls/</link>
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/openmls/</guid>
+      <guid>http://localhost:1313/tags/openmls/</guid>
       <description></description>
     </item>
     <item>
       <title>Pqc</title>
-      <link>https://cryspen.com/tags/pqc/</link>
+      <link>http://localhost:1313/tags/pqc/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/pqc/</guid>
+      <guid>http://localhost:1313/tags/pqc/</guid>
       <description></description>
     </item>
     <item>
       <title>Analysis</title>
-      <link>https://cryspen.com/tags/analysis/</link>
+      <link>http://localhost:1313/tags/analysis/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/analysis/</guid>
+      <guid>http://localhost:1313/tags/analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Services</title>
-      <link>https://cryspen.com/tags/services/</link>
+      <link>http://localhost:1313/tags/services/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/services/</guid>
+      <guid>http://localhost:1313/tags/services/</guid>
       <description></description>
     </item>
     <item>
       <title>ATLAS</title>
-      <link>https://cryspen.com/tags/atlas/</link>
+      <link>http://localhost:1313/tags/atlas/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/atlas/</guid>
+      <guid>http://localhost:1313/tags/atlas/</guid>
       <description></description>
     </item>
     <item>
       <title>ScrambleDB</title>
-      <link>https://cryspen.com/tags/scrambledb/</link>
+      <link>http://localhost:1313/tags/scrambledb/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/scrambledb/</guid>
+      <guid>http://localhost:1313/tags/scrambledb/</guid>
       <description></description>
     </item>
     <item>
       <title>Pets</title>
-      <link>https://cryspen.com/tags/pets/</link>
+      <link>http://localhost:1313/tags/pets/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/pets/</guid>
+      <guid>http://localhost:1313/tags/pets/</guid>
       <description></description>
     </item>
     <item>
       <title>RFC</title>
-      <link>https://cryspen.com/tags/rfc/</link>
+      <link>http://localhost:1313/tags/rfc/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/rfc/</guid>
+      <guid>http://localhost:1313/tags/rfc/</guid>
       <description></description>
     </item>
     <item>
       <title>Circus</title>
-      <link>https://cryspen.com/tags/circus/</link>
+      <link>http://localhost:1313/tags/circus/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/circus/</guid>
+      <guid>http://localhost:1313/tags/circus/</guid>
       <description></description>
     </item>
     <item>
       <title>HACL</title>
-      <link>https://cryspen.com/tags/hacl/</link>
+      <link>http://localhost:1313/tags/hacl/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/hacl/</guid>
+      <guid>http://localhost:1313/tags/hacl/</guid>
       <description></description>
     </item>
     <item>
       <title>HPKE</title>
-      <link>https://cryspen.com/tags/hpke/</link>
+      <link>http://localhost:1313/tags/hpke/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/hpke/</guid>
+      <guid>http://localhost:1313/tags/hpke/</guid>
       <description></description>
     </item>
     <item>
       <title>OCaml</title>
-      <link>https://cryspen.com/tags/ocaml/</link>
+      <link>http://localhost:1313/tags/ocaml/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/ocaml/</guid>
+      <guid>http://localhost:1313/tags/ocaml/</guid>
       <description></description>
     </item>
     <item>
       <title>Release</title>
-      <link>https://cryspen.com/tags/release/</link>
+      <link>http://localhost:1313/tags/release/</link>
       <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/release/</guid>
+      <guid>http://localhost:1313/tags/release/</guid>
       <description></description>
     </item>
     <item>
       <title>IETF</title>
-      <link>https://cryspen.com/tags/ietf/</link>
+      <link>http://localhost:1313/tags/ietf/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/ietf/</guid>
+      <guid>http://localhost:1313/tags/ietf/</guid>
       <description></description>
     </item>
     <item>
       <title>Engineering</title>
-      <link>https://cryspen.com/tags/engineering/</link>
+      <link>http://localhost:1313/tags/engineering/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/engineering/</guid>
+      <guid>http://localhost:1313/tags/engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Formal Methods</title>
-      <link>https://cryspen.com/tags/formal-methods/</link>
+      <link>http://localhost:1313/tags/formal-methods/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/formal-methods/</guid>
+      <guid>http://localhost:1313/tags/formal-methods/</guid>
       <description></description>
     </item>
     <item>
       <title>High Assurance</title>
-      <link>https://cryspen.com/tags/high-assurance/</link>
+      <link>http://localhost:1313/tags/high-assurance/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/high-assurance/</guid>
+      <guid>http://localhost:1313/tags/high-assurance/</guid>
       <description></description>
     </item>
     <item>
       <title>Tl;dr</title>
-      <link>https://cryspen.com/tags/tldr/</link>
+      <link>http://localhost:1313/tags/tldr/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/tldr/</guid>
+      <guid>http://localhost:1313/tags/tldr/</guid>
       <description></description>
     </item>
     <item>
       <title>ERC</title>
-      <link>https://cryspen.com/tags/erc/</link>
+      <link>http://localhost:1313/tags/erc/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/erc/</guid>
+      <guid>http://localhost:1313/tags/erc/</guid>
       <description></description>
     </item>
     <item>
       <title>Grant</title>
-      <link>https://cryspen.com/tags/grant/</link>
+      <link>http://localhost:1313/tags/grant/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/tags/grant/</guid>
+      <guid>http://localhost:1313/tags/grant/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenMLS on Cryspen</title>
-    <link>https://cryspen.com/tags/openmls/</link>
+    <link>http://localhost:1313/tags/openmls/</link>
     <description>Recent content in OpenMLS on Cryspen</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cryspen.com/tags/openmls/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/openmls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post-Quantum OpenMLS</title>
-      <link>https://cryspen.com/post/pq-openmls/</link>
+      <link>http://localhost:1313/post/pq-openmls/</link>
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/pq-openmls/</guid>
+      <guid>http://localhost:1313/post/pq-openmls/</guid>
       <description>OpenMLS now offers security against harvest-now-decrypt-later (HNDL) quantum adversaries.&#xA;In #1546 we merged support for the X-Wing KEM draft, which is an early draft for securely combining elliptic-curve-based Diffie-Hellman with ML-KEM.</description>
     </item>
     <item>
       <title>Post-Quantum Group Messaging</title>
-      <link>https://cryspen.com/post/pq-mls/</link>
+      <link>http://localhost:1313/post/pq-mls/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/pq-mls/</guid>
+      <guid>http://localhost:1313/post/pq-mls/</guid>
       <description>With multiple post-quantum cryptographic algorithms (ML-KEM, ML-DSA) nearing standardization, enterprises, research groups, and standards bodies have started investigating what post-quantum secure protocols should look like and what properties they should satisfy.</description>
     </item>
     <item>
       <title>Internet Defense Prize 2023</title>
-      <link>https://cryspen.com/post/internet-defense-prize-2023/</link>
+      <link>http://localhost:1313/post/internet-defense-prize-2023/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/internet-defense-prize-2023/</guid>
+      <guid>http://localhost:1313/post/internet-defense-prize-2023/</guid>
       <description>At the 32nd Usenix Security Symposium in Anaheim CA, a paper on the Messaging Layer Security Protocol, co-authored by our founders Jonathan Protzenko and Karthikeyan Bhargavan, was awarded both the Distinguished Paper Award and the prestigious Internet Defense Prize.</description>
     </item>
     <item>
       <title>Three (thousand) may keep a secret</title>
-      <link>https://cryspen.com/post/mls-introduction/</link>
+      <link>http://localhost:1313/post/mls-introduction/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/mls-introduction/</guid>
+      <guid>http://localhost:1313/post/mls-introduction/</guid>
       <description>“Three may keep a secret, if two of them are dead.” - Benjamin Franklin (1735)&#xA;However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes.</description>
     </item>
     <item>
       <title>MLS - RFC 9420</title>
-      <link>https://cryspen.com/post/mls-rfc-announcement/</link>
+      <link>http://localhost:1313/post/mls-rfc-announcement/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/mls-rfc-announcement/</guid>
+      <guid>http://localhost:1313/post/mls-rfc-announcement/</guid>
       <description>✨ We are thrilled to announce the release of the MLS specification as RFC 9420.&#xA;RFC 9420 is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands.</description>
     </item>
     <item>
       <title>OpenMLS</title>
-      <link>https://cryspen.com/openmls/</link>
+      <link>http://localhost:1313/openmls/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/openmls/</guid>
+      <guid>http://localhost:1313/openmls/</guid>
       <description>Messaging Layer Security (MLS) is a security layer for end-to-end encrypting communication in large dynamic groups. It has been specified by the IETF MLS working group and designed to be efficient, practical and secure.</description>
     </item>
     <item>
       <title>OpenMLS</title>
-      <link>https://cryspen.com/post/hello-openmls/</link>
+      <link>http://localhost:1313/post/hello-openmls/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hello-openmls/</guid>
+      <guid>http://localhost:1313/post/hello-openmls/</guid>
       <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.&#xA;The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
     </item>
   </channel>
