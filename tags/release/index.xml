@@ -1,19 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Release on Cryspen</title>
-    <link>https://cryspen.com/tags/release/</link>
-    <description>Recent content in Release on Cryspen</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cryspen.com/tags/release/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>HACL Packages v0.6</title>
-      <link>https://cryspen.com/post/hacl-0_6/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hacl-0_6/</guid>
-      <description>Today, we announce the first release of the HACL Packages libraries. 🎉&#xA;This release of HACL packages includes the first release of the HACL C library and a new release of the hacl-star OCaml bindings.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release on Cryspen</title><link>https://cryspen.com/tags/release/</link><description>Recent content in Release on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/release/index.xml" rel="self" type="application/rss+xml"/><item><title>HACL Packages v0.6</title><link>https://cryspen.com/post/hacl-0_6/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hacl-0_6/</guid><description>&lt;blockquote>
+&lt;p>Today, we announce the first release of the HACL Packages libraries. 🎉&lt;/p>
+&lt;/blockquote>
+&lt;p>This release of HACL packages includes the first release of the &lt;a href="https://github.com/cryspen/hacl-packages/releases/tag/c-v0.6.0">HACL C library&lt;/a>
+and a new release of the &lt;a href="https://opam.ocaml.org/packages/hacl-star/">hacl-star OCaml&lt;/a> bindings.&lt;/p></description></item></channel></rss>

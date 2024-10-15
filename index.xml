@@ -1,334 +1,145 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cryspen</title>
-    <link>https://cryspen.com/</link>
-    <description>Recent content on Cryspen</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cryspen.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cryspen @ Crypto 2024</title>
-      <link>https://cryspen.com/post/crypto2024/</link>
-      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/crypto2024/</guid>
-      <description>Crypto is the top international conference on cryptography and is held every year (since 1981) in Santa Barbara, California. This year, Crypto invited Karthikeyan Bhargavan, our Chief Research Scientist, to give a talk on the use of formal methods in cryptography.</description>
-    </item>
-    <item>
-      <title>Formally Verified Post-Quantum Cryptography</title>
-      <link>https://cryspen.com/post/fospqc/</link>
-      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/fospqc/</guid>
-      <description>The US National Institute of Standards and Technology (NIST) just released the first three standards for Post-Quantum KEMs (ML-KEM) and Signatures (ML-DSA, SLH-DSA).</description>
-    </item>
-    <item>
-      <title>Announcing the hax Playground</title>
-      <link>https://cryspen.com/post/announcement-playground/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/announcement-playground/</guid>
-      <description>We&amp;rsquo;re proud to announce the hax playground! Inspired by the Rust Playground, the hax playground allows you to play with hax directly in your web browser!</description>
-    </item>
-    <item>
-      <title>Cryspen Welcomes Maxime</title>
-      <link>https://cryspen.com/post/welcome_maxime/</link>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/welcome_maxime/</guid>
-      <description>We&amp;rsquo;re thrilled to announce that Maxime Buyse has joined the Cryspen team as a Formal Verification Engineer! 🎉&#xA;Maxime is a whiz when it comes to formal methods, software verification, compilers, and functional programming.</description>
-    </item>
-    <item>
-      <title>High Assurance IoT PQC</title>
-      <link>https://cryspen.com/post/pqc-iot-announce/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/pqc-iot-announce/</guid>
-      <description>Together with our sister-company CryptoEng, we extend our libcrux cryptographic library with support for resource constrained IoT devices. Read their announcement here.</description>
-    </item>
-    <item>
-      <title>Cryspen @ FMCP 2024</title>
-      <link>https://cryspen.com/post/fmcp/</link>
-      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/fmcp/</guid>
-      <description>The US National Institute of Standards and Technology (NIST) publishes a number of important cryptographic standards (including upcoming ones for post-quantum cryptography), and runs the cryptographic algorithm and module validation programs that validate and issue certificates to cryptographic libraries.</description>
-    </item>
-    <item>
-      <title>Unlocking New Possibilities</title>
-      <link>https://cryspen.com/post/hax-sandbox/</link>
-      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hax-sandbox/</guid>
-      <description>We have been developing the hax toolchain over the last two years, in collaboration with research teams at Inria and the University of Aarhus.</description>
-    </item>
-    <item>
-      <title>Post-Quantum TLS in Bertie</title>
-      <link>https://cryspen.com/post/pq-bertie/</link>
-      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/pq-bertie/</guid>
-      <description>The prospect of quantum computers breaking most public key encryption in use today has created the need for new schemes that can resist classical and potential quantum attackers alike.</description>
-    </item>
-    <item>
-      <title>Cryptographic protocol verification with hax</title>
-      <link>https://cryspen.com/post/hax-pv/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hax-pv/</guid>
-      <description>This blog post details an example of how to use our hax toolchain for verifying the security of cryptographic protocol implementations written in Rust.</description>
-    </item>
-    <item>
-      <title>Conference Talks</title>
-      <link>https://cryspen.com/post/rwc2024/</link>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/rwc2024/</guid>
-      <description>Cryspen attended a number of conference in April and March. Here is a list of all slides and videos.&#xA;We will update links when more resources become available.</description>
-    </item>
-    <item>
-      <title>Post-Quantum OpenMLS</title>
-      <link>https://cryspen.com/post/pq-openmls/</link>
-      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/pq-openmls/</guid>
-      <description>OpenMLS now offers security against harvest-now-decrypt-later (HNDL) quantum adversaries.&#xA;In #1546 we merged support for the X-Wing KEM draft, which is an early draft for securely combining elliptic-curve-based Diffie-Hellman with ML-KEM.</description>
-    </item>
-    <item>
-      <title>Post-Quantum Group Messaging</title>
-      <link>https://cryspen.com/post/pq-mls/</link>
-      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/pq-mls/</guid>
-      <description>With multiple post-quantum cryptographic algorithms (ML-KEM, ML-DSA) nearing standardization, enterprises, research groups, and standards bodies have started investigating what post-quantum secure protocols should look like and what properties they should satisfy.</description>
-    </item>
-    <item>
-      <title>Verifying Libcrux&#39;s ML-KEM</title>
-      <link>https://cryspen.com/post/ml-kem-verification/</link>
-      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/ml-kem-verification/</guid>
-      <description>In a recent blog post, we described Cryspen&amp;rsquo;s new Rust implementation of ML-KEM in Rust, and talked about how our high-assurance development methodology helped us find a new timing bug in various other Kyber implementations.</description>
-    </item>
-    <item>
-      <title>Verified ML-KEM (Kyber) in Rust</title>
-      <link>https://cryspen.com/post/ml-kem-implementation/</link>
-      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/ml-kem-implementation/</guid>
-      <description>ML-KEM, previously known as Kyber, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in FIPS 203.</description>
-    </item>
-    <item>
-      <title>Welcome Jan &amp; Lucas</title>
-      <link>https://cryspen.com/post/welcome_jan_lucas/</link>
-      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/welcome_jan_lucas/</guid>
-      <description>📢 Exciting News! Cryspen is thrilled to announce the addition of two exceptional minds to our team: Dr. Lucas Franceschino and Jan Winkelmann.</description>
-    </item>
-    <item>
-      <title>An Analysis of Signal&#39;s PQXDH</title>
-      <link>https://cryspen.com/post/pqxdh/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/pqxdh/</guid>
-      <description>Signal recently published a new, post-quantum secure, version of their X3DH protocol called PQXDH. As with any new cryptographic protocol, it is important to precisely analyse its security properties, especially for something as important as Signal.</description>
-    </item>
-    <item>
-      <title>Announcing Campus Cyber Circus Project</title>
-      <link>https://cryspen.com/post/cyber-campus-hax/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/cyber-campus-hax/</guid>
-      <description>🎉 We&amp;rsquo;re excited to announce that Cryspen partnered with Inria on a transfer project to build a new integrated development and verification environment (IDVE).</description>
-    </item>
-    <item>
-      <title>Specifying Oblivious Pseudonymization</title>
-      <link>https://cryspen.com/post/scrambledb/</link>
-      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/scrambledb/</guid>
-      <description>In this blog post we announce an executable specification in the hacspec specification language for the ScrambleDB pseudonymization system, developed by Cryspen as part of the BMBF ATLAS project.</description>
-    </item>
-    <item>
-      <title>Internet Defense Prize 2023</title>
-      <link>https://cryspen.com/post/internet-defense-prize-2023/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/internet-defense-prize-2023/</guid>
-      <description>At the 32nd Usenix Security Symposium in Anaheim CA, a paper on the Messaging Layer Security Protocol, co-authored by our founders Jonathan Protzenko and Karthikeyan Bhargavan, was awarded both the Distinguished Paper Award and the prestigious Internet Defense Prize.</description>
-    </item>
-    <item>
-      <title>Prairie and Atlas</title>
-      <link>https://cryspen.com/post/prarie-and-atlas/</link>
-      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/prarie-and-atlas/</guid>
-      <description>With the widespread adoption and deployment of machine learning across enterprises, ever-increasing amounts of data are being collected, stored, communicated, combined, and computed over by sophisticated algorithms.</description>
-    </item>
-    <item>
-      <title>Three (thousand) may keep a secret</title>
-      <link>https://cryspen.com/post/mls-introduction/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/mls-introduction/</guid>
-      <description>“Three may keep a secret, if two of them are dead.” - Benjamin Franklin (1735)&#xA;However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes.</description>
-    </item>
-    <item>
-      <title>MLS - RFC 9420</title>
-      <link>https://cryspen.com/post/mls-rfc-announcement/</link>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/mls-rfc-announcement/</guid>
-      <description>✨ We are thrilled to announce the release of the MLS specification as RFC 9420.&#xA;RFC 9420 is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands.</description>
-    </item>
-    <item>
-      <title>Welcome Jonas</title>
-      <link>https://cryspen.com/post/welcome_jonas/</link>
-      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/welcome_jonas/</guid>
-      <description>📢 Exciting News! 🚀 We are thrilled to welcome Dr. Jonas Schneider-Bensch, to the Cryspen family as our newest R&amp;amp;D Cryptography Engineer!</description>
-    </item>
-    <item>
-      <title>Cryspen @ RWC 2023</title>
-      <link>https://cryspen.com/post/rwc-2023/</link>
-      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/rwc-2023/</guid>
-      <description>At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.</description>
-    </item>
-    <item>
-      <title>About Cryspen</title>
-      <link>https://cryspen.com/about/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/about/</guid>
-      <description>Cryspen was founded in December 2021 by Franziskus Kiefer, Karthikeyan Bhargavan, and Jonathan Protzenko, with the goal of adapting and extending cutting-edge formal verification tools developed at research labs like Inria and applying them to commercial software development.</description>
-    </item>
-    <item>
-      <title>Advanced Cryptographic Implementations</title>
-      <link>https://cryspen.com/advanced-crypto/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/advanced-crypto/</guid>
-      <description>TBD</description>
-    </item>
-    <item>
-      <title>HACL</title>
-      <link>https://cryspen.com/hacl/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/hacl/</guid>
-      <description>HACL is a set of formally verified cryptographic libraries in C, JavaScript, OCaml, and Rust. The libraries are based on the HACL* research project, originally developed by Inria and Microsoft Research.</description>
-    </item>
-    <item>
-      <title>hacspec</title>
-      <link>https://cryspen.com/hacspec/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/hacspec/</guid>
-      <description>hacspec is a language and framework for writing succinct, executable, formally verifiable specifications for cryptographic components.&#xA;Syntactically, hacspec is a purely functional subset of Rust that aims to be readable by developers, cryptographers, and verification experts.</description>
-    </item>
-    <item>
-      <title>High Assurance Software Toolchain</title>
-      <link>https://cryspen.com/circus/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/circus/</guid>
-      <description>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust, development environment and verification toolchain for security critical software.</description>
-    </item>
-    <item>
-      <title>High Assurance Software Toolchain</title>
-      <link>https://cryspen.com/hax/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/hax/</guid>
-      <description>With hax, you can achieve a new level of confidence in the safety, security, and reliability of your software.&#xA;Try it online Key benefits of Hax:</description>
-    </item>
-    <item>
-      <title>How we Work</title>
-      <link>https://cryspen.com/work/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/work/</guid>
-      <description>Cryspen is a boutique development and consulting studio focused on bringing state-of-the-art privacy and cryptography solutions to customers, using cutting-edge formal methods.</description>
-    </item>
-    <item>
-      <title>HPKE</title>
-      <link>https://cryspen.com/hpke/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/hpke/</guid>
-      <description>HPKE is scheme provides a variant of public-key encryption of arbitrary-sized plaintexts for a recipient public key. It includes three authenticated variants, including one which authenticates possession of a pre-shared key, and two optional ones which authenticate possession of a KEM private key.</description>
-    </item>
-    <item>
-      <title>Impressum</title>
-      <link>https://cryspen.com/imprint/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/imprint/</guid>
-      <description>Company Name: Cryspen Sarl&#xA;Registered Office: 149 Avenue du Maine, 75014 Paris, France&#xA;Email: info@cryspen.com&#xA;Managing Director: Franziskus Kiefer&#xA;Registration Number: 908 684 848 R.</description>
-    </item>
-    <item>
-      <title>Jobs</title>
-      <link>https://cryspen.com/jobs/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/jobs/</guid>
-      <description> </description>
-    </item>
-    <item>
-      <title>libcrux</title>
-      <link>https://cryspen.com/libcrux/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/libcrux/</guid>
-      <description>Libcrux is a formally verified cryptographic library that brings together verified artifacts from different sources. It uses hacspec as a common language for the specifications underlying the correctness and security proofs.</description>
-    </item>
-    <item>
-      <title>OpenMLS</title>
-      <link>https://cryspen.com/openmls/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/openmls/</guid>
-      <description>Messaging Layer Security (MLS) is a security layer for end-to-end encrypting communication in large dynamic groups. It has been specified by the IETF MLS working group and designed to be efficient, practical and secure.</description>
-    </item>
-    <item>
-      <title>Post Quantum Transition</title>
-      <link>https://cryspen.com/pq/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/pq/</guid>
-      <description>As the threat of quantum computing grows, businesses and organizations need to start planning for the post quantum transition. This means migrating their processes and applications to use post quantum cryptography, which is resistant to attacks by quantum computers.</description>
-    </item>
-    <item>
-      <title>Secure Group Communication</title>
-      <link>https://cryspen.com/mls/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/mls/</guid>
-      <description>With new regulations like the Digital Market Act, companies now have to embrace interoperability, especially when it comes to communications and messaging.</description>
-    </item>
-    <item>
-      <title>Verify your Security</title>
-      <link>https://cryspen.com/prove/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/prove/</guid>
-      <description>Security protocols and constructions are pervasive. Some are well-known, like TLS; but your organization may be using custom security mechanisms for identity management, key propagation, secure storage… Having complete confidence in such a design requires an in-depth security analysis that covers side-channels, cryptographic design, and software design.</description>
-    </item>
-    <item>
-      <title>HACL Packages v0.6</title>
-      <link>https://cryspen.com/post/hacl-0_6/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hacl-0_6/</guid>
-      <description>Today, we announce the first release of the HACL Packages libraries. 🎉&#xA;This release of HACL packages includes the first release of the HACL C library and a new release of the hacl-star OCaml bindings.</description>
-    </item>
-    <item>
-      <title>OpenMLS</title>
-      <link>https://cryspen.com/post/hello-openmls/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hello-openmls/</guid>
-      <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.&#xA;The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
-    </item>
-    <item>
-      <title>HACL Packages</title>
-      <link>https://cryspen.com/post/introducing-hacl-packages/</link>
-      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/introducing-hacl-packages/</guid>
-      <description>Earlier this year, Tezos and Nomadic Labs started to work with Cryspen to improve HACL* and ensure that it is a viable long-term solution for Tezos&#39; cryptographic needs.</description>
-    </item>
-    <item>
-      <title>What is High Assurance Cryptography?</title>
-      <link>https://cryspen.com/post/high-assurance-cryptography-1/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/high-assurance-cryptography-1/</guid>
-      <description>Cryspen builds high assurance cryptography. But what does this actually mean?&#xA;Before focusing on cryptography it is interesting to look at high assurance software in general.</description>
-    </item>
-    <item>
-      <title>An Executable HPKE Specification</title>
-      <link>https://cryspen.com/post/hpke_spec/</link>
-      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hpke_spec/</guid>
-      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.&#xA;📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
-    </item>
-    <item>
-      <title>TL;DR - Hybrid Public Key Encryption</title>
-      <link>https://cryspen.com/post/tldr-hpke/</link>
-      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/tldr-hpke/</guid>
-      <description>HPKE, defined in RFC 9180, is a CFRG standard that describes a scheme for hybrid public key encryption. It is co-authored by my Cryspen co-founder Karthikeyan Bhargavan and one of his PhD students Benjamin Lipp as part of his research at Inria.</description>
-    </item>
-    <item>
-      <title>Cryspen ERC PoC Grant</title>
-      <link>https://cryspen.com/post/erc-poc/</link>
-      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/erc-poc/</guid>
-      <description>Cryspen co-founder Karthik Bhargavan got awarded an ERC Proof of Concept grant for commercialising the know-how and landmark research results from his Inria research group PROSECCO through Cryspen.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryspen</title><link>https://cryspen.com/</link><description>Recent content on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Cryspen @ Crypto 2024</title><link>https://cryspen.com/post/crypto2024/</link><pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/crypto2024/</guid><description>&lt;p>&lt;a href="https://crypto.iacr.org/">Crypto&lt;/a> is the top international conference on cryptography
+and is held every year (since 1981) in Santa Barbara, California. This year,
+Crypto invited Karthikeyan Bhargavan, our Chief Research Scientist, to give
+a talk on the use of formal methods in cryptography.&lt;/p></description></item><item><title>Formally Verified Post-Quantum Cryptography</title><link>https://cryspen.com/post/fospqc/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/fospqc/</guid><description>&lt;p>The US National Institute of Standards and Technology (NIST) &lt;a href="https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards">just released&lt;/a> the first three standards for Post-Quantum KEMs (&lt;a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.203.pdf">ML-KEM&lt;/a>) and Signatures (&lt;a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.204.pdf">ML-DSA&lt;/a>, &lt;a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.205.pdf">SLH-DSA&lt;/a>). This first official publication of Post-Quantum Cryptography (PQC) standards represents a significant step forward in securing the Internet, and organizations across the globe, against the future threat of quantum computers.&lt;/p></description></item><item><title>Announcing the hax Playground</title><link>https://cryspen.com/post/announcement-playground/</link><pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/announcement-playground/</guid><description>&lt;p>We&amp;rsquo;re proud to announce the &lt;a href="https://hax-playground.cryspen.com/">hax
+playground&lt;/a>! Inspired by the
+&lt;a href="https://play.rust-lang.org/">Rust Playground&lt;/a>, the hax playground
+allows you to play with hax directly in your web browser!&lt;/p></description></item><item><title>Cryspen Welcomes Maxime</title><link>https://cryspen.com/post/welcome_maxime/</link><pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/welcome_maxime/</guid><description>&lt;p>We&amp;rsquo;re thrilled to announce that Maxime Buyse has joined the Cryspen team as a Formal Verification Engineer! 🎉&lt;/p>
+&lt;p>Maxime is a whiz when it comes to formal methods, software verification, compilers, and functional programming.
+His expertise will be instrumental in supercharging our tools like &lt;a href="https://cryspen.com/hax">hax&lt;/a> and making them even easier to use.&lt;/p></description></item><item><title>High Assurance IoT PQC</title><link>https://cryspen.com/post/pqc-iot-announce/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pqc-iot-announce/</guid><description>&lt;p>Together with our sister-company &lt;a href="https://cryptoeng.de">CryptoEng&lt;/a>, we extend our &lt;a href="https://github.com/cryspen/libcrux">libcrux&lt;/a> cryptographic
+library with support for resource constrained IoT devices.
+Read &lt;a href="https://cryptoeng.de/blog/posts/iot-pqc-announce/">their announcement here&lt;/a>.
+The libcrux-iot library contains high performance, high assurance implementations of post-quantum, as well as classical, cryptographic primitives.&lt;/p></description></item><item><title>Cryspen @ FMCP 2024</title><link>https://cryspen.com/post/fmcp/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/fmcp/</guid><description>&lt;p>The &lt;a href="https://www.nist.gov">US National Institute of Standards and
+Technology&lt;/a> (NIST) publishes a number of
+important cryptographic standards (including upcoming ones for
+post-quantum cryptography), and runs the &lt;a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">cryptographic algorithm and
+module validation
+programs&lt;/a>
+that validate and issue certificates to cryptographic libraries.&lt;/p></description></item><item><title>Unlocking New Possibilities</title><link>https://cryspen.com/post/hax-sandbox/</link><pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hax-sandbox/</guid><description>&lt;p>We have been developing the &lt;a href="https://cryspen.com/hax">hax toolchain&lt;/a> over the last two years, in collaboration with research teams at &lt;a href="https://team.inria.fr/prosecco/">Inria&lt;/a> and the &lt;a href="https://users-cs.au.dk/spitters/">University of Aarhus&lt;/a>.
+To showcase its capabilities we have successfully applied it to &lt;a href="https://cryspen.com/post/ml-kem-verification/">ML-KEM&lt;/a> and &lt;a href="https://cryspen.com/post/hax-pv/">Bertie&lt;/a>.
+Others are using it to create new &lt;a href="https://eprint.iacr.org/2023/185">ground-breaking research results&lt;/a>.&lt;/p></description></item><item><title>Post-Quantum TLS in Bertie</title><link>https://cryspen.com/post/pq-bertie/</link><pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pq-bertie/</guid><description>&lt;p>The prospect of quantum computers breaking most public key encryption in use today has created the need for new schemes that can resist classical and potential quantum attackers alike. Some of these schemes, such as ML-KEM and ML-DSA, are currently in the &lt;a href="https://csrc.nist.gov/Projects/post-quantum-cryptography">final stages of standardizations by NIST&lt;/a>. Before fully transitioning to post-quantum secure cryptography, an important first step many organizations are taking is protecting against &lt;a href="https://en.wikipedia.org/wiki/Harvest_now,_decrypt_later">Harvest Now Decrypt Later (HNDL) attacks&lt;/a>, where data is collected and stored today, and later decrypted once cryptanalysis improves.
+Signal recently introduced &lt;a href="https://cryspen.com/post/pqxdh/">PQXDH&lt;/a>, which protects against these attacks.
+&lt;a href="https://blog.chromium.org/2023/08/protecting-chrome-traffic-with-hybrid.html">Google&amp;rsquo;s Chrome browser is using&lt;/a> the &lt;a href="https://www.ietf.org/archive/id/draft-tls-westerbaan-xyber768d00-02.html">&lt;code>X25519Kyber768Draft00&lt;/code>&lt;/a> hybrid KEM cipher suite in TLS, which combines a post-quantum secure KEM with the classical key exchange. Cloudflare, which is serving a big chunk of the internet, &lt;a href="https://blog.cloudflare.com/post-quantum-for-all">supports it as well&lt;/a>.&lt;/p></description></item><item><title>Cryptographic protocol verification with hax</title><link>https://cryspen.com/post/hax-pv/</link><pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hax-pv/</guid><description>&lt;p>This blog post details an example of how to use our &lt;a href="https://cryspen.com/hax">hax toolchain &lt;/a> for verifying the security of cryptographic protocol implementations written in Rust.&lt;/p></description></item><item><title>Conference Talks</title><link>https://cryspen.com/post/rwc2024/</link><pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/rwc2024/</guid><description>&lt;p>Cryspen attended a number of conference in April and March. Here is a list of all slides and videos.&lt;/p>
+&lt;p>&lt;em>We will update links when more resources become available.&lt;/em>&lt;/p></description></item><item><title>Post-Quantum OpenMLS</title><link>https://cryspen.com/post/pq-openmls/</link><pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pq-openmls/</guid><description>&lt;p>OpenMLS now offers security against harvest-now-decrypt-later (HNDL) quantum adversaries.&lt;/p>
+&lt;p>In &lt;a href="https://github.com/openmls/openmls/pull/1546">#1546&lt;/a> we merged support for the &lt;a href="https://www.ietf.org/archive/id/draft-connolly-cfrg-xwing-kem-02.html">X-Wing KEM draft&lt;/a>, which is an early draft for securely combining elliptic-curve-based Diffie-Hellman with ML-KEM. In particular, OpenMLS now supports the ciphersuite MLS_256_XWING_CHACHA20POLY1305_SHA256_Ed25519 with ciphersuite 0x004D. There is no IANA code-point for this ciphersuite yet, such that interoperability may not be guaranteed. We work with other implementers towards interoperability of this ciphersuite.&lt;/p></description></item><item><title>Post-Quantum Group Messaging</title><link>https://cryspen.com/post/pq-mls/</link><pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pq-mls/</guid><description>&lt;p>With multiple post-quantum cryptographic algorithms (&lt;a href="https://csrc.nist.gov/pubs/fips/203/ipd">ML-KEM&lt;/a>, &lt;a href="https://csrc.nist.gov/pubs/fips/204/ipd">ML-DSA&lt;/a>) nearing standardization, enterprises, research groups, and standards bodies have started investigating what post-quantum secure protocols should look like and what properties they should satisfy.&lt;/p></description></item><item><title>Verifying Libcrux's ML-KEM</title><link>https://cryspen.com/post/ml-kem-verification/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-verification/</guid><description>&lt;p>In a &lt;a href="../ml-kem-implementation/">recent blog post&lt;/a>, we described Cryspen&amp;rsquo;s new Rust
+implementation of ML-KEM in Rust, and talked about how our
+high-assurance development methodology helped us find a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220">new timing
+bug&lt;/a>
+in various other Kyber implementations.&lt;/p></description></item><item><title>Verified ML-KEM (Kyber) in Rust</title><link>https://cryspen.com/post/ml-kem-implementation/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-implementation/</guid><description>&lt;p>ML-KEM, previously known as &lt;a href="https://pq-crystals.org/kyber/">Kyber&lt;/a>, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in &lt;a href="https://csrc.nist.gov/pubs/fips/203/ipd">FIPS 203&lt;/a>.&lt;/p>
+&lt;p>Cryspen has built &lt;a href="https://github.com/cryspen/libcrux/tree/main/src/kem">a new high assurance Rust implementation of ML-KEM&lt;/a>, using our verification framework &lt;a href="https://cryspen.com/hax">hax&lt;/a> and &lt;a href="https://fstar-lang.org">F*&lt;/a>. Our implementation is among the fastest portable implementations that we know of (see &lt;a href="#performance-comparison">Performance comparison&lt;/a>), and helped uncover a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220">timing bug&lt;/a> (also called &lt;a href="https://kyberslash.cr.yp.to/">KyberSlash&lt;/a>) in various Kyber implementations that would allow an attacker to &lt;a href="https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/ldX0ThYJuBo/m/uIOqRF5BAwAJ">recover the private key&lt;/a>.&lt;/p></description></item><item><title>Welcome Jan &amp; Lucas</title><link>https://cryspen.com/post/welcome_jan_lucas/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/welcome_jan_lucas/</guid><description>&lt;p>📢 Exciting News! Cryspen is thrilled to announce the addition of two exceptional minds to our team: &lt;a href="https://lucas.franceschino.fr/">Dr. Lucas Franceschino&lt;/a> and &lt;a href="https://github.com/keks">Jan Winkelmann&lt;/a>.&lt;/p></description></item><item><title>An Analysis of Signal's PQXDH</title><link>https://cryspen.com/post/pqxdh/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pqxdh/</guid><description>&lt;!-- _Karthikeyan Bhargavan ([Cryspen]), Charlie Jacomme ([Inria Paris](https://www.inria.fr/en/inria-paris-centre)), Franziskus Kiefer ([Cryspen]) and Rolfe Schmidt ([Signal](https://signal.org/))_ -->
+&lt;p>Signal recently &lt;a href="https://signal.org/docs/specifications/pqxdh/">published&lt;/a> a new, post-quantum secure, version of their &lt;a href="https://signal.org/docs/specifications/x3dh/">X3DH&lt;/a> protocol called &lt;a href="https://signal.org/docs/specifications/pqxdh/">PQXDH&lt;/a>. As with any new cryptographic protocol, it is important to precisely analyse its security properties, especially for something as important as Signal.&lt;/p></description></item><item><title>Announcing Campus Cyber Circus Project</title><link>https://cryspen.com/post/cyber-campus-hax/</link><pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/cyber-campus-hax/</guid><description>&lt;p>🎉 We&amp;rsquo;re excited to announce that Cryspen &lt;a href="https://ptcc.fr/projets/circus-2/">partnered&lt;/a> with &lt;a href="https://www.inria.fr/fr">Inria&lt;/a> on a transfer project to build a new integrated development and verification environment (IDVE). The project is part of the transfer program at &lt;a href="https://campuscyber.fr/">Campus Cyber&lt;/a>, which brings together France&amp;rsquo;s top cybersecurity experts.&lt;/p></description></item><item><title>Specifying Oblivious Pseudonymization</title><link>https://cryspen.com/post/scrambledb/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/scrambledb/</guid><description>&lt;p>In this blog post we announce an executable specification in the
+&lt;code>hacspec&lt;/code> specification language for the &lt;code>ScrambleDB&lt;/code> pseudonymization
+system, developed by Cryspen as part of the &lt;a href="https://www.forschung-it-sicherheit-kommunikationssysteme.de/projekte/atlas">BMBF ATLAS project&lt;/a>.&lt;/p></description></item><item><title>Internet Defense Prize 2023</title><link>https://cryspen.com/post/internet-defense-prize-2023/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/internet-defense-prize-2023/</guid><description>&lt;p>At the &lt;a href="https://www.usenix.org/conference/usenixsecurity23">32nd Usenix Security Symposium&lt;/a> in Anaheim CA, a paper on the &lt;a href="https://cryspen.com/post/mls-introduction/">Messaging Layer Security Protocol&lt;/a>, co-authored by our founders Jonathan Protzenko and Karthikeyan Bhargavan, was awarded both the Distinguished Paper Award and the prestigious &lt;a href="https://www.usenix.org/blog/usenix-announces-winners-2023-internet-defense-prize">Internet Defense Prize&lt;/a>.&lt;/p></description></item><item><title>Prairie and Atlas</title><link>https://cryspen.com/post/prarie-and-atlas/</link><pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/prarie-and-atlas/</guid><description>&lt;p>With the widespread adoption and deployment of machine learning across enterprises,
+ever-increasing amounts of data are being collected, stored, communicated,
+combined, and computed over by sophisticated algorithms.
+In parallel, new governmental regulations and rising concerns about privacy are
+giving impetus to new research on how to protect the confidentiality, integrity
+and privacy of all this data.&lt;/p></description></item><item><title>Three (thousand) may keep a secret</title><link>https://cryspen.com/post/mls-introduction/</link><pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/mls-introduction/</guid><description>&lt;blockquote>
+&lt;p>&lt;em>“Three may keep a secret, if two of them are dead.”&lt;/em> - Benjamin Franklin (1735)&lt;/p>
+&lt;/blockquote>
+&lt;p>However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes. We exchange confidential work emails through corporate mail servers, discuss project internals on private Slacks, and exchange deeply personal information with family and friends on WhatsApp groups. The loss of this private data to malicious outsiders can result in public embarrassment, financial loss, and for vulnerable persons like journalists or activists, even threats to life and liberty.&lt;/p></description></item><item><title>MLS - RFC 9420</title><link>https://cryspen.com/post/mls-rfc-announcement/</link><pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/mls-rfc-announcement/</guid><description>&lt;p>&lt;strong>✨ We are thrilled to announce the release of the MLS specification as &lt;a href="https://datatracker.ietf.org/doc/html/rfc9420">RFC 9420&lt;/a>.&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://datatracker.ietf.org/doc/html/rfc9420">RFC 9420&lt;/a> is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands. While Cryspen didn&amp;rsquo;t exist back when the MLS working group was established, our co-founder Karthik played a pivotal role in designing MLS from the beginning by contributing to the original design of &lt;a href="https://inria.hal.science/hal-02425247/file/treekem+(1).pdf">TreeKEM&lt;/a>, the basis of MLS today.&lt;/p></description></item><item><title>Welcome Jonas</title><link>https://cryspen.com/post/welcome_jonas/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/welcome_jonas/</guid><description>&lt;p>📢 Exciting News! 🚀 We are thrilled to welcome Dr. Jonas Schneider-Bensch, to the Cryspen family as our newest R&amp;amp;D Cryptography Engineer!&lt;/p></description></item><item><title>Cryspen @ RWC 2023</title><link>https://cryspen.com/post/rwc-2023/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/rwc-2023/</guid><description>&lt;p>At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.&lt;/p></description></item><item><title>About Cryspen</title><link>https://cryspen.com/about/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/about/</guid><description>&lt;p>Cryspen was founded in December 2021 by Franziskus Kiefer, Karthikeyan
+Bhargavan, and Jonathan Protzenko, with the goal of adapting and extending
+cutting-edge formal verification tools developed at research labs like
+&lt;a href="https://www.inria.fr/">Inria&lt;/a> and applying them to commercial software development. All
+three co-founders have a demonstrated track record of solving
+challenging problems in high-assurance high-performance cryptographic
+software development, both in research and industry.&lt;/p></description></item><item><title>Advanced Cryptographic Implementations</title><link>https://cryspen.com/advanced-crypto/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/advanced-crypto/</guid><description>&lt;p>TBD&lt;/p></description></item><item><title>HACL</title><link>https://cryspen.com/hacl/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/hacl/</guid><description>&lt;p>HACL is a set of formally verified cryptographic libraries in C, JavaScript, OCaml, and Rust.
+The libraries are based on the &lt;a href="https://github.com/hacl-star/hacl-star">HACL*&lt;/a> &lt;a href="https://project-everest.github.io/">research project&lt;/a>, originally developed by Inria
+and Microsoft Research.&lt;/p></description></item><item><title>hacspec</title><link>https://cryspen.com/hacspec/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/hacspec/</guid><description>&lt;p>&lt;a href="https://hacspec.org">hacspec&lt;/a> is a language and framework for writing succinct, executable, formally
+verifiable specifications for cryptographic components.&lt;/p>
+&lt;p>Syntactically, hacspec is a purely functional subset of Rust that aims to be
+readable by developers, cryptographers, and verification experts.
+An application developer can use hacspec to specify and prototype cryptographic
+components in Rust, and then replace this specification with a verified
+implementation before deployment.&lt;/p></description></item><item><title>High Assurance Software Toolchain</title><link>https://cryspen.com/circus/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/circus/</guid><description>&lt;p>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust,
+development environment and verification toolchain for security critical software.&lt;/p></description></item><item><title>High Assurance Software Toolchain</title><link>https://cryspen.com/hax/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/hax/</guid><description>&lt;p>With hax, you can achieve a new level of confidence in the safety, security, and reliability of your software.&lt;/p>
+&lt;svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+ &lt;symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+ &lt;path
+ d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+ />
+ &lt;/symbol>
+ &lt;symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+ &lt;path
+ d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+ />
+ &lt;/symbol>
+ &lt;symbol
+ id="exclamation-triangle-fill"
+ fill="currentColor"
+ viewBox="0 0 16 16"
+ >
+ &lt;path
+ d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+ />
+ &lt;/symbol>
+&lt;/svg>
+
+&lt;div
+ class="alert d-flex align-items-center justify-content-centeer text-center"
+ role="alert"
+>
+ &lt;svg
+ class="bi flex-shrink-0 me-2"
+ width="24"
+ height="24"
+ role="img"
+ aria-label="Info:"
+ >
+ &lt;use xlink:href="#info-fill" />
+ &lt;/svg>
+ &lt;div class="text-center">&lt;a href="https://hax-playground.cryspen.com/">Try it online&lt;/a>&lt;/div>
+&lt;/div>
+
+&lt;p>&lt;strong>Key benefits of Hax:&lt;/strong>&lt;/p></description></item><item><title>How we Work</title><link>https://cryspen.com/work/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/work/</guid><description>&lt;p>Cryspen is a boutique development and consulting studio focused on bringing state-of-the-art privacy and cryptography solutions to customers, using cutting-edge formal methods. We closely collaborate with research groups at Inria and elsewhere to help them improve their research software analysis tools and apply them to industrial design and software development.&lt;/p></description></item><item><title>HPKE</title><link>https://cryspen.com/hpke/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/hpke/</guid><description>&lt;p>HPKE is scheme provides a variant of public-key encryption of arbitrary-sized
+plaintexts for a recipient public key.
+It includes three authenticated variants, including one which authenticates
+possession of a pre-shared key, and two optional ones which authenticate
+possession of a KEM private key.
+HPKE works for any combination of an asymmetric key encapsulation mechanism (KEM), key derivation function (KDF), and authenticated encryption with additional data (AEAD) encryption function.
+Some authenticated variants may not be supported by all KEMs.
+We provide instantiations of the scheme using widely used and efficient primitives, such as Elliptic Curve Diffie-Hellman key agreement, HKDF, and SHA2.&lt;/p></description></item><item><title>Impressum</title><link>https://cryspen.com/imprint/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/imprint/</guid><description>&lt;p>Company Name: Cryspen Sarl&lt;/p>
+&lt;p>Registered Office: 149 Avenue du Maine, 75014 Paris, France&lt;/p>
+&lt;p>Email: &lt;a href="mailto:info@cryspen.com">info@cryspen.com&lt;/a>&lt;/p>
+&lt;p>Managing Director: Franziskus Kiefer&lt;/p>
+&lt;p>Registration Number: 908 684 848 R.C.S. Paris&lt;/p></description></item><item><title>Jobs</title><link>https://cryspen.com/jobs/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/jobs/</guid><description>&lt;div id="join-widget">
+ &lt;script
+ defer
+ type="text/javascript"
+ data-mount-in="#join-widget"
+ src="https://join.com/api/widget/bundle/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXR0aW5ncyI6eyJzaG93Q2F0ZWdvcnlGaWx0ZXIiOnRydWUsInNob3dMb2NhdGlvbkZpbHRlciI6dHJ1ZSwic2hvd0VtcGxveW1lbnRUeXBlRmlsdGVyIjp0cnVlLCJsYW5ndWFnZSI6ImVuIiwiam9ic1BlclBhZ2UiOjI1fSwiam9icyI6e30sImRlc2lnbiI6eyJzaG93TG9nbyI6dHJ1ZSwic2hvd0xvY2F0aW9uIjp0cnVlLCJzaG93RW1wbG95bWVudFR5cGUiOnRydWUsInNob3dDYXRlZ29yeSI6dHJ1ZSwiY29sb3JzIjp7IndpZGdldCI6eyJiYWNrZ3JvdW5kIjoiI0ZGRkZGRiIsImZpbHRlckJvcmRlciI6IiNENEQ0RDgiLCJwYWdpbmF0aW9uIjoiIzk5MDAwMCJ9LCJqb2JDYXJkIjp7InNoYWRvdyI6IiNGRkRCREIiLCJiYWNrZ3JvdW5kIjoiI0ZGRkZGRiIsInByaW1hcnlUZXh0IjoiIzNGM0Y0NiIsInNlY29uZGFyeVRleHQiOiIjNTI1MjVCIn19fSwidmVyc2lvbiI6MiwiY29tcGFueVB1YmxpY0lkIjoiNzUyMjA2YjVmYmM2ZmI5ZjA2YmM3NDEzM2JhMjdmYzciLCJpYXQiOjE2NzYxOTc0NTYsImp0aSI6ImVjZDJjYzA0LWEzYWUtNGI2ZC04ZWNlLTRiOTRjODhkYzlmOSJ9.x-Zdbbs8_ht6hYNS3DQs6UcLlN2mVps_eFaPGJU4vwU"
+ >&lt;/script>
+ &lt;/div></description></item><item><title>libcrux</title><link>https://cryspen.com/libcrux/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/libcrux/</guid><description>&lt;p>Libcrux is a formally verified cryptographic library that brings together verified
+artifacts from different sources. It uses &lt;a href="https://cryspen.com/hacspec/">hacspec&lt;/a>
+as a common language for the specifications underlying the correctness and security
+proofs. Libcrux is written in Rust, a modern programming language that is known
+for its safety and performance. Underneath, it uses verified Rust, C, and Assembly code.&lt;/p></description></item><item><title>OpenMLS</title><link>https://cryspen.com/openmls/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/openmls/</guid><description>&lt;p>Messaging Layer Security (MLS) is a security layer for end-to-end encrypting
+communication in large dynamic groups.
+It has been specified by the &lt;a href="https://datatracker.ietf.org/wg/mls/about/">IETF MLS working group&lt;/a> and designed to be efficient,
+practical and secure.&lt;/p></description></item><item><title>Post Quantum Transition</title><link>https://cryspen.com/pq/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/pq/</guid><description>&lt;p>As the threat of quantum computing grows, businesses and organizations need to start planning for the post quantum transition. This means migrating their processes and applications to use post quantum cryptography, which is resistant to attacks by quantum computers.&lt;/p></description></item><item><title>Secure Group Communication</title><link>https://cryspen.com/mls/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/mls/</guid><description>&lt;p>With new regulations like the Digital Market Act, companies now have to embrace interoperability, especially when it comes to communications and messaging. The new standard that the industry is converging on is the IETF MLS protocol. We are experts in MLS and have contributed a formal security analysis, reference implementation, and improvements to the standard. We help maintain &lt;a href="https://cryspen.com/openmls">OpenMLS&lt;/a>, a flagship Rust implementation of MLS.&lt;/p></description></item><item><title>Verify your Security</title><link>https://cryspen.com/prove/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/prove/</guid><description>&lt;p>Security protocols and constructions are pervasive. Some are well-known, like TLS; but your organization may be using custom security mechanisms for identity management, key propagation, secure storage… Having complete confidence in such a design requires an in-depth security analysis that covers side-channels, cryptographic design, and software design. Only specialists can perform an analysis that covers all of these.&lt;/p></description></item><item><title>HACL Packages v0.6</title><link>https://cryspen.com/post/hacl-0_6/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hacl-0_6/</guid><description>&lt;blockquote>
+&lt;p>Today, we announce the first release of the HACL Packages libraries. 🎉&lt;/p>
+&lt;/blockquote>
+&lt;p>This release of HACL packages includes the first release of the &lt;a href="https://github.com/cryspen/hacl-packages/releases/tag/c-v0.6.0">HACL C library&lt;/a>
+and a new release of the &lt;a href="https://opam.ocaml.org/packages/hacl-star/">hacl-star OCaml&lt;/a> bindings.&lt;/p></description></item><item><title>OpenMLS</title><link>https://cryspen.com/post/hello-openmls/</link><pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hello-openmls/</guid><description>&lt;p>We have joined forces with our friends from &lt;a href="https://phnx.im/">Phoenix R&amp;amp;D&lt;/a> to improve OpenMLS.&lt;/p>
+&lt;p>The &lt;a href="https://messaginglayersecurity.rocks/mls-protocol/draft-ietf-mls-protocol.html">MLS protocol&lt;/a> draft is in the IETF working group&amp;rsquo;s &lt;a href="https://mailarchive.ietf.org/arch/msg/mls/bOhxmpo70T-ikDd40OqQfst64gE/">last call&lt;/a> and is thus
+on track to become an RFC soon.
+We want to make sure that OpenMLS is ready for wider adoption by the time the
+RFC is ready.
+To achieve this we start by catching up with all the changes to the protocol
+(up to the current draft-16), improving test coverage of the code, and working
+towards a more comprehensive test framework for interoperability.&lt;/p></description></item><item><title>HACL Packages</title><link>https://cryspen.com/post/introducing-hacl-packages/</link><pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/introducing-hacl-packages/</guid><description>&lt;p>Earlier this year, &lt;a href="https://tezos.foundation/">Tezos&lt;/a> and &lt;a href="https://www.nomadic-labs.com/">Nomadic Labs&lt;/a> started to work with Cryspen to
+improve &lt;a href="https://hacl-star.github.io/">HACL*&lt;/a> and ensure that it is a viable long-term solution for Tezos'
+cryptographic needs.
+HACL is a set of high assurance cryptographic primitives used by Tezos for most
+of its cryptography.&lt;/p></description></item><item><title>What is High Assurance Cryptography?</title><link>https://cryspen.com/post/high-assurance-cryptography-1/</link><pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/high-assurance-cryptography-1/</guid><description>&lt;p>&lt;a href="https://www.cryspen.com">Cryspen&lt;/a> builds high assurance cryptography.
+But what does this actually mean?&lt;/p>
+&lt;p>Before focusing on cryptography it is interesting to look at high assurance
+software in general.
+How is high assurance software different from other software?&lt;/p></description></item><item><title>An Executable HPKE Specification</title><link>https://cryspen.com/post/hpke_spec/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hpke_spec/</guid><description>&lt;p>&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE&lt;/a>, published as &lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">RFC 9180&lt;/a>, describes a scheme for hybrid public key encryption.&lt;/p>
+&lt;blockquote>
+&lt;p>📚 Read our &lt;a href="https://cryspen.com/post/tldr-hpke/">TL;DR on HPKE&lt;/a> if you need more background on HPKE.&lt;/p></description></item><item><title>TL;DR - Hybrid Public Key Encryption</title><link>https://cryspen.com/post/tldr-hpke/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/tldr-hpke/</guid><description>&lt;p>&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE&lt;/a>, defined in &lt;a href="https://www.rfc-editor.org/rfc/rfc9180.html">RFC 9180&lt;/a>, is a &lt;a href="https://datatracker.ietf.org/rg/cfrg/about/">CFRG&lt;/a> standard that describes a scheme for hybrid public key encryption.
+It is co-authored by my &lt;a href="https://www.cryspen.com">Cryspen&lt;/a> co-founder &lt;a href="https://bhargavan.info/index.html">Karthikeyan Bhargavan&lt;/a> and one of
+his PhD students &lt;a href="https://www.benjaminlipp.de">Benjamin Lipp&lt;/a> as part of his research at &lt;a href="https://team.inria.fr/prosecco">Inria&lt;/a>.&lt;/p></description></item><item><title>Cryspen ERC PoC Grant</title><link>https://cryspen.com/post/erc-poc/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/erc-poc/</guid><description>&lt;p>Cryspen co-founder &lt;a href="https://bhargavan.info/">Karthik Bhargavan&lt;/a> got awarded an &lt;a href="https://erc.europa.eu/funding/proof-concept">ERC Proof of Concept grant&lt;/a> for
+commercialising the know-how and landmark research results from his Inria
+research group &lt;a href="https://team.inria.fr/prosecco/">PROSECCO&lt;/a> through Cryspen.&lt;/p></description></item></channel></rss>

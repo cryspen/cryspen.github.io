@@ -1,54 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Libcrux on Cryspen</title>
-    <link>https://cryspen.com/tags/libcrux/</link>
-    <description>Recent content in Libcrux on Cryspen</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cryspen.com/tags/libcrux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cryspen @ Crypto 2024</title>
-      <link>https://cryspen.com/post/crypto2024/</link>
-      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/crypto2024/</guid>
-      <description>Crypto is the top international conference on cryptography and is held every year (since 1981) in Santa Barbara, California. This year, Crypto invited Karthikeyan Bhargavan, our Chief Research Scientist, to give a talk on the use of formal methods in cryptography.</description>
-    </item>
-    <item>
-      <title>Formally Verified Post-Quantum Cryptography</title>
-      <link>https://cryspen.com/post/fospqc/</link>
-      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/fospqc/</guid>
-      <description>The US National Institute of Standards and Technology (NIST) just released the first three standards for Post-Quantum KEMs (ML-KEM) and Signatures (ML-DSA, SLH-DSA).</description>
-    </item>
-    <item>
-      <title>Cryspen @ FMCP 2024</title>
-      <link>https://cryspen.com/post/fmcp/</link>
-      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/fmcp/</guid>
-      <description>The US National Institute of Standards and Technology (NIST) publishes a number of important cryptographic standards (including upcoming ones for post-quantum cryptography), and runs the cryptographic algorithm and module validation programs that validate and issue certificates to cryptographic libraries.</description>
-    </item>
-    <item>
-      <title>Verifying Libcrux&#39;s ML-KEM</title>
-      <link>https://cryspen.com/post/ml-kem-verification/</link>
-      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/ml-kem-verification/</guid>
-      <description>In a recent blog post, we described Cryspen&amp;rsquo;s new Rust implementation of ML-KEM in Rust, and talked about how our high-assurance development methodology helped us find a new timing bug in various other Kyber implementations.</description>
-    </item>
-    <item>
-      <title>Verified ML-KEM (Kyber) in Rust</title>
-      <link>https://cryspen.com/post/ml-kem-implementation/</link>
-      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/ml-kem-implementation/</guid>
-      <description>ML-KEM, previously known as Kyber, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in FIPS 203.</description>
-    </item>
-    <item>
-      <title>Cryspen @ RWC 2023</title>
-      <link>https://cryspen.com/post/rwc-2023/</link>
-      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/rwc-2023/</guid>
-      <description>At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Libcrux on Cryspen</title><link>https://cryspen.com/tags/libcrux/</link><description>Recent content in Libcrux on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/libcrux/index.xml" rel="self" type="application/rss+xml"/><item><title>Cryspen @ Crypto 2024</title><link>https://cryspen.com/post/crypto2024/</link><pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/crypto2024/</guid><description>&lt;p>&lt;a href="https://crypto.iacr.org/">Crypto&lt;/a> is the top international conference on cryptography
+and is held every year (since 1981) in Santa Barbara, California. This year,
+Crypto invited Karthikeyan Bhargavan, our Chief Research Scientist, to give
+a talk on the use of formal methods in cryptography.&lt;/p></description></item><item><title>Formally Verified Post-Quantum Cryptography</title><link>https://cryspen.com/post/fospqc/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/fospqc/</guid><description>&lt;p>The US National Institute of Standards and Technology (NIST) &lt;a href="https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards">just released&lt;/a> the first three standards for Post-Quantum KEMs (&lt;a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.203.pdf">ML-KEM&lt;/a>) and Signatures (&lt;a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.204.pdf">ML-DSA&lt;/a>, &lt;a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.205.pdf">SLH-DSA&lt;/a>). This first official publication of Post-Quantum Cryptography (PQC) standards represents a significant step forward in securing the Internet, and organizations across the globe, against the future threat of quantum computers.&lt;/p></description></item><item><title>Cryspen @ FMCP 2024</title><link>https://cryspen.com/post/fmcp/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/fmcp/</guid><description>&lt;p>The &lt;a href="https://www.nist.gov">US National Institute of Standards and
+Technology&lt;/a> (NIST) publishes a number of
+important cryptographic standards (including upcoming ones for
+post-quantum cryptography), and runs the &lt;a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">cryptographic algorithm and
+module validation
+programs&lt;/a>
+that validate and issue certificates to cryptographic libraries.&lt;/p></description></item><item><title>Verifying Libcrux's ML-KEM</title><link>https://cryspen.com/post/ml-kem-verification/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-verification/</guid><description>&lt;p>In a &lt;a href="../ml-kem-implementation/">recent blog post&lt;/a>, we described Cryspen&amp;rsquo;s new Rust
+implementation of ML-KEM in Rust, and talked about how our
+high-assurance development methodology helped us find a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220">new timing
+bug&lt;/a>
+in various other Kyber implementations.&lt;/p></description></item><item><title>Verified ML-KEM (Kyber) in Rust</title><link>https://cryspen.com/post/ml-kem-implementation/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-implementation/</guid><description>&lt;p>ML-KEM, previously known as &lt;a href="https://pq-crystals.org/kyber/">Kyber&lt;/a>, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in &lt;a href="https://csrc.nist.gov/pubs/fips/203/ipd">FIPS 203&lt;/a>.&lt;/p>
+&lt;p>Cryspen has built &lt;a href="https://github.com/cryspen/libcrux/tree/main/src/kem">a new high assurance Rust implementation of ML-KEM&lt;/a>, using our verification framework &lt;a href="https://cryspen.com/hax">hax&lt;/a> and &lt;a href="https://fstar-lang.org">F*&lt;/a>. Our implementation is among the fastest portable implementations that we know of (see &lt;a href="#performance-comparison">Performance comparison&lt;/a>), and helped uncover a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220">timing bug&lt;/a> (also called &lt;a href="https://kyberslash.cr.yp.to/">KyberSlash&lt;/a>) in various Kyber implementations that would allow an attacker to &lt;a href="https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/ldX0ThYJuBo/m/uIOqRF5BAwAJ">recover the private key&lt;/a>.&lt;/p></description></item><item><title>Cryspen @ RWC 2023</title><link>https://cryspen.com/post/rwc-2023/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/rwc-2023/</guid><description>&lt;p>At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.&lt;/p></description></item></channel></rss>

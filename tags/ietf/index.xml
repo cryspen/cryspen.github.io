@@ -1,33 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>IETF on Cryspen</title>
-    <link>https://cryspen.com/tags/ietf/</link>
-    <description>Recent content in IETF on Cryspen</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cryspen.com/tags/ietf/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>OpenMLS</title>
-      <link>https://cryspen.com/post/hello-openmls/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hello-openmls/</guid>
-      <description>We have joined forces with our friends from Phoenix R&amp;amp;D to improve OpenMLS.&#xA;The MLS protocol draft is in the IETF working group&amp;rsquo;s last call and is thus on track to become an RFC soon.</description>
-    </item>
-    <item>
-      <title>An Executable HPKE Specification</title>
-      <link>https://cryspen.com/post/hpke_spec/</link>
-      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/hpke_spec/</guid>
-      <description>HPKE, published as RFC 9180, describes a scheme for hybrid public key encryption.&#xA;📚 Read our TL;DR on HPKE if you need more background on HPKE.</description>
-    </item>
-    <item>
-      <title>TL;DR - Hybrid Public Key Encryption</title>
-      <link>https://cryspen.com/post/tldr-hpke/</link>
-      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://cryspen.com/post/tldr-hpke/</guid>
-      <description>HPKE, defined in RFC 9180, is a CFRG standard that describes a scheme for hybrid public key encryption. It is co-authored by my Cryspen co-founder Karthikeyan Bhargavan and one of his PhD students Benjamin Lipp as part of his research at Inria.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IETF on Cryspen</title><link>https://cryspen.com/tags/ietf/</link><description>Recent content in IETF on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/ietf/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenMLS</title><link>https://cryspen.com/post/hello-openmls/</link><pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hello-openmls/</guid><description>&lt;p>We have joined forces with our friends from &lt;a href="https://phnx.im/">Phoenix R&amp;amp;D&lt;/a> to improve OpenMLS.&lt;/p>
+&lt;p>The &lt;a href="https://messaginglayersecurity.rocks/mls-protocol/draft-ietf-mls-protocol.html">MLS protocol&lt;/a> draft is in the IETF working group&amp;rsquo;s &lt;a href="https://mailarchive.ietf.org/arch/msg/mls/bOhxmpo70T-ikDd40OqQfst64gE/">last call&lt;/a> and is thus
+on track to become an RFC soon.
+We want to make sure that OpenMLS is ready for wider adoption by the time the
+RFC is ready.
+To achieve this we start by catching up with all the changes to the protocol
+(up to the current draft-16), improving test coverage of the code, and working
+towards a more comprehensive test framework for interoperability.&lt;/p></description></item><item><title>An Executable HPKE Specification</title><link>https://cryspen.com/post/hpke_spec/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hpke_spec/</guid><description>&lt;p>&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE&lt;/a>, published as &lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">RFC 9180&lt;/a>, describes a scheme for hybrid public key encryption.&lt;/p>
+&lt;blockquote>
+&lt;p>📚 Read our &lt;a href="https://cryspen.com/post/tldr-hpke/">TL;DR on HPKE&lt;/a> if you need more background on HPKE.&lt;/p></description></item><item><title>TL;DR - Hybrid Public Key Encryption</title><link>https://cryspen.com/post/tldr-hpke/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/tldr-hpke/</guid><description>&lt;p>&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE&lt;/a>, defined in &lt;a href="https://www.rfc-editor.org/rfc/rfc9180.html">RFC 9180&lt;/a>, is a &lt;a href="https://datatracker.ietf.org/rg/cfrg/about/">CFRG&lt;/a> standard that describes a scheme for hybrid public key encryption.
+It is co-authored by my &lt;a href="https://www.cryspen.com">Cryspen&lt;/a> co-founder &lt;a href="https://bhargavan.info/index.html">Karthikeyan Bhargavan&lt;/a> and one of
+his PhD students &lt;a href="https://www.benjaminlipp.de">Benjamin Lipp&lt;/a> as part of his research at &lt;a href="https://team.inria.fr/prosecco">Inria&lt;/a>.&lt;/p></description></item></channel></rss>
