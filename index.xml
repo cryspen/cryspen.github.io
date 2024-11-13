@@ -45,7 +45,10 @@ cutting-edge formal verification tools developed at research labs like
 &lt;a href="https://www.inria.fr/">Inria&lt;/a> and applying them to commercial software development. All
 three co-founders have a demonstrated track record of solving
 challenging problems in high-assurance high-performance cryptographic
-software development, both in research and industry.&lt;/p></description></item><item><title>Advanced Cryptographic Implementations</title><link>https://cryspen.com/advanced-crypto/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/advanced-crypto/</guid><description>&lt;p>TBD&lt;/p></description></item><item><title>HACL</title><link>https://cryspen.com/hacl/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/hacl/</guid><description>&lt;p>HACL is a set of formally verified cryptographic libraries in C, JavaScript, OCaml, and Rust.
+software development, both in research and industry.&lt;/p></description></item><item><title>Advanced Cryptographic Implementations</title><link>https://cryspen.com/advanced-crypto/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/advanced-crypto/</guid><description>&lt;p>TBD&lt;/p></description></item><item><title>Diversity, Equity, and Inclusion</title><link>https://cryspen.com/company/dei/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/company/dei/</guid><description>&lt;p>Cryspen is committed to creating a diverse, equitable, and inclusive workplace
+where all employees feel valued, respected, and empowered.
+This policy outlines our commitment to fostering a positive and productive work
+environment that celebrates differences and promotes equal opportunities for all.&lt;/p></description></item><item><title>HACL</title><link>https://cryspen.com/hacl/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/hacl/</guid><description>&lt;p>HACL is a set of formally verified cryptographic libraries in C, JavaScript, OCaml, and Rust.
 The libraries are based on the &lt;a href="https://github.com/hacl-star/hacl-star">HACL*&lt;/a> &lt;a href="https://project-everest.github.io/">research project&lt;/a>, originally developed by Inria
 and Microsoft Research.&lt;/p></description></item><item><title>hacspec</title><link>https://cryspen.com/hacspec/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/hacspec/</guid><description>&lt;p>&lt;a href="https://hacspec.org">hacspec&lt;/a> is a language and framework for writing succinct, executable, formally
 verifiable specifications for cryptographic components.&lt;/p>
@@ -102,9 +105,9 @@ HPKE works for any combination of an asymmetric key encapsulation mechanism (KEM
 Some authenticated variants may not be supported by all KEMs.
 We provide instantiations of the scheme using widely used and efficient primitives, such as Elliptic Curve Diffie-Hellman key agreement, HKDF, and SHA2.&lt;/p></description></item><item><title>Impressum</title><link>https://cryspen.com/imprint/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/imprint/</guid><description>&lt;p>Company Name: Cryspen Sarl&lt;/p>
 &lt;p>Registered Office: 149 Avenue du Maine, 75014 Paris, France&lt;/p>
-&lt;p>Email: &lt;a href="mailto:info@cryspen.com">info@cryspen.com&lt;/a>&lt;/p>
+&lt;p>Email: &lt;a href="info@cryspen.com">info@cryspen.com&lt;/a>&lt;/p>
 &lt;p>Managing Director: Franziskus Kiefer&lt;/p>
-&lt;p>Registration Number: 908 684 848 R.C.S. Paris&lt;/p></description></item><item><title>Jobs</title><link>https://cryspen.com/jobs/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/jobs/</guid><description>&lt;div id="join-widget">
+&lt;p>Registration Number: &lt;a href="https://annuaire-entreprises.data.gouv.fr/entreprise/cryspen-908684848">908 684 848 R.C.S. Paris&lt;/a>&lt;/p></description></item><item><title>Jobs</title><link>https://cryspen.com/jobs/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/jobs/</guid><description>&lt;div id="join-widget">
  &lt;script
  defer
  type="text/javascript"
