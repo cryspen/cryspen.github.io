@@ -1,41 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Circus on Cryspen</title><link>https://cryspen.com/tags/circus/</link><description>Recent content in Circus on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/circus/index.xml" rel="self" type="application/rss+xml"/><item><title>High Assurance Software Toolchain</title><link>https://cryspen.com/circus/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/circus/</guid><description>&lt;p>Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust,
-development environment and verification toolchain for security critical software.&lt;/p></description></item><item><title>High Assurance Software Toolchain</title><link>https://cryspen.com/hax/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/hax/</guid><description>&lt;p>With hax, you can achieve a new level of confidence in the safety, security, and reliability of your software.&lt;/p>
-&lt;svg xmlns="http://www.w3.org/2000/svg" style="display: none">
- &lt;symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
- &lt;path
- d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
- />
- &lt;/symbol>
- &lt;symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
- &lt;path
- d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
- />
- &lt;/symbol>
- &lt;symbol
- id="exclamation-triangle-fill"
- fill="currentColor"
- viewBox="0 0 16 16"
- >
- &lt;path
- d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
- />
- &lt;/symbol>
-&lt;/svg>
-
-&lt;div
- class="alert d-flex align-items-center justify-content-centeer text-center"
- role="alert"
->
- &lt;svg
- class="bi flex-shrink-0 me-2"
- width="24"
- height="24"
- role="img"
- aria-label="Info:"
- >
- &lt;use xlink:href="#info-fill" />
- &lt;/svg>
- &lt;div class="text-center">&lt;a href="https://hax-playground.cryspen.com/">Try it online&lt;/a>&lt;/div>
-&lt;/div>
-
-&lt;p>&lt;strong>Key benefits of Hax:&lt;/strong>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Circus on Cryspen</title>
+    <link>https://cryspen.com/tags/circus/</link>
+    <description>Recent content in Circus on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/circus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High Assurance Software Toolchain</title>
+      <link>https://cryspen.com/circus/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/circus/</guid>
+      <description>&lt;p&gt;Cryspen collaborates with the Prosecco team at Inria to develop a usable, robust,&#xA;development environment and verification toolchain for security critical software.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>High Assurance Software Toolchain</title>
+      <link>https://cryspen.com/hax/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/hax/</guid>
+      <description>&lt;p&gt;With hax, you can achieve a new level of confidence in the safety, security, and reliability of your software.&lt;/p&gt;&#xA;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; style=&#34;display: none&#34;&gt;&#xA;  &lt;symbol id=&#34;check-circle-fill&#34; fill=&#34;currentColor&#34; viewBox=&#34;0 0 16 16&#34;&gt;&#xA;    &lt;path&#xA;      d=&#34;M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z&#34;&#xA;    /&gt;&#xA;  &lt;/symbol&gt;&#xA;  &lt;symbol id=&#34;info-fill&#34; fill=&#34;currentColor&#34; viewBox=&#34;0 0 16 16&#34;&gt;&#xA;    &lt;path&#xA;      d=&#34;M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z&#34;&#xA;    /&gt;&#xA;  &lt;/symbol&gt;&#xA;  &lt;symbol&#xA;    id=&#34;exclamation-triangle-fill&#34;&#xA;    fill=&#34;currentColor&#34;&#xA;    viewBox=&#34;0 0 16 16&#34;&#xA;  &gt;&#xA;    &lt;path&#xA;      d=&#34;M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z&#34;&#xA;    /&gt;&#xA;  &lt;/symbol&gt;&#xA;&lt;/svg&gt;&#xA;&#xA;&lt;div&#xA;  class=&#34;alert d-flex align-items-center justify-content-centeer text-center&#34;&#xA;  role=&#34;alert&#34;&#xA;&gt;&#xA;  &lt;svg&#xA;    class=&#34;bi flex-shrink-0 me-2&#34;&#xA;    width=&#34;24&#34;&#xA;    height=&#34;24&#34;&#xA;    role=&#34;img&#34;&#xA;    aria-label=&#34;Info:&#34;&#xA;  &gt;&#xA;    &lt;use xlink:href=&#34;#info-fill&#34; /&gt;&#xA;  &lt;/svg&gt;&#xA;  &lt;div class=&#34;text-center&#34;&gt;&lt;a href=&#34;https://hax-playground.cryspen.com/&#34;&gt;Try it online&lt;/a&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Key benefits of Hax:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

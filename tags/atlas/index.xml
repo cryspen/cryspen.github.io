@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ATLAS on Cryspen</title><link>https://cryspen.com/tags/atlas/</link><description>Recent content in ATLAS on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/atlas/index.xml" rel="self" type="application/rss+xml"/><item><title>Specifying Oblivious Pseudonymization</title><link>https://cryspen.com/post/scrambledb/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/scrambledb/</guid><description>&lt;p>In this blog post we announce an executable specification in the
-&lt;code>hacspec&lt;/code> specification language for the &lt;code>ScrambleDB&lt;/code> pseudonymization
-system, developed by Cryspen as part of the &lt;a href="https://www.forschung-it-sicherheit-kommunikationssysteme.de/projekte/atlas">BMBF ATLAS project&lt;/a>.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ATLAS on Cryspen</title>
+    <link>https://cryspen.com/tags/atlas/</link>
+    <description>Recent content in ATLAS on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/atlas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Specifying Oblivious Pseudonymization</title>
+      <link>https://cryspen.com/post/scrambledb/</link>
+      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/scrambledb/</guid>
+      <description>&lt;p&gt;In this blog post we announce an executable specification in the&#xA;&lt;code&gt;hacspec&lt;/code&gt; specification language for the &lt;code&gt;ScrambleDB&lt;/code&gt; pseudonymization&#xA;system, developed by Cryspen as part of the &lt;a href=&#34;https://www.forschung-it-sicherheit-kommunikationssysteme.de/projekte/atlas&#34;&gt;BMBF ATLAS project&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

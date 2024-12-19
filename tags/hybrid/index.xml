@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hybrid on Cryspen</title>
+    <link>https://cryspen.com/tags/hybrid/</link>
+    <description>Recent content in Hybrid on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/hybrid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>X25519MLKEM768 TLS-Handshake in Bertie</title>
+      <link>https://cryspen.com/post/pq-bertie-server/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/pq-bertie-server/</guid>
+      <description>&lt;p&gt;Summer is over for some months on the northern hemisphere, and &lt;a href=&#34;https://cryspen.com/post/fospqc/&#34;&gt;so is&lt;/a&gt; the draft phase of NISTs post-quantum cryptographic standards. Since August 13, 2024, FIPS has standardized Kyber as ML-KEM in &lt;a href=&#34;https://csrc.nist.gov/pubs/fips/203/final&#34;&gt;FIPS 203&lt;/a&gt; for PQ encryption, Dilithium as ML-DSA and and SPHINCS+ as SLH-DSA in &lt;a href=&#34;https://csrc.nist.gov/pubs/fips/204/final&#34;&gt;FIPS 204&lt;/a&gt; and &lt;a href=&#34;https://csrc.nist.gov/pubs/fips/205/final&#34;&gt;FIPS 205&lt;/a&gt;, respectively, for PQ digital signatures. Read more on how we at Cryspen are building formally verified implementations of these standards, &lt;a href=&#34;https://cryspen.com/post/fospqc/&#34;&gt;previously on this blog&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

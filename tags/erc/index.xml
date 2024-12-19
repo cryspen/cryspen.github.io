@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ERC on Cryspen</title><link>https://cryspen.com/tags/erc/</link><description>Recent content in ERC on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/erc/index.xml" rel="self" type="application/rss+xml"/><item><title>Cryspen ERC PoC Grant</title><link>https://cryspen.com/post/erc-poc/</link><pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/erc-poc/</guid><description>&lt;p>Cryspen co-founder &lt;a href="https://bhargavan.info/">Karthik Bhargavan&lt;/a> got awarded an &lt;a href="https://erc.europa.eu/funding/proof-concept">ERC Proof of Concept grant&lt;/a> for
-commercialising the know-how and landmark research results from his Inria
-research group &lt;a href="https://team.inria.fr/prosecco/">PROSECCO&lt;/a> through Cryspen.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ERC on Cryspen</title>
+    <link>https://cryspen.com/tags/erc/</link>
+    <description>Recent content in ERC on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/erc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryspen ERC PoC Grant</title>
+      <link>https://cryspen.com/post/erc-poc/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/erc-poc/</guid>
+      <description>&lt;p&gt;Cryspen co-founder &lt;a href=&#34;https://bhargavan.info/&#34;&gt;Karthik Bhargavan&lt;/a&gt; got awarded an &lt;a href=&#34;https://erc.europa.eu/funding/proof-concept&#34;&gt;ERC Proof of Concept grant&lt;/a&gt; for&#xA;commercialising the know-how and landmark research results from his Inria&#xA;research group &lt;a href=&#34;https://team.inria.fr/prosecco/&#34;&gt;PROSECCO&lt;/a&gt; through Cryspen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

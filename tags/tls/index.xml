@@ -1,3 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TLS on Cryspen</title><link>https://cryspen.com/tags/tls/</link><description>Recent content in TLS on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/tls/index.xml" rel="self" type="application/rss+xml"/><item><title>Post-Quantum TLS in Bertie</title><link>https://cryspen.com/post/pq-bertie/</link><pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pq-bertie/</guid><description>&lt;p>The prospect of quantum computers breaking most public key encryption in use today has created the need for new schemes that can resist classical and potential quantum attackers alike. Some of these schemes, such as ML-KEM and ML-DSA, are currently in the &lt;a href="https://csrc.nist.gov/Projects/post-quantum-cryptography">final stages of standardizations by NIST&lt;/a>. Before fully transitioning to post-quantum secure cryptography, an important first step many organizations are taking is protecting against &lt;a href="https://en.wikipedia.org/wiki/Harvest_now,_decrypt_later">Harvest Now Decrypt Later (HNDL) attacks&lt;/a>, where data is collected and stored today, and later decrypted once cryptanalysis improves.
-Signal recently introduced &lt;a href="https://cryspen.com/post/pqxdh/">PQXDH&lt;/a>, which protects against these attacks.
-&lt;a href="https://blog.chromium.org/2023/08/protecting-chrome-traffic-with-hybrid.html">Google&amp;rsquo;s Chrome browser is using&lt;/a> the &lt;a href="https://www.ietf.org/archive/id/draft-tls-westerbaan-xyber768d00-02.html">&lt;code>X25519Kyber768Draft00&lt;/code>&lt;/a> hybrid KEM cipher suite in TLS, which combines a post-quantum secure KEM with the classical key exchange. Cloudflare, which is serving a big chunk of the internet, &lt;a href="https://blog.cloudflare.com/post-quantum-for-all">supports it as well&lt;/a>.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TLS on Cryspen</title>
+    <link>https://cryspen.com/tags/tls/</link>
+    <description>Recent content in TLS on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cryspen.com/tags/tls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>X25519MLKEM768 TLS-Handshake in Bertie</title>
+      <link>https://cryspen.com/post/pq-bertie-server/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/pq-bertie-server/</guid>
+      <description>&lt;p&gt;Summer is over for some months on the northern hemisphere, and &lt;a href=&#34;https://cryspen.com/post/fospqc/&#34;&gt;so is&lt;/a&gt; the draft phase of NISTs post-quantum cryptographic standards. Since August 13, 2024, FIPS has standardized Kyber as ML-KEM in &lt;a href=&#34;https://csrc.nist.gov/pubs/fips/203/final&#34;&gt;FIPS 203&lt;/a&gt; for PQ encryption, Dilithium as ML-DSA and and SPHINCS+ as SLH-DSA in &lt;a href=&#34;https://csrc.nist.gov/pubs/fips/204/final&#34;&gt;FIPS 204&lt;/a&gt; and &lt;a href=&#34;https://csrc.nist.gov/pubs/fips/205/final&#34;&gt;FIPS 205&lt;/a&gt;, respectively, for PQ digital signatures. Read more on how we at Cryspen are building formally verified implementations of these standards, &lt;a href=&#34;https://cryspen.com/post/fospqc/&#34;&gt;previously on this blog&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post-Quantum TLS in Bertie</title>
+      <link>https://cryspen.com/post/pq-bertie/</link>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://cryspen.com/post/pq-bertie/</guid>
+      <description>&lt;p&gt;The prospect of quantum computers breaking most public key encryption in use today has created the need for new schemes that can resist classical and potential quantum attackers alike. Some of these schemes, such as ML-KEM and ML-DSA, are currently in the &lt;a href=&#34;https://csrc.nist.gov/Projects/post-quantum-cryptography&#34;&gt;final stages of standardizations by NIST&lt;/a&gt;. Before fully transitioning to post-quantum secure cryptography, an important first step many organizations are taking is protecting against &lt;a href=&#34;https://en.wikipedia.org/wiki/Harvest_now,_decrypt_later&#34;&gt;Harvest Now Decrypt Later (HNDL) attacks&lt;/a&gt;, where data is collected and stored today, and later decrypted once cryptanalysis improves.&#xA;Signal recently introduced &lt;a href=&#34;https://cryspen.com/post/pqxdh/&#34;&gt;PQXDH&lt;/a&gt;, which protects against these attacks.&#xA;&lt;a href=&#34;https://blog.chromium.org/2023/08/protecting-chrome-traffic-with-hybrid.html&#34;&gt;Google&amp;rsquo;s Chrome browser is using&lt;/a&gt; the &lt;a href=&#34;https://www.ietf.org/archive/id/draft-tls-westerbaan-xyber768d00-02.html&#34;&gt;&lt;code&gt;X25519Kyber768Draft00&lt;/code&gt;&lt;/a&gt; hybrid KEM cipher suite in TLS, which combines a post-quantum secure KEM with the classical key exchange. Cloudflare, which is serving a big chunk of the internet, &lt;a href=&#34;https://blog.cloudflare.com/post-quantum-for-all&#34;&gt;supports it as well&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
