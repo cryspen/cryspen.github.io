@@ -1,15 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenMLS on Cryspen</title><link>https://cryspen.com/tags/openmls/</link><description>Recent content in OpenMLS on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/openmls/index.xml" rel="self" type="application/rss+xml"/><item><title>MLS Group State Forks: What, Why, How</title><link>https://cryspen.com/post/mls-fork-resolution/</link><pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/mls-fork-resolution/</guid><description>&lt;p>Group state forks are faulty states that MLS groups can end up in. This article looks at what they are exactly, how that happens and how to resolve them. We also look at a new OpenMLS feature that makes fork resolutions a little easier.&lt;/p></description></item><item><title>Post-Quantum OpenMLS</title><link>https://cryspen.com/post/pq-openmls/</link><pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pq-openmls/</guid><description>&lt;p>OpenMLS now offers security against harvest-now-decrypt-later (HNDL) quantum adversaries.&lt;/p>
-&lt;p>In &lt;a href="https://github.com/openmls/openmls/pull/1546">#1546&lt;/a> we merged support for the &lt;a href="https://www.ietf.org/archive/id/draft-connolly-cfrg-xwing-kem-02.html">X-Wing KEM draft&lt;/a>, which is an early draft for securely combining elliptic-curve-based Diffie-Hellman with ML-KEM. In particular, OpenMLS now supports the ciphersuite MLS_256_XWING_CHACHA20POLY1305_SHA256_Ed25519 with ciphersuite 0x004D. There is no IANA code-point for this ciphersuite yet, such that interoperability may not be guaranteed. We work with other implementers towards interoperability of this ciphersuite.&lt;/p></description></item><item><title>Post-Quantum Group Messaging</title><link>https://cryspen.com/post/pq-mls/</link><pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pq-mls/</guid><description>&lt;p>With multiple post-quantum cryptographic algorithms (&lt;a href="https://csrc.nist.gov/pubs/fips/203/ipd">ML-KEM&lt;/a>, &lt;a href="https://csrc.nist.gov/pubs/fips/204/ipd">ML-DSA&lt;/a>) nearing standardization, enterprises, research groups, and standards bodies have started investigating what post-quantum secure protocols should look like and what properties they should satisfy.&lt;/p></description></item><item><title>Internet Defense Prize 2023</title><link>https://cryspen.com/post/internet-defense-prize-2023/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/internet-defense-prize-2023/</guid><description>&lt;p>At the &lt;a href="https://www.usenix.org/conference/usenixsecurity23">32nd Usenix Security Symposium&lt;/a> in Anaheim CA, a paper on the &lt;a href="https://cryspen.com/post/mls-introduction/">Messaging Layer Security Protocol&lt;/a>, co-authored by our founders Jonathan Protzenko and Karthikeyan Bhargavan, was awarded both the Distinguished Paper Award and the prestigious &lt;a href="https://www.usenix.org/blog/usenix-announces-winners-2023-internet-defense-prize">Internet Defense Prize&lt;/a>.&lt;/p></description></item><item><title>Three (thousand) may keep a secret</title><link>https://cryspen.com/post/mls-introduction/</link><pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/mls-introduction/</guid><description>&lt;blockquote>
-&lt;p>&lt;em>“Three may keep a secret, if two of them are dead.”&lt;/em> - Benjamin Franklin (1735)&lt;/p>&lt;/blockquote>
-&lt;p>However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes. We exchange confidential work emails through corporate mail servers, discuss project internals on private Slacks, and exchange deeply personal information with family and friends on WhatsApp groups. The loss of this private data to malicious outsiders can result in public embarrassment, financial loss, and for vulnerable persons like journalists or activists, even threats to life and liberty.&lt;/p></description></item><item><title>MLS - RFC 9420</title><link>https://cryspen.com/post/mls-rfc-announcement/</link><pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/mls-rfc-announcement/</guid><description>&lt;p>&lt;strong>✨ We are thrilled to announce the release of the MLS specification as &lt;a href="https://datatracker.ietf.org/doc/html/rfc9420">RFC 9420&lt;/a>.&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://datatracker.ietf.org/doc/html/rfc9420">RFC 9420&lt;/a> is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands. While Cryspen didn&amp;rsquo;t exist back when the MLS working group was established, our co-founder Karthik played a pivotal role in designing MLS from the beginning by contributing to the original design of &lt;a href="https://inria.hal.science/hal-02425247/file/treekem+(1).pdf">TreeKEM&lt;/a>, the basis of MLS today.&lt;/p></description></item><item><title>OpenMLS</title><link>https://cryspen.com/openmls/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/openmls/</guid><description>&lt;p>Messaging Layer Security (MLS) is a security layer for end-to-end encrypting
-communication in large dynamic groups.
-It has been specified by the &lt;a href="https://datatracker.ietf.org/wg/mls/about/">IETF MLS working group&lt;/a> and designed to be efficient,
-practical and secure.&lt;/p></description></item><item><title>OpenMLS</title><link>https://cryspen.com/post/hello-openmls/</link><pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hello-openmls/</guid><description>&lt;p>We have joined forces with our friends from &lt;a href="https://phnx.im/">Phoenix R&amp;amp;D&lt;/a> to improve OpenMLS.&lt;/p>
-&lt;p>The &lt;a href="https://messaginglayersecurity.rocks/mls-protocol/draft-ietf-mls-protocol.html">MLS protocol&lt;/a> draft is in the IETF working group&amp;rsquo;s &lt;a href="https://mailarchive.ietf.org/arch/msg/mls/bOhxmpo70T-ikDd40OqQfst64gE/">last call&lt;/a> and is thus
-on track to become an RFC soon.
-We want to make sure that OpenMLS is ready for wider adoption by the time the
-RFC is ready.
-To achieve this we start by catching up with all the changes to the protocol
-(up to the current draft-16), improving test coverage of the code, and working
-towards a more comprehensive test framework for interoperability.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenMLS on Cryspen</title>
+    <link>http://localhost:1313/tags/openmls/</link>
+    <description>Recent content in OpenMLS on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/openmls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MLS Group State Forks: What, Why, How</title>
+      <link>http://localhost:1313/post/mls-fork-resolution/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/mls-fork-resolution/</guid>
+      <description>&lt;p&gt;Group state forks are faulty states that MLS groups can end up in. This article looks at what they are exactly, how that happens and how to resolve them. We also look at a new OpenMLS feature that makes fork resolutions a little easier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post-Quantum OpenMLS</title>
+      <link>http://localhost:1313/post/pq-openmls/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/pq-openmls/</guid>
+      <description>&lt;p&gt;OpenMLS now offers security against harvest-now-decrypt-later (HNDL) quantum adversaries.&lt;/p&gt;&#xA;&lt;p&gt;In &lt;a href=&#34;https://github.com/openmls/openmls/pull/1546&#34;&gt;#1546&lt;/a&gt; we merged support for the &lt;a href=&#34;https://www.ietf.org/archive/id/draft-connolly-cfrg-xwing-kem-02.html&#34;&gt;X-Wing KEM draft&lt;/a&gt;, which is an early draft for securely combining elliptic-curve-based Diffie-Hellman with ML-KEM. In particular, OpenMLS now supports the ciphersuite MLS_256_XWING_CHACHA20POLY1305_SHA256_Ed25519 with ciphersuite 0x004D. There is no IANA code-point for this ciphersuite yet, such that interoperability may not be guaranteed. We work with other implementers towards interoperability of this ciphersuite.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post-Quantum Group Messaging</title>
+      <link>http://localhost:1313/post/pq-mls/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/pq-mls/</guid>
+      <description>&lt;p&gt;With multiple post-quantum cryptographic algorithms (&lt;a href=&#34;https://csrc.nist.gov/pubs/fips/203/ipd&#34;&gt;ML-KEM&lt;/a&gt;, &lt;a href=&#34;https://csrc.nist.gov/pubs/fips/204/ipd&#34;&gt;ML-DSA&lt;/a&gt;) nearing standardization, enterprises, research groups, and standards bodies have started investigating what post-quantum secure protocols should look like and what properties they should satisfy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Internet Defense Prize 2023</title>
+      <link>http://localhost:1313/post/internet-defense-prize-2023/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/internet-defense-prize-2023/</guid>
+      <description>&lt;p&gt;At the &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity23&#34;&gt;32nd Usenix Security Symposium&lt;/a&gt; in Anaheim CA, a paper on the &lt;a href=&#34;https://cryspen.com/post/mls-introduction/&#34;&gt;Messaging Layer Security Protocol&lt;/a&gt;, co-authored by our founders Jonathan Protzenko and Karthikeyan Bhargavan, was awarded both the Distinguished Paper Award and the prestigious &lt;a href=&#34;https://www.usenix.org/blog/usenix-announces-winners-2023-internet-defense-prize&#34;&gt;Internet Defense Prize&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Three (thousand) may keep a secret</title>
+      <link>http://localhost:1313/post/mls-introduction/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/mls-introduction/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;“Three may keep a secret, if two of them are dead.”&lt;/em&gt; - Benjamin Franklin (1735)&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;However skeptical we may be of our human ability to keep secrets, we still routinely participate in group conversations that we would like to keep away from prying eyes. We exchange confidential work emails through corporate mail servers, discuss project internals on private Slacks, and exchange deeply personal information with family and friends on WhatsApp groups. The loss of this private data to malicious outsiders can result in public embarrassment, financial loss, and for vulnerable persons like journalists or activists, even threats to life and liberty.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MLS - RFC 9420</title>
+      <link>http://localhost:1313/post/mls-rfc-announcement/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/mls-rfc-announcement/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;✨ We are thrilled to announce the release of the MLS specification as &lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc9420&#34;&gt;RFC 9420&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc9420&#34;&gt;RFC 9420&lt;/a&gt; is a comprehensive description of the first standardised, efficient, asynchronous, key establishment protocol with forward secrecy and post-compromise security for groups in size ranging from two to thousands. While Cryspen didn&amp;rsquo;t exist back when the MLS working group was established, our co-founder Karthik played a pivotal role in designing MLS from the beginning by contributing to the original design of &lt;a href=&#34;https://inria.hal.science/hal-02425247/file/treekem+(1).pdf&#34;&gt;TreeKEM&lt;/a&gt;, the basis of MLS today.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenMLS</title>
+      <link>http://localhost:1313/openmls/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/openmls/</guid>
+      <description>&lt;p&gt;Messaging Layer Security (MLS) is a security layer for end-to-end encrypting&#xA;communication in large dynamic groups.&#xA;It has been specified by the &lt;a href=&#34;https://datatracker.ietf.org/wg/mls/about/&#34;&gt;IETF MLS working group&lt;/a&gt; and designed to be efficient,&#xA;practical and secure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenMLS</title>
+      <link>http://localhost:1313/post/hello-openmls/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/hello-openmls/</guid>
+      <description>&lt;p&gt;We have joined forces with our friends from &lt;a href=&#34;https://phnx.im/&#34;&gt;Phoenix R&amp;amp;D&lt;/a&gt; to improve OpenMLS.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://messaginglayersecurity.rocks/mls-protocol/draft-ietf-mls-protocol.html&#34;&gt;MLS protocol&lt;/a&gt; draft is in the IETF working group&amp;rsquo;s &lt;a href=&#34;https://mailarchive.ietf.org/arch/msg/mls/bOhxmpo70T-ikDd40OqQfst64gE/&#34;&gt;last call&lt;/a&gt; and is thus&#xA;on track to become an RFC soon.&#xA;We want to make sure that OpenMLS is ready for wider adoption by the time the&#xA;RFC is ready.&#xA;To achieve this we start by catching up with all the changes to the protocol&#xA;(up to the current draft-16), improving test coverage of the code, and working&#xA;towards a more comprehensive test framework for interoperability.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

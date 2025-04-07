@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IoT on Cryspen</title><link>https://cryspen.com/tags/iot/</link><description>Recent content in IoT on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/iot/index.xml" rel="self" type="application/rss+xml"/><item><title>High Assurance IoT PQC</title><link>https://cryspen.com/post/pqc-iot-announce/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pqc-iot-announce/</guid><description>&lt;p>Together with our sister-company &lt;a href="https://cryptoeng.de">CryptoEng&lt;/a>, we extend our &lt;a href="https://github.com/cryspen/libcrux">libcrux&lt;/a> cryptographic
-library with support for resource constrained IoT devices.
-Read &lt;a href="https://cryptoeng.de/blog/posts/iot-pqc-announce/">their announcement here&lt;/a>.
-The libcrux-iot library contains high performance, high assurance implementations of post-quantum, as well as classical, cryptographic primitives.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IoT on Cryspen</title>
+    <link>http://localhost:1313/tags/iot/</link>
+    <description>Recent content in IoT on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High Assurance IoT PQC</title>
+      <link>http://localhost:1313/post/pqc-iot-announce/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/pqc-iot-announce/</guid>
+      <description>&lt;p&gt;Together with our sister-company &lt;a href=&#34;https://cryptoeng.de&#34;&gt;CryptoEng&lt;/a&gt;, we extend our &lt;a href=&#34;https://github.com/cryspen/libcrux&#34;&gt;libcrux&lt;/a&gt; cryptographic&#xA;library with support for resource constrained IoT devices.&#xA;Read &lt;a href=&#34;https://cryptoeng.de/blog/posts/iot-pqc-announce/&#34;&gt;their announcement here&lt;/a&gt;.&#xA;The libcrux-iot library contains high performance, high assurance implementations of post-quantum, as well as classical, cryptographic primitives.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
