@@ -1,26 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pqc on Cryspen</title>
-    <link>http://localhost:1313/tags/pqc/</link>
-    <description>Recent content in Pqc on Cryspen</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pqc/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Verifying Libcrux&#39;s ML-KEM</title>
-      <link>http://localhost:1313/post/ml-kem-verification/</link>
-      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/ml-kem-verification/</guid>
-      <description>&lt;p&gt;In a &lt;a href=&#34;../ml-kem-implementation/&#34;&gt;recent blog post&lt;/a&gt;, we described Cryspen&amp;rsquo;s new Rust&#xA;implementation of ML-KEM in Rust, and talked about how our&#xA;high-assurance development methodology helped us find a &lt;a href=&#34;https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220&#34;&gt;new timing&#xA;bug&lt;/a&gt;&#xA;in various other Kyber implementations.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Verified ML-KEM (Kyber) in Rust</title>
-      <link>http://localhost:1313/post/ml-kem-implementation/</link>
-      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/ml-kem-implementation/</guid>
-      <description>&lt;p&gt;ML-KEM, previously known as &lt;a href=&#34;https://pq-crystals.org/kyber/&#34;&gt;Kyber&lt;/a&gt;, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in &lt;a href=&#34;https://csrc.nist.gov/pubs/fips/203/ipd&#34;&gt;FIPS 203&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Cryspen has built &lt;a href=&#34;https://github.com/cryspen/libcrux/tree/main/libcrux-kem&#34;&gt;a new high assurance Rust implementation of ML-KEM&lt;/a&gt;, using our verification framework &lt;a href=&#34;https://cryspen.com/hax&#34;&gt;hax&lt;/a&gt; and &lt;a href=&#34;https://fstar-lang.org&#34;&gt;F*&lt;/a&gt;. Our implementation is among the fastest portable implementations that we know of (see &lt;a href=&#34;#performance-comparison&#34;&gt;Performance comparison&lt;/a&gt;), and helped uncover a &lt;a href=&#34;https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220&#34;&gt;timing bug&lt;/a&gt; (also called &lt;a href=&#34;https://kyberslash.cr.yp.to/&#34;&gt;KyberSlash&lt;/a&gt;) in various Kyber implementations that would allow an attacker to &lt;a href=&#34;https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/ldX0ThYJuBo/m/uIOqRF5BAwAJ&#34;&gt;recover the private key&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pqc on Cryspen</title><link>https://cryspen.com/tags/pqc/</link><description>Recent content in Pqc on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/pqc/index.xml" rel="self" type="application/rss+xml"/><item><title>Verifying Libcrux's ML-KEM</title><link>https://cryspen.com/post/ml-kem-verification/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-verification/</guid><description>&lt;p>In a &lt;a href="../ml-kem-implementation/">recent blog post&lt;/a>, we described Cryspen&amp;rsquo;s new Rust
+implementation of ML-KEM in Rust, and talked about how our
+high-assurance development methodology helped us find a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220">new timing
+bug&lt;/a>
+in various other Kyber implementations.&lt;/p></description></item><item><title>Verified ML-KEM (Kyber) in Rust</title><link>https://cryspen.com/post/ml-kem-implementation/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-implementation/</guid><description>&lt;p>ML-KEM, previously known as &lt;a href="https://pq-crystals.org/kyber/">Kyber&lt;/a>, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in &lt;a href="https://csrc.nist.gov/pubs/fips/203/ipd">FIPS 203&lt;/a>.&lt;/p>
+&lt;p>Cryspen has built &lt;a href="https://github.com/cryspen/libcrux/tree/main/libcrux-kem">a new high assurance Rust implementation of ML-KEM&lt;/a>, using our verification framework &lt;a href="https://cryspen.com/hax">hax&lt;/a> and &lt;a href="https://fstar-lang.org">F*&lt;/a>. Our implementation is among the fastest portable implementations that we know of (see &lt;a href="#performance-comparison">Performance comparison&lt;/a>), and helped uncover a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220">timing bug&lt;/a> (also called &lt;a href="https://kyberslash.cr.yp.to/">KyberSlash&lt;/a>) in various Kyber implementations that would allow an attacker to &lt;a href="https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/ldX0ThYJuBo/m/uIOqRF5BAwAJ">recover the private key&lt;/a>.&lt;/p></description></item></channel></rss>
