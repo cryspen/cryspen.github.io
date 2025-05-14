@@ -23,10 +23,9 @@ verifiable specifications for cryptographic components.&lt;/p>
 readable by developers, cryptographers, and verification experts.
 An application developer can use hacspec to specify and prototype cryptographic
 components in Rust, and then replace this specification with a verified
-implementation before deployment.&lt;/p></description></item><item><title>libcrux</title><link>https://cryspen.com/libcrux/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/libcrux/</guid><description>&lt;p>Libcrux is a formally verified cryptographic library that brings together verified
-artifacts from different sources. It uses &lt;a href="https://cryspen.com/hacspec/">hacspec&lt;/a>
-as a common language for the specifications underlying the correctness and security
-proofs. Libcrux is written in Rust, a modern programming language that is known
+implementation before deployment.&lt;/p></description></item><item><title>libcrux</title><link>https://cryspen.com/libcrux-library/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/libcrux-library/</guid><description>&lt;p>Libcrux is a formally verified cryptographic library that brings together verified
+artifacts from different sources. It is verified using our &lt;a href="https://cryspen.com/hax-toolchain/">hax toolchain&lt;/a>.
+Libcrux is written in Rust, a modern programming language that is known
 for its safety and performance. Underneath, it uses verified Rust, C, and Assembly code.&lt;/p></description></item><item><title>An Executable HPKE Specification</title><link>https://cryspen.com/post/hpke_spec/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hpke_spec/</guid><description>&lt;p>&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">HPKE&lt;/a>, published as &lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/">RFC 9180&lt;/a>, describes a scheme for hybrid public key encryption.&lt;/p>
 &lt;blockquote>
 &lt;p>📚 Read our &lt;a href="https://cryspen.com/post/tldr-hpke/">TL;DR on HPKE&lt;/a> if you need more background on HPKE.&lt;/p></description></item></channel></rss>
