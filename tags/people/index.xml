@@ -1,11 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>People on Cryspen</title><link>https://cryspen.com/tags/people/</link><description>Recent content in People on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/people/index.xml" rel="self" type="application/rss+xml"/><item><title>Cryspen Welcomes Clement</title><link>https://cryspen.com/post/welcome_clement/</link><pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/welcome_clement/</guid><description>&lt;p&gt;The team here at Cryspen is thrilled to welcome to our newest member, Clement!&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://clement.blaudeau.net/"&gt;Clement&lt;/a&gt; joins us fresh from his impressive
-journey as a PhD student at Inria Paris, where he was part of the &lt;a href="https://cambium.inria.fr/"&gt;Cambium
-team&lt;/a&gt;. His doctoral work focused on the
-formalization of the powerful but intricate typing system of OCaml modules.
-Under the supervision of Didier Rémy and Gabriel Radanne, Clement delved deep
-into the theoretical underpinnings of this masterpiece of language design.&lt;/p&gt;</description></item><item><title>Cryspen Welcomes Clara</title><link>https://cryspen.com/post/welcome_clara/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/welcome_clara/</guid><description>&lt;p&gt;We&amp;rsquo;re thrilled to officially welcome Clara to the Cryspen team!
-Clara brings a fantastic blend of experiences and a passion for open-source that aligns perfectly with our mission.
-Let&amp;rsquo;s get to know her a little better.&lt;/p&gt;</description></item><item><title>Cryspen Welcomes Maxime</title><link>https://cryspen.com/post/welcome_maxime/</link><pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/welcome_maxime/</guid><description>&lt;p&gt;We&amp;rsquo;re thrilled to announce that Maxime Buyse has joined the Cryspen team as a Formal Verification Engineer! 🎉&lt;/p&gt;
-&lt;p&gt;Maxime is a whiz when it comes to formal methods, software verification, compilers, and functional programming.
-His expertise will be instrumental in supercharging our tools like &lt;a href="https://cryspen.com/hax"&gt;hax&lt;/a&gt; and making them even easier to use.&lt;/p&gt;</description></item><item><title>Welcome Jan &amp; Lucas</title><link>https://cryspen.com/post/welcome_jan_lucas/</link><pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/welcome_jan_lucas/</guid><description>&lt;p&gt;📢 Exciting News! Cryspen is thrilled to announce the addition of two exceptional minds to our team: &lt;a href="https://lucas.franceschino.fr/"&gt;Dr. Lucas Franceschino&lt;/a&gt; and &lt;a href="https://github.com/keks"&gt;Jan Winkelmann&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Welcome Jonas</title><link>https://cryspen.com/post/welcome_jonas/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/welcome_jonas/</guid><description>&lt;p&gt;📢 Exciting News! 🚀 We are thrilled to welcome Dr. Jonas Schneider-Bensch, to the Cryspen family as our newest R&amp;amp;D Cryptography Engineer!&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>People on Cryspen</title>
+    <link>http://localhost:1313/tags/people/</link>
+    <description>Recent content in People on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryspen Welcomes Alex</title>
+      <link>http://localhost:1313/post/welcome_alex/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/welcome_alex/</guid>
+      <description>&lt;p&gt;This month, we welcome Alexander Bentkamp (Alex) as the newest member of our team.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://abentkamp.github.io/&#34;&gt;Alex&lt;/a&gt; joins us with a strong background in automated and&#xA;interactive theorem proving, where his passion for formal proofs has&#xA;driven a series of influential contributions. He completed his PhD at&#xA;the Vrije Universiteit Amsterdam under the supervision of Jasmin&#xA;Blanchette, Uwe Waldmann, and Wan Fokkink, developing a novel proof&#xA;automation method for higher-order logic. The prover he co-developed&#xA;based on this method went on to win the annual CASC competition&#xA;multiple times and is now integrated into the Isabelle/HOL proof&#xA;assistant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cryspen Welcomes Clement</title>
+      <link>http://localhost:1313/post/welcome_clement/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/welcome_clement/</guid>
+      <description>&lt;p&gt;The team here at Cryspen is thrilled to welcome to our newest member, Clement!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://clement.blaudeau.net/&#34;&gt;Clement&lt;/a&gt; joins us fresh from his impressive&#xA;journey as a PhD student at Inria Paris, where he was part of the &lt;a href=&#34;https://cambium.inria.fr/&#34;&gt;Cambium&#xA;team&lt;/a&gt;.  His doctoral work focused on the&#xA;formalization of the powerful but intricate typing system of OCaml modules.&#xA;Under the supervision of Didier Rémy and Gabriel Radanne, Clement delved deep&#xA;into the theoretical underpinnings of this masterpiece of language design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cryspen Welcomes Clara</title>
+      <link>http://localhost:1313/post/welcome_clara/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/welcome_clara/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re thrilled to officially welcome Clara to the Cryspen team!&#xA;Clara brings a fantastic blend of experiences and a passion for open-source that aligns perfectly with our mission.&#xA;Let&amp;rsquo;s get to know her a little better.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cryspen Welcomes Maxime</title>
+      <link>http://localhost:1313/post/welcome_maxime/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/welcome_maxime/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re thrilled to announce that Maxime Buyse has joined the Cryspen team as a Formal Verification Engineer! 🎉&lt;/p&gt;&#xA;&lt;p&gt;Maxime is a whiz when it comes to formal methods, software verification, compilers, and functional programming.&#xA;His expertise will be instrumental in supercharging our tools like &lt;a href=&#34;https://cryspen.com/hax&#34;&gt;hax&lt;/a&gt; and making them even easier to use.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome Jan &amp; Lucas</title>
+      <link>http://localhost:1313/post/welcome_jan_lucas/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/welcome_jan_lucas/</guid>
+      <description>&lt;p&gt;📢 Exciting News! Cryspen is thrilled to announce the addition of two exceptional minds to our team: &lt;a href=&#34;https://lucas.franceschino.fr/&#34;&gt;Dr. Lucas Franceschino&lt;/a&gt; and &lt;a href=&#34;https://github.com/keks&#34;&gt;Jan Winkelmann&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome Jonas</title>
+      <link>http://localhost:1313/post/welcome_jonas/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/welcome_jonas/</guid>
+      <description>&lt;p&gt;📢 Exciting News! 🚀 We are thrilled to welcome Dr. Jonas Schneider-Bensch, to the Cryspen family as our newest R&amp;amp;D Cryptography Engineer!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

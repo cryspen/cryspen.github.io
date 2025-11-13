@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Benchmarking on Cryspen</title><link>https://cryspen.com/tags/benchmarking/</link><description>Recent content in Benchmarking on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/benchmarking/index.xml" rel="self" type="application/rss+xml"/><item><title>Tooling for Automated Benchmarking and Visualization</title><link>https://cryspen.com/post/benchmarking-07-25/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/benchmarking-07-25/</guid><description>&lt;p&gt;Maintaining peak software performance is a critical aspect of our development process, and early regression detection is non-negotiable. At Cryspen, we&amp;rsquo;ve addressed this by implementing an automated, multi-platform benchmarking system. This post will detail the enhancements we&amp;rsquo;ve made to our workflows, allowing us to preemptively identify performance issues. Besides focusing on algorithm benchmarks, we utilize a tracing strategy for our protocol code. This method allows us to measure performance on live code. In addition, we will explore the tools and methods designed for creating comprehensive, informative visualizations of benchmark data, applicable to our wide range of projects and repositories.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmarking on Cryspen</title>
+    <link>http://localhost:1313/tags/benchmarking/</link>
+    <description>Recent content in Benchmarking on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/benchmarking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tooling for Automated Benchmarking and Visualization</title>
+      <link>http://localhost:1313/post/benchmarking-07-25/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/benchmarking-07-25/</guid>
+      <description>&lt;p&gt;Maintaining peak software performance is a critical aspect of our development process, and early regression detection is non-negotiable. At Cryspen, we&amp;rsquo;ve addressed this by implementing an automated, multi-platform benchmarking system. This post will detail the enhancements we&amp;rsquo;ve made to our workflows, allowing us to preemptively identify performance issues. Besides focusing on algorithm benchmarks, we utilize a tracing strategy for our protocol code. This method allows us to measure performance on live code. In addition, we will explore the tools and methods designed for creating comprehensive, informative visualizations of benchmark data, applicable to our wide range of projects and repositories.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

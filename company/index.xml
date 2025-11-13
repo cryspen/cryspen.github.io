@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Companies on Cryspen</title><link>https://cryspen.com/company/</link><description>Recent content in Companies on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/company/index.xml" rel="self" type="application/rss+xml"/><item><title>Diversity, Equity, and Inclusion</title><link>https://cryspen.com/company/dei/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/company/dei/</guid><description>&lt;p&gt;Cryspen is committed to creating a diverse, equitable, and inclusive workplace
-where all employees feel valued, respected, and empowered.
-This policy outlines our commitment to fostering a positive and productive work
-environment that celebrates differences and promotes equal opportunities for all.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Companies on Cryspen</title>
+    <link>http://localhost:1313/company/</link>
+    <description>Recent content in Companies on Cryspen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/company/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diversity, Equity, and Inclusion</title>
+      <link>http://localhost:1313/company/dei/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/company/dei/</guid>
+      <description>&lt;p&gt;Cryspen is committed to creating a diverse, equitable, and inclusive workplace&#xA;where all employees feel valued, respected, and empowered.&#xA;This policy outlines our commitment to fostering a positive and productive work&#xA;environment that celebrates differences and promotes equal opportunities for all.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
