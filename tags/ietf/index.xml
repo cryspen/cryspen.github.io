@@ -1,33 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>IETF on Cryspen</title>
-    <link>http://localhost:1313/tags/ietf/</link>
-    <description>Recent content in IETF on Cryspen</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ietf/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>OpenMLS</title>
-      <link>http://localhost:1313/post/hello-openmls/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hello-openmls/</guid>
-      <description>&lt;p&gt;We have joined forces with our friends from &lt;a href=&#34;https://phnx.im/&#34;&gt;Phoenix R&amp;amp;D&lt;/a&gt; to improve OpenMLS.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://messaginglayersecurity.rocks/mls-protocol/draft-ietf-mls-protocol.html&#34;&gt;MLS protocol&lt;/a&gt; draft is in the IETF working group&amp;rsquo;s &lt;a href=&#34;https://mailarchive.ietf.org/arch/msg/mls/bOhxmpo70T-ikDd40OqQfst64gE/&#34;&gt;last call&lt;/a&gt; and is thus&#xA;on track to become an RFC soon.&#xA;We want to make sure that OpenMLS is ready for wider adoption by the time the&#xA;RFC is ready.&#xA;To achieve this we start by catching up with all the changes to the protocol&#xA;(up to the current draft-16), improving test coverage of the code, and working&#xA;towards a more comprehensive test framework for interoperability.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>An Executable HPKE Specification</title>
-      <link>http://localhost:1313/post/hpke_spec/</link>
-      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hpke_spec/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/&#34;&gt;HPKE&lt;/a&gt;, published as &lt;a href=&#34;https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/&#34;&gt;RFC 9180&lt;/a&gt;, describes a scheme for hybrid public key encryption.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;📚 Read our &lt;a href=&#34;http://localhost:1313/post/tldr-hpke/&#34;&gt;TL;DR on HPKE&lt;/a&gt; if you need more background on HPKE.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>TL;DR - Hybrid Public Key Encryption</title>
-      <link>http://localhost:1313/post/tldr-hpke/</link>
-      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/tldr-hpke/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/&#34;&gt;HPKE&lt;/a&gt;, defined in &lt;a href=&#34;https://www.rfc-editor.org/rfc/rfc9180.html&#34;&gt;RFC 9180&lt;/a&gt;, is a &lt;a href=&#34;https://datatracker.ietf.org/rg/cfrg/about/&#34;&gt;CFRG&lt;/a&gt; standard that describes a scheme for hybrid public key encryption.&#xA;It is co-authored by my &lt;a href=&#34;https://www.cryspen.com&#34;&gt;Cryspen&lt;/a&gt; co-founder &lt;a href=&#34;https://bhargavan.info/index.html&#34;&gt;Karthikeyan Bhargavan&lt;/a&gt; and one of&#xA;his PhD students &lt;a href=&#34;https://www.benjaminlipp.de&#34;&gt;Benjamin Lipp&lt;/a&gt; as part of his research at &lt;a href=&#34;https://team.inria.fr/prosecco&#34;&gt;Inria&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IETF on Cryspen</title><link>https://cryspen.com/tags/ietf/</link><description>Recent content in IETF on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/ietf/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenMLS</title><link>https://cryspen.com/post/hello-openmls/</link><pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hello-openmls/</guid><description>&lt;p&gt;We have joined forces with our friends from &lt;a href="https://phnx.im/"&gt;Phoenix R&amp;amp;D&lt;/a&gt; to improve OpenMLS.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://messaginglayersecurity.rocks/mls-protocol/draft-ietf-mls-protocol.html"&gt;MLS protocol&lt;/a&gt; draft is in the IETF working group&amp;rsquo;s &lt;a href="https://mailarchive.ietf.org/arch/msg/mls/bOhxmpo70T-ikDd40OqQfst64gE/"&gt;last call&lt;/a&gt; and is thus
+on track to become an RFC soon.
+We want to make sure that OpenMLS is ready for wider adoption by the time the
+RFC is ready.
+To achieve this we start by catching up with all the changes to the protocol
+(up to the current draft-16), improving test coverage of the code, and working
+towards a more comprehensive test framework for interoperability.&lt;/p&gt;</description></item><item><title>An Executable HPKE Specification</title><link>https://cryspen.com/post/hpke_spec/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hpke_spec/</guid><description>&lt;p&gt;&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;HPKE&lt;/a&gt;, published as &lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;RFC 9180&lt;/a&gt;, describes a scheme for hybrid public key encryption.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📚 Read our &lt;a href="https://cryspen.com/post/tldr-hpke/"&gt;TL;DR on HPKE&lt;/a&gt; if you need more background on HPKE.&lt;/p&gt;</description></item><item><title>TL;DR - Hybrid Public Key Encryption</title><link>https://cryspen.com/post/tldr-hpke/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/tldr-hpke/</guid><description>&lt;p&gt;&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;HPKE&lt;/a&gt;, defined in &lt;a href="https://www.rfc-editor.org/rfc/rfc9180.html"&gt;RFC 9180&lt;/a&gt;, is a &lt;a href="https://datatracker.ietf.org/rg/cfrg/about/"&gt;CFRG&lt;/a&gt; standard that describes a scheme for hybrid public key encryption.
+It is co-authored by my &lt;a href="https://www.cryspen.com"&gt;Cryspen&lt;/a&gt; co-founder &lt;a href="https://bhargavan.info/index.html"&gt;Karthikeyan Bhargavan&lt;/a&gt; and one of
+his PhD students &lt;a href="https://www.benjaminlipp.de"&gt;Benjamin Lipp&lt;/a&gt; as part of his research at &lt;a href="https://team.inria.fr/prosecco"&gt;Inria&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

@@ -1,19 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>OCaml on Cryspen</title>
-    <link>http://localhost:1313/tags/ocaml/</link>
-    <description>Recent content in OCaml on Cryspen</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ocaml/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>HACL Packages v0.6</title>
-      <link>http://localhost:1313/post/hacl-0_6/</link>
-      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/hacl-0_6/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Today, we announce the first release of the HACL Packages libraries. 🎉&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This release of HACL packages includes the first release of the &lt;a href=&#34;https://github.com/cryspen/hacl-packages/releases/tag/c-v0.6.0&#34;&gt;HACL C library&lt;/a&gt;&#xA;and a new release of the &lt;a href=&#34;https://opam.ocaml.org/packages/hacl-star/&#34;&gt;hacl-star OCaml&lt;/a&gt; bindings.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OCaml on Cryspen</title><link>https://cryspen.com/tags/ocaml/</link><description>Recent content in OCaml on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/ocaml/index.xml" rel="self" type="application/rss+xml"/><item><title>HACL Packages v0.6</title><link>https://cryspen.com/post/hacl-0_6/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hacl-0_6/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;Today, we announce the first release of the HACL Packages libraries. 🎉&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This release of HACL packages includes the first release of the &lt;a href="https://github.com/cryspen/hacl-packages/releases/tag/c-v0.6.0"&gt;HACL C library&lt;/a&gt;
+and a new release of the &lt;a href="https://opam.ocaml.org/packages/hacl-star/"&gt;hacl-star OCaml&lt;/a&gt; bindings.&lt;/p&gt;</description></item></channel></rss>

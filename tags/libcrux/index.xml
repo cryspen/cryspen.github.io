@@ -1,82 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Libcrux on Cryspen</title>
-    <link>http://localhost:1313/tags/libcrux/</link>
-    <description>Recent content in Libcrux on Cryspen</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/libcrux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PQC Support for JZLint</title>
-      <link>http://localhost:1313/post/pqc-jzlint/</link>
-      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/pqc-jzlint/</guid>
-      <description>&lt;p&gt;We joined forces with &lt;a href=&#34;https://mtg.de/&#34;&gt;MTG AG&lt;/a&gt;, a leader in public key infrastructures, to release &lt;a href=&#34;https://github.com/MTG-AG/jzlint&#34;&gt;JZLint 2.0&lt;/a&gt; with support for analyzing post-quantum (PQC) certificates and their public keys.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tooling for Automated Benchmarking and Visualization</title>
-      <link>http://localhost:1313/post/benchmarking-07-25/</link>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/benchmarking-07-25/</guid>
-      <description>&lt;p&gt;Maintaining peak software performance is a critical aspect of our development process, and early regression detection is non-negotiable. At Cryspen, we&amp;rsquo;ve addressed this by implementing an automated, multi-platform benchmarking system. This post will detail the enhancements we&amp;rsquo;ve made to our workflows, allowing us to preemptively identify performance issues. Besides focusing on algorithm benchmarks, we utilize a tracing strategy for our protocol code. This method allows us to measure performance on live code. In addition, we will explore the tools and methods designed for creating comprehensive, informative visualizations of benchmark data, applicable to our wide range of projects and repositories.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cryspen @ RWC 2025</title>
-      <link>http://localhost:1313/post/rwc-2025/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/rwc-2025/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://rwc.iacr.org/2025/&#34;&gt;Real World Crypto 2025&lt;/a&gt; buzzed with energy as&#xA;the cutting edge of cryptography was presented to and discussed among an audience of leading&#xA;researchers and developers from academia and industry. Today, on the second day of the conference,&#xA;Cryspen teamed up with Google to showcase practical, scalable, verified solutions&#xA;for high-assurance software and post-quantum cryptography.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cryspen @ VSTTE 2024</title>
-      <link>http://localhost:1313/post/vstte2024/</link>
-      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/vstte2024/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.soundandcomplete.org/vstte2024.html&#34;&gt;Verified Software: Theories, Tools, and Experiments&lt;/a&gt;&#xA;is a conference that aims to advance the state of the art in software verification.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cryspen @ Crypto 2024</title>
-      <link>http://localhost:1313/post/crypto2024/</link>
-      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/crypto2024/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://crypto.iacr.org/&#34;&gt;Crypto&lt;/a&gt; is the top international conference on cryptography&#xA;and is held every year (since 1981) in Santa Barbara, California. This year,&#xA;Crypto invited Karthikeyan Bhargavan, our Chief Research Scientist, to give&#xA;a talk on the use of formal methods in cryptography.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Formally Verified Post-Quantum Cryptography</title>
-      <link>http://localhost:1313/post/fospqc/</link>
-      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/fospqc/</guid>
-      <description>&lt;p&gt;The US National Institute of Standards and Technology (NIST) &lt;a href=&#34;https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards&#34;&gt;just released&lt;/a&gt; the first three standards for Post-Quantum KEMs (&lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.203.pdf&#34;&gt;ML-KEM&lt;/a&gt;) and Signatures (&lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.204.pdf&#34;&gt;ML-DSA&lt;/a&gt;, &lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.205.pdf&#34;&gt;SLH-DSA&lt;/a&gt;). This first official publication of Post-Quantum Cryptography (PQC) standards represents a significant step forward in securing the Internet, and organizations across the globe, against the future threat of quantum computers.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cryspen @ FMCP 2024</title>
-      <link>http://localhost:1313/post/fmcp/</link>
-      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/fmcp/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://www.nist.gov&#34;&gt;US National Institute of Standards and&#xA;Technology&lt;/a&gt; (NIST) publishes a number of&#xA;important cryptographic standards (including upcoming ones for&#xA;post-quantum cryptography), and runs the &lt;a href=&#34;https://csrc.nist.gov/projects/cryptographic-module-validation-program&#34;&gt;cryptographic algorithm and&#xA;module validation&#xA;programs&lt;/a&gt;&#xA;that validate and issue certificates to cryptographic libraries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Verifying Libcrux&#39;s ML-KEM</title>
-      <link>http://localhost:1313/post/ml-kem-verification/</link>
-      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/ml-kem-verification/</guid>
-      <description>&lt;p&gt;In a &lt;a href=&#34;../ml-kem-implementation/&#34;&gt;recent blog post&lt;/a&gt;, we described Cryspen&amp;rsquo;s new Rust&#xA;implementation of ML-KEM in Rust, and talked about how our&#xA;high-assurance development methodology helped us find a &lt;a href=&#34;https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220&#34;&gt;new timing&#xA;bug&lt;/a&gt;&#xA;in various other Kyber implementations.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Verified ML-KEM (Kyber) in Rust</title>
-      <link>http://localhost:1313/post/ml-kem-implementation/</link>
-      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/ml-kem-implementation/</guid>
-      <description>&lt;p&gt;ML-KEM, previously known as &lt;a href=&#34;https://pq-crystals.org/kyber/&#34;&gt;Kyber&lt;/a&gt;, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in &lt;a href=&#34;https://csrc.nist.gov/pubs/fips/203/ipd&#34;&gt;FIPS 203&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Cryspen has built &lt;a href=&#34;https://github.com/cryspen/libcrux/tree/main/libcrux-kem&#34;&gt;a new high assurance Rust implementation of ML-KEM&lt;/a&gt;, using our verification framework &lt;a href=&#34;https://cryspen.com/hax&#34;&gt;hax&lt;/a&gt; and &lt;a href=&#34;https://fstar-lang.org&#34;&gt;F*&lt;/a&gt;. Our implementation is among the fastest portable implementations that we know of (see &lt;a href=&#34;#performance-comparison&#34;&gt;Performance comparison&lt;/a&gt;), and helped uncover a &lt;a href=&#34;https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220&#34;&gt;timing bug&lt;/a&gt; (also called &lt;a href=&#34;https://kyberslash.cr.yp.to/&#34;&gt;KyberSlash&lt;/a&gt;) in various Kyber implementations that would allow an attacker to &lt;a href=&#34;https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/ldX0ThYJuBo/m/uIOqRF5BAwAJ&#34;&gt;recover the private key&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cryspen @ RWC 2023</title>
-      <link>http://localhost:1313/post/rwc-2023/</link>
-      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/rwc-2023/</guid>
-      <description>&lt;p&gt;At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Libcrux on Cryspen</title><link>https://cryspen.com/tags/libcrux/</link><description>Recent content in Libcrux on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/libcrux/index.xml" rel="self" type="application/rss+xml"/><item><title>PQC Support for JZLint</title><link>https://cryspen.com/post/pqc-jzlint/</link><pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pqc-jzlint/</guid><description>&lt;p&gt;We joined forces with &lt;a href="https://mtg.de/"&gt;MTG AG&lt;/a&gt;, a leader in public key infrastructures, to release &lt;a href="https://github.com/MTG-AG/jzlint"&gt;JZLint 2.0&lt;/a&gt; with support for analyzing post-quantum (PQC) certificates and their public keys.&lt;/p&gt;</description></item><item><title>Tooling for Automated Benchmarking and Visualization</title><link>https://cryspen.com/post/benchmarking-07-25/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/benchmarking-07-25/</guid><description>&lt;p&gt;Maintaining peak software performance is a critical aspect of our development process, and early regression detection is non-negotiable. At Cryspen, we&amp;rsquo;ve addressed this by implementing an automated, multi-platform benchmarking system. This post will detail the enhancements we&amp;rsquo;ve made to our workflows, allowing us to preemptively identify performance issues. Besides focusing on algorithm benchmarks, we utilize a tracing strategy for our protocol code. This method allows us to measure performance on live code. In addition, we will explore the tools and methods designed for creating comprehensive, informative visualizations of benchmark data, applicable to our wide range of projects and repositories.&lt;/p&gt;</description></item><item><title>Cryspen @ RWC 2025</title><link>https://cryspen.com/post/rwc-2025/</link><pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/rwc-2025/</guid><description>&lt;p&gt;&lt;a href="https://rwc.iacr.org/2025/"&gt;Real World Crypto 2025&lt;/a&gt; buzzed with energy as
+the cutting edge of cryptography was presented to and discussed among an audience of leading
+researchers and developers from academia and industry. Today, on the second day of the conference,
+Cryspen teamed up with Google to showcase practical, scalable, verified solutions
+for high-assurance software and post-quantum cryptography.&lt;/p&gt;</description></item><item><title>Cryspen @ VSTTE 2024</title><link>https://cryspen.com/post/vstte2024/</link><pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/vstte2024/</guid><description>&lt;p&gt;&lt;a href="https://www.soundandcomplete.org/vstte2024.html"&gt;Verified Software: Theories, Tools, and Experiments&lt;/a&gt;
+is a conference that aims to advance the state of the art in software verification.&lt;/p&gt;</description></item><item><title>Cryspen @ Crypto 2024</title><link>https://cryspen.com/post/crypto2024/</link><pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/crypto2024/</guid><description>&lt;p&gt;&lt;a href="https://crypto.iacr.org/"&gt;Crypto&lt;/a&gt; is the top international conference on cryptography
+and is held every year (since 1981) in Santa Barbara, California. This year,
+Crypto invited Karthikeyan Bhargavan, our Chief Research Scientist, to give
+a talk on the use of formal methods in cryptography.&lt;/p&gt;</description></item><item><title>Formally Verified Post-Quantum Cryptography</title><link>https://cryspen.com/post/fospqc/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/fospqc/</guid><description>&lt;p&gt;The US National Institute of Standards and Technology (NIST) &lt;a href="https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards"&gt;just released&lt;/a&gt; the first three standards for Post-Quantum KEMs (&lt;a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.203.pdf"&gt;ML-KEM&lt;/a&gt;) and Signatures (&lt;a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.204.pdf"&gt;ML-DSA&lt;/a&gt;, &lt;a href="https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.205.pdf"&gt;SLH-DSA&lt;/a&gt;). This first official publication of Post-Quantum Cryptography (PQC) standards represents a significant step forward in securing the Internet, and organizations across the globe, against the future threat of quantum computers.&lt;/p&gt;</description></item><item><title>Cryspen @ FMCP 2024</title><link>https://cryspen.com/post/fmcp/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/fmcp/</guid><description>&lt;p&gt;The &lt;a href="https://www.nist.gov"&gt;US National Institute of Standards and
+Technology&lt;/a&gt; (NIST) publishes a number of
+important cryptographic standards (including upcoming ones for
+post-quantum cryptography), and runs the &lt;a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program"&gt;cryptographic algorithm and
+module validation
+programs&lt;/a&gt;
+that validate and issue certificates to cryptographic libraries.&lt;/p&gt;</description></item><item><title>Verifying Libcrux's ML-KEM</title><link>https://cryspen.com/post/ml-kem-verification/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-verification/</guid><description>&lt;p&gt;In a &lt;a href="../ml-kem-implementation/"&gt;recent blog post&lt;/a&gt;, we described Cryspen&amp;rsquo;s new Rust
+implementation of ML-KEM in Rust, and talked about how our
+high-assurance development methodology helped us find a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220"&gt;new timing
+bug&lt;/a&gt;
+in various other Kyber implementations.&lt;/p&gt;</description></item><item><title>Verified ML-KEM (Kyber) in Rust</title><link>https://cryspen.com/post/ml-kem-implementation/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-implementation/</guid><description>&lt;p&gt;ML-KEM, previously known as &lt;a href="https://pq-crystals.org/kyber/"&gt;Kyber&lt;/a&gt;, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in &lt;a href="https://csrc.nist.gov/pubs/fips/203/ipd"&gt;FIPS 203&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cryspen has built &lt;a href="https://github.com/cryspen/libcrux/tree/main/libcrux-kem"&gt;a new high assurance Rust implementation of ML-KEM&lt;/a&gt;, using our verification framework &lt;a href="https://cryspen.com/hax"&gt;hax&lt;/a&gt; and &lt;a href="https://fstar-lang.org"&gt;F*&lt;/a&gt;. Our implementation is among the fastest portable implementations that we know of (see &lt;a href="#performance-comparison"&gt;Performance comparison&lt;/a&gt;), and helped uncover a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220"&gt;timing bug&lt;/a&gt; (also called &lt;a href="https://kyberslash.cr.yp.to/"&gt;KyberSlash&lt;/a&gt;) in various Kyber implementations that would allow an attacker to &lt;a href="https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/ldX0ThYJuBo/m/uIOqRF5BAwAJ"&gt;recover the private key&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Cryspen @ RWC 2023</title><link>https://cryspen.com/post/rwc-2023/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/rwc-2023/</guid><description>&lt;p&gt;At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.&lt;/p&gt;</description></item></channel></rss>

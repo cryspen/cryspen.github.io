@@ -1,19 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rust on Cryspen</title>
-    <link>http://localhost:1313/tags/rust/</link>
-    <description>Recent content in Rust on Cryspen</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/rust/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Formally Specifying and Testing the Rust Standard Library</title>
-      <link>http://localhost:1313/post/specify-rust-simd/</link>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/specify-rust-simd/</guid>
-      <description>&lt;p&gt;Modern programming languages typically come with a large standard&#xA;library that implements essential language features like machine&#xA;arithmetic and I/O, offers efficient data structures, provides&#xA;interfaces to system libraries, etc. Although it is often overlooked,&#xA;this standard library should be considered as much part of the trusted&#xA;computing base (TCB) as the language compiler. Indeed, any bug in the standard&#xA;library is likely to break applications and could result in security vulnerabilities.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust on Cryspen</title><link>https://cryspen.com/tags/rust/</link><description>Recent content in Rust on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>Formally Specifying and Testing the Rust Standard Library</title><link>https://cryspen.com/post/specify-rust-simd/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/specify-rust-simd/</guid><description>&lt;p&gt;Modern programming languages typically come with a large standard
+library that implements essential language features like machine
+arithmetic and I/O, offers efficient data structures, provides
+interfaces to system libraries, etc. Although it is often overlooked,
+this standard library should be considered as much part of the trusted
+computing base (TCB) as the language compiler. Indeed, any bug in the standard
+library is likely to break applications and could result in security vulnerabilities.&lt;/p&gt;</description></item></channel></rss>
