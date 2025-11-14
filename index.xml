@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryspen</title><link>https://cryspen.com/</link><description>Recent content on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Formally Specifying and Testing the Rust Standard Library</title><link>https://cryspen.com/post/specify-rust-simd/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/specify-rust-simd/</guid><description>&lt;p&gt;Modern programming languages typically come with a large standard
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryspen</title><link>https://cryspen.com/</link><description>Recent content on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Cryspen Welcomes Alex</title><link>https://cryspen.com/post/welcome_alex/</link><pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/welcome_alex/</guid><description>&lt;p&gt;This month, we welcome Alexander Bentkamp (Alex) as the newest member of our team.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://abentkamp.github.io/"&gt;Alex&lt;/a&gt; joins us with a strong background in automated and
+interactive theorem proving, where his passion for formal proofs has
+driven a series of influential contributions. He completed his PhD at
+the Vrije Universiteit Amsterdam under the supervision of Jasmin
+Blanchette, Uwe Waldmann, and Wan Fokkink, developing a novel proof
+automation method for higher-order logic. The prover he co-developed
+based on this method went on to win the annual CASC competition
+multiple times and is now integrated into the Isabelle/HOL proof
+assistant.&lt;/p&gt;</description></item><item><title>Formally Specifying and Testing the Rust Standard Library</title><link>https://cryspen.com/post/specify-rust-simd/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/specify-rust-simd/</guid><description>&lt;p&gt;Modern programming languages typically come with a large standard
 library that implements essential language features like machine
 arithmetic and I/O, offers efficient data structures, provides
 interfaces to system libraries, etc. Although it is often overlooked,
