@@ -86,7 +86,7 @@ Control flow properties come up in various project, including protocols like
 <a href=https://github.com/openmls/openmls>MLS</a>, APIs like <a href=https://github.com/sandbox-quantum/sandwich>Sandwich</a>,
 and even web services that need to sanitize SQL queries.</p><h3 id=example-validating-data-before-adding-it-to-a-state>Example: validating data before adding it to a state</h3><p>Let&rsquo;s look at a simple example. A program receives messages and stores them in a
 state, but it needs to check that a message is valid before storing it.
-Here is a Rust example of this:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>State</span>(Vec<span style=color:#f92672>&lt;</span>String<span style=color:#f92672>&gt;</span>);
+Here is a Rust example of this:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#66d9ef>struct</span> <span style=color:#a6e22e>State</span>(Vec<span style=color:#f92672>&lt;</span>String<span style=color:#f92672>&gt;</span>);
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#66d9ef>enum</span> <span style=color:#a6e22e>Error</span> {
 </span></span><span style=display:flex><span>    InvalidMessage
@@ -113,7 +113,7 @@ Here is a Rust example of this:</p><div class=highlight><pre tabindex=0 style=co
 </span></span><span style=display:flex><span>}
 </span></span></code></pre></div><h3 id=showing-that-all-stored-messages-have-been-validated>Showing that all stored messages have been validated</h3><p>The validation requirement here is that <code>validate_message</code> must always be called
 before <code>store_message</code>.
-Let&rsquo;s make a specification for this using hax:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#75715e>#[hax_lib::fstar::before(r</span><span style=color:#e6db74>&#34;
+Let&rsquo;s make a specification for this using hax:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#75715e>#[hax_lib::fstar::before(r</span><span style=color:#e6db74>&#34;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>assume val message_validated: string -&gt; Type0
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;</span><span style=color:#75715e>)]</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#[hax_lib::opaque]</span>
@@ -150,7 +150,7 @@ F* type-checking succeeds which means we have proven that whenever <code>store_m
 is called, <code>validate_message</code> has been called before on the same message.</p><h3 id=showing-that-all-valid-messages-are-stored>Showing that all valid messages are stored</h3><p>The property we showed in the previous section is a safety property:
 we show that we cannot end in a bad state by storing a message that has not been validated.
 But this doesn&rsquo;t mean we actually store any message.
-Let&rsquo;s extend our specification to ensure that we <em>do</em> store messages:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#75715e>#[hax_lib::fstar::before(r</span><span style=color:#e6db74>&#34;
+Let&rsquo;s extend our specification to ensure that we <em>do</em> store messages:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#75715e>#[hax_lib::fstar::before(r</span><span style=color:#e6db74>&#34;
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>assume val message_validated: string -&gt; Type0
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>assume val message_stored: string -&gt; Type0
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>&#34;</span><span style=color:#75715e>)]</span>
@@ -185,7 +185,7 @@ been stored.
 With this specification, F* is not able to prove the post-condition for
 <code>receive_message</code>.
 Of course, the message is stored only when it is valid.
-We need to add this to our post-condition:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#75715e>#[hax_lib::ensures(|res| hax_lib::implies(validate_message(&amp;msg).is_ok(), fstar!(</span><span style=color:#e6db74>&#34;message_stored $msg&#34;</span><span style=color:#75715e>)))]</span>
+We need to add this to our post-condition:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-rust data-lang=rust><span style=display:flex><span><span style=color:#75715e>#[hax_lib::ensures(|res| hax_lib::implies(validate_message(&amp;msg).is_ok(), fstar!(</span><span style=color:#e6db74>&#34;message_stored $msg&#34;</span><span style=color:#75715e>)))]</span>
 </span></span><span style=display:flex><span><span style=color:#66d9ef>fn</span> <span style=color:#a6e22e>receive_message</span>(<span style=color:#f92672>&amp;</span><span style=color:#66d9ef>mut</span> self, msg: String)-&gt; Result<span style=color:#f92672>&lt;</span>(), Error<span style=color:#f92672>&gt;</span> {
 </span></span><span style=display:flex><span>    validate_message(<span style=color:#f92672>&amp;</span>msg)<span style=color:#f92672>?</span>;
 </span></span><span style=display:flex><span>    self.store_message(msg);
