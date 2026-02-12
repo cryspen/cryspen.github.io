@@ -23,9 +23,10 @@ verifiable specifications for cryptographic components.&lt;/p&gt;
 readable by developers, cryptographers, and verification experts.
 An application developer can use hacspec to specify and prototype cryptographic
 components in Rust, and then replace this specification with a verified
-implementation before deployment.&lt;/p&gt;</description></item><item><title>libcrux</title><link>https://cryspen.com/libcrux-library/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/libcrux-library/</guid><description>&lt;p&gt;Libcrux is a formally verified cryptographic library that brings together verified
-artifacts from different sources. It is verified using our &lt;a href="https://cryspen.com/hax-toolchain/"&gt;hax toolchain&lt;/a&gt;.
-Libcrux is written in Rust, a modern programming language that is known
-for its safety and performance. Underneath, it uses verified Rust, C, and Assembly code.&lt;/p&gt;</description></item><item><title>An Executable HPKE Specification</title><link>https://cryspen.com/post/hpke_spec/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hpke_spec/</guid><description>&lt;p&gt;&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;HPKE&lt;/a&gt;, published as &lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;RFC 9180&lt;/a&gt;, describes a scheme for hybrid public key encryption.&lt;/p&gt;
+implementation before deployment.&lt;/p&gt;</description></item><item><title>libcrux</title><link>https://cryspen.com/libcrux-library/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/libcrux-library/</guid><description>&lt;p&gt;Libcrux is a cryptographic library written almost entirely in Rust, a modern
+programming language that is known for its safety and performance. It
+provides a wide range of cryptographic primitives, including symmetric
+encryption, asymmetric encryption, digital signatures, hash
+functions, post-quantum KEMs and post-quantum signatures.&lt;/p&gt;</description></item><item><title>An Executable HPKE Specification</title><link>https://cryspen.com/post/hpke_spec/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hpke_spec/</guid><description>&lt;p&gt;&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;HPKE&lt;/a&gt;, published as &lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;RFC 9180&lt;/a&gt;, describes a scheme for hybrid public key encryption.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;📚 Read our &lt;a href="https://cryspen.com/post/tldr-hpke/"&gt;TL;DR on HPKE&lt;/a&gt; if you need more background on HPKE.&lt;/p&gt;</description></item></channel></rss>
