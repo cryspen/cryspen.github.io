@@ -88,8 +88,8 @@ unverified bits. For example, most of the bugs in cryptographic
 libraries like OpenSSL can be classified as either memory safety bugs
 (e.g. buffer overflow or use-after-free), or functional correctness
 bugs (e.g. missed carry propagation), or side-channel attacks
-(e.g. <a href=https://fstar-lang.org/branching>https://fstar-lang.org/branching</a> on secrets). Formal verification frameworks, like
-<a href>F*</a> and <a href=https://github.com/mit-plv/fiat-crypto>Rocq</a>, can be used to rule out memory safety and correctness
+(e.g. branching on secrets). Formal verification frameworks, like
+<a href=https://fstar-lang.org/>F*</a> and <a href=https://github.com/mit-plv/fiat-crypto>Rocq</a>, can be used to rule out memory safety and correctness
 bugs in C code, and assembly analysis tools, like <a href=https://github.com/jasmin-lang/jasmin>Jasmin</a> and <a href=https://github.com/project-everest/vale>Vale</a>, can
 also provide low-level guarantees against certain classes of side
 channels.</p><p>Just because a library or application uses formal verification, it
