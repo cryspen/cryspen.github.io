@@ -2,4 +2,10 @@
 &lt;a href="https://beneficial-ai-foundation.github.io/SVIL2026/"&gt;Software Verification in Lean 2026&lt;/a&gt;, a
 workshop and associated hackathon organized by the
 &lt;a href="https://www.beneficialaifoundation.org/"&gt;Beneficial AI Foundation&lt;/a&gt; and the
-&lt;a href="https://lean-lang.org/fro/"&gt;Lean FRO&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
+&lt;a href="https://lean-lang.org/fro/"&gt;Lean FRO&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;SVIL 2026 brings together leading researchers and practitioners
+working on using the &lt;a href="https://lean-lang.org/"&gt;Lean proof assistant&lt;/a&gt; to
+formalize and verify real-world software. On Monday, I gave a talk on
+the challenges of verifying cryptographic applications, and the
+opportunities that are being opened up by the rapid innovations
+in Lean and by the emergence of AI-assisted formal proofs.&lt;/p&gt;</description></item></channel></rss>

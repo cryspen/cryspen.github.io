@@ -2,5 +2,15 @@
 of their new post-quantum ratcheting protocol, called the Sparse
 Post-Quantum Ratchet (SPQR), and Cryspen is proud to have contributed
 to the formal analysis of the design and implementation of this new
-Signal feature.&lt;/p&gt;</description></item><item><title>An Analysis of Signal's PQXDH</title><link>https://cryspen.com/post/pqxdh/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pqxdh/</guid><description>&lt;!-- _Karthikeyan Bhargavan ([Cryspen]), Charlie Jacomme ([Inria Paris](https://www.inria.fr/en/inria-paris-centre)), Franziskus Kiefer ([Cryspen]) and Rolfe Schmidt ([Signal](https://signal.org/))_ --&gt;
-&lt;p&gt;Signal recently &lt;a href="https://signal.org/docs/specifications/pqxdh/"&gt;published&lt;/a&gt; a new, post-quantum secure, version of their &lt;a href="https://signal.org/docs/specifications/x3dh/"&gt;X3DH&lt;/a&gt; protocol called &lt;a href="https://signal.org/docs/specifications/pqxdh/"&gt;PQXDH&lt;/a&gt;. As with any new cryptographic protocol, it is important to precisely analyse its security properties, especially for something as important as Signal.&lt;/p&gt;</description></item></channel></rss>
+Signal feature.&lt;/p&gt;
+&lt;p&gt;The seeds of our collaboration with Signal reach back to 2023, when
+Signal first published PQXDH, the post-quantum key establishment
+protocol that marked the beginning of Signal&amp;rsquo;s post-quantum
+transition. We helped Signal to &lt;a href="https://cryspen.com/post/pqxdh/"&gt;formally analyze and improve
+PQXDH&lt;/a&gt;, resulting in a &lt;a href="https://www.usenix.org/conference/usenixsecurity24/presentation/bhargavan"&gt;paper at
+Usenix Security&lt;/a&gt;.
+This time, Cryspen and Signal agreed to collaborate from the very
+beginning of the design process for SPQR all the way through to its
+implementation.&lt;/p&gt;</description></item><item><title>An Analysis of Signal's PQXDH</title><link>https://cryspen.com/post/pqxdh/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pqxdh/</guid><description>&lt;!-- _Karthikeyan Bhargavan ([Cryspen]), Charlie Jacomme ([Inria Paris](https://www.inria.fr/en/inria-paris-centre)), Franziskus Kiefer ([Cryspen]) and Rolfe Schmidt ([Signal](https://signal.org/))_ --&gt;
+&lt;p&gt;Signal recently &lt;a href="https://signal.org/docs/specifications/pqxdh/"&gt;published&lt;/a&gt; a new, post-quantum secure, version of their &lt;a href="https://signal.org/docs/specifications/x3dh/"&gt;X3DH&lt;/a&gt; protocol called &lt;a href="https://signal.org/docs/specifications/pqxdh/"&gt;PQXDH&lt;/a&gt;. As with any new cryptographic protocol, it is important to precisely analyse its security properties, especially for something as important as Signal.&lt;/p&gt;
+&lt;p&gt;In this blog post we give an overview of PQXDH and describe how we modeled its security using two formal verification tools (&lt;a href="https://bblanche.gitlabpages.inria.fr/proverif/"&gt;ProVerif&lt;/a&gt; and &lt;a href="https://bblanche.gitlabpages.inria.fr/CryptoVerif/"&gt;CryptoVerif&lt;/a&gt;). We detail some issues we found, and how we, a mix of Inria researchers, Cryspen researchers and Signal developers, worked together to improve the PQXDH specification.&lt;/p&gt;</description></item></channel></rss>

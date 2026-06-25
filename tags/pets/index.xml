@@ -3,4 +3,8 @@ ever-increasing amounts of data are being collected, stored, communicated,
 combined, and computed over by sophisticated algorithms.
 In parallel, new governmental regulations and rising concerns about privacy are
 giving impetus to new research on how to protect the confidentiality, integrity
-and privacy of all this data.&lt;/p&gt;</description></item></channel></rss>
+and privacy of all this data.&lt;/p&gt;
+&lt;p&gt;At Cryspen, we are engaged in multiple R&amp;amp;D projects around these topics.
+We help design new encryption standards, such as &lt;a href="https://www.rfc-editor.org/rfc/rfc9180.html"&gt;HPKE&lt;/a&gt;, for protecting data at
+rest; we implement high-assurance cryptographic libraries, such as &lt;a href="https://github.com/celabshq/libcrux"&gt;libcrux&lt;/a&gt;;
+we design and implement new protocols, such as &lt;a href="https://www.rfc-editor.org/rfc/rfc9420.html"&gt;MLS&lt;/a&gt;, for communicating sensitive data between a large number of endpoints; and we investigate state-of-the-art constructions, such as multi-party computation, for privacy-preserving analysis over distributed data.&lt;/p&gt;</description></item></channel></rss>

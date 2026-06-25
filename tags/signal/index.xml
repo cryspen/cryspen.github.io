@@ -2,8 +2,23 @@
 &lt;a href="https://beneficial-ai-foundation.github.io/SVIL2026/"&gt;Software Verification in Lean 2026&lt;/a&gt;, a
 workshop and associated hackathon organized by the
 &lt;a href="https://www.beneficialaifoundation.org/"&gt;Beneficial AI Foundation&lt;/a&gt; and the
-&lt;a href="https://lean-lang.org/fro/"&gt;Lean FRO&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Helping Secure Signal's Post-Quantum Transition</title><link>https://cryspen.com/post/signal-spqr-verification/</link><pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/signal-spqr-verification/</guid><description>&lt;p&gt;Signal just &lt;a href="https://signal.org/blog/spqr/"&gt;announced&lt;/a&gt; the deployment
+&lt;a href="https://lean-lang.org/fro/"&gt;Lean FRO&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;SVIL 2026 brings together leading researchers and practitioners
+working on using the &lt;a href="https://lean-lang.org/"&gt;Lean proof assistant&lt;/a&gt; to
+formalize and verify real-world software. On Monday, I gave a talk on
+the challenges of verifying cryptographic applications, and the
+opportunities that are being opened up by the rapid innovations
+in Lean and by the emergence of AI-assisted formal proofs.&lt;/p&gt;</description></item><item><title>Helping Secure Signal's Post-Quantum Transition</title><link>https://cryspen.com/post/signal-spqr-verification/</link><pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/signal-spqr-verification/</guid><description>&lt;p&gt;Signal just &lt;a href="https://signal.org/blog/spqr/"&gt;announced&lt;/a&gt; the deployment
 of their new post-quantum ratcheting protocol, called the Sparse
 Post-Quantum Ratchet (SPQR), and Cryspen is proud to have contributed
 to the formal analysis of the design and implementation of this new
-Signal feature.&lt;/p&gt;</description></item></channel></rss>
+Signal feature.&lt;/p&gt;
+&lt;p&gt;The seeds of our collaboration with Signal reach back to 2023, when
+Signal first published PQXDH, the post-quantum key establishment
+protocol that marked the beginning of Signal&amp;rsquo;s post-quantum
+transition. We helped Signal to &lt;a href="https://cryspen.com/post/pqxdh/"&gt;formally analyze and improve
+PQXDH&lt;/a&gt;, resulting in a &lt;a href="https://www.usenix.org/conference/usenixsecurity24/presentation/bhargavan"&gt;paper at
+Usenix Security&lt;/a&gt;.
+This time, Cryspen and Signal agreed to collaborate from the very
+beginning of the design process for SPQR all the way through to its
+implementation.&lt;/p&gt;</description></item></channel></rss>

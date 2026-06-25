@@ -2,4 +2,16 @@
 But what does this actually mean?&lt;/p&gt;
 &lt;p&gt;Before focusing on cryptography it is interesting to look at high assurance
 software in general.
-How is high assurance software different from other software?&lt;/p&gt;</description></item></channel></rss>
+How is high assurance software different from other software?&lt;/p&gt;
+&lt;p&gt;High assurance software is usually seen as being more trustworthy than other
+software.
+This is especially interesting in high-risk/high-stakes environments such as
+financial institutions or governments.
+There are different ways to achieve better guarantees for software.
+Today the most commonly used technique to increase trust into software is using
+certifications like &lt;a href="https://en.wikipedia.org/wiki/Common_Criteria"&gt;common criteria&lt;/a&gt;
+or &lt;a href="https://en.wikipedia.org/wiki/FIPS_140-2"&gt;FIPS&lt;/a&gt;.
+While these certifications offer a certain level of additional guarantees, only
+the highest levels require some form of formal verification of the production
+source code.
+As such certification usually reaches only up to a certain level of high assurance.&lt;/p&gt;</description></item></channel></rss>

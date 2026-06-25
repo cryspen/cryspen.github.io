@@ -1,0 +1,4 @@
+Contact: mailto:info@cryspen.com
+Preferred-Languages: en
+Canonical: https://cryspen.com/.well-known/security.txt
+Expires: 2027-06-20T00:00:00.000Z

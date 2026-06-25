@@ -2,4 +2,13 @@
 the cutting edge of cryptography was presented to and discussed among an audience of leading
 researchers and developers from academia and industry. Today, on the second day of the conference,
 Cryspen teamed up with Google to showcase practical, scalable, verified solutions
-for high-assurance software and post-quantum cryptography.&lt;/p&gt;</description></item></channel></rss>
+for high-assurance software and post-quantum cryptography.&lt;/p&gt;
+&lt;h4 id="verified-post-quantum-crypto-at-scale"&gt;Verified Post-Quantum Crypto at Scale&lt;/h4&gt;
+&lt;p&gt;Our joint talk with Google described our collaboration on developing
+an efficient, SIMD-optimized implementation of the &lt;a href="https://csrc.nist.gov/pubs/fips/203/final"&gt;ML-KEM standard&lt;/a&gt;
+in Rust and C. This wasn&amp;rsquo;t just about writing code; it was about proving its correctness through
+&lt;a href="https://cryspen.com/post/fospqc/"&gt;rigorous formal verification&lt;/a&gt;.
+We demonstrated how verified cryptography can be implemented at scale, a critical
+advancement for securing our digital infrastructure.
+Our verified implementations are already powering security-critical software projects
+like OpenSSH, Firefox, and Signal.&lt;/p&gt;</description></item></channel></rss>

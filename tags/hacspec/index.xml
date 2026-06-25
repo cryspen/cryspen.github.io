@@ -1,32 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hacspec on Cryspen</title><link>https://cryspen.com/tags/hacspec/</link><description>Recent content in Hacspec on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/tags/hacspec/index.xml" rel="self" type="application/rss+xml"/><item><title>Cryspen @ VSTTE 2024</title><link>https://cryspen.com/post/vstte2024/</link><pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/vstte2024/</guid><description>&lt;p&gt;&lt;a href="https://www.soundandcomplete.org/vstte2024.html"&gt;Verified Software: Theories, Tools, and Experiments&lt;/a&gt;
-is a conference that aims to advance the state of the art in software verification.&lt;/p&gt;</description></item><item><title>Cryspen @ Crypto 2024</title><link>https://cryspen.com/post/crypto2024/</link><pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/crypto2024/</guid><description>&lt;p&gt;&lt;a href="https://crypto.iacr.org/"&gt;Crypto&lt;/a&gt; is the top international conference on cryptography
+is a conference that aims to advance the state of the art in software verification.&lt;/p&gt;
+&lt;p&gt;At VSTTE 2024 in Prague, Karthik spoke about how formal verification can be used
+to speed up software development and clarify the security of real-world cryptography from design to implementation.
+In particular, he showed how these techniques are crucial for the post-quantum transition,
+using examples from our analysis of post-quantum protocols like &lt;a href="https://cryspen.com/post/pqxdh/"&gt;PQXDH&lt;/a&gt;
+and our &lt;a href="https://cryspen.com/post/ml-kem-verification/"&gt;verified ML-KEM implementation&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Cryspen @ Crypto 2024</title><link>https://cryspen.com/post/crypto2024/</link><pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/crypto2024/</guid><description>&lt;p&gt;&lt;a href="https://crypto.iacr.org/"&gt;Crypto&lt;/a&gt; is the top international conference on cryptography
 and is held every year (since 1981) in Santa Barbara, California. This year,
 Crypto invited Karthikeyan Bhargavan, our Chief Research Scientist, to give
-a talk on the use of formal methods in cryptography.&lt;/p&gt;</description></item><item><title>Cryspen @ FMCP 2024</title><link>https://cryspen.com/post/fmcp/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/fmcp/</guid><description>&lt;p&gt;The &lt;a href="https://www.nist.gov"&gt;US National Institute of Standards and
+a talk on the use of formal methods in cryptography.&lt;/p&gt;
+&lt;p&gt;Karthik spoke about the state of the art in formal analysis techniques for crypto,
+and how we can use them to increase confidence in important
+protocols like &lt;a href="https://cryspen.com/post/pqxdh/"&gt;PQXDH&lt;/a&gt;, &lt;a href="https://cryspen.com/post/pq-bertie/"&gt;TLS&lt;/a&gt;, and &lt;a href="https://cryspen.com/post/pq-openmls/"&gt;MLS&lt;/a&gt;.
+He also spoke about how we at Cryspen use &lt;a href="https://hax.cryspen.com"&gt;hax&lt;/a&gt; to build verified post-quantum cryptographic libraries like
+&lt;a href="https://github.com/celabshq/libcrux"&gt;libcrux&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Cryspen @ FMCP 2024</title><link>https://cryspen.com/post/fmcp/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/fmcp/</guid><description>&lt;p&gt;The &lt;a href="https://www.nist.gov"&gt;US National Institute of Standards and
 Technology&lt;/a&gt; (NIST) publishes a number of
 important cryptographic standards (including upcoming ones for
 post-quantum cryptography), and runs the &lt;a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program"&gt;cryptographic algorithm and
 module validation
 programs&lt;/a&gt;
-that validate and issue certificates to cryptographic libraries.&lt;/p&gt;</description></item><item><title>Unlocking New Possibilities</title><link>https://cryspen.com/post/hax-sandbox/</link><pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hax-sandbox/</guid><description>&lt;p&gt;We have been developing the &lt;a href="https://cryspen.com/hax"&gt;hax toolchain&lt;/a&gt; over the last two years, in collaboration with research teams at &lt;a href="https://team.inria.fr/prosecco/"&gt;Inria&lt;/a&gt; and the &lt;a href="https://users-cs.au.dk/spitters/"&gt;University of Aarhus&lt;/a&gt;.
+that validate and issue certificates to cryptographic libraries.&lt;/p&gt;
+&lt;p&gt;Last week, at the National CyberSecurity Center of Excellence in
+Maryland, NIST hosted a workshop on &lt;a href="https://www.nist.gov/news-events/events/2024/07/nist-workshop-formal-methods-within-certification-programs-fmcp-2024"&gt;Formal Methods within
+Certification
+Programs&lt;/a&gt;.
+The idea behind the workshop was to bring together formal methods
+researchers and practitioners (like ourselves) with various
+certification labs and the NIST validation teams, with the goal of
+investigating how formal methods could be used to improve certification
+processes.&lt;/p&gt;</description></item><item><title>Unlocking New Possibilities</title><link>https://cryspen.com/post/hax-sandbox/</link><pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hax-sandbox/</guid><description>&lt;p&gt;We have been developing the &lt;a href="https://hax.cryspen.com"&gt;hax toolchain&lt;/a&gt; over the last two years, in collaboration with research teams at &lt;a href="https://team.inria.fr/prosecco/"&gt;Inria&lt;/a&gt; and the &lt;a href="https://users-cs.au.dk/spitters/"&gt;University of Aarhus&lt;/a&gt;.
 To showcase its capabilities we have successfully applied it to &lt;a href="https://cryspen.com/post/ml-kem-verification/"&gt;ML-KEM&lt;/a&gt; and &lt;a href="https://cryspen.com/post/hax-pv/"&gt;Bertie&lt;/a&gt;.
-Others are using it to create new &lt;a href="https://eprint.iacr.org/2023/185"&gt;ground-breaking research results&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Announcing Campus Cyber Circus Project</title><link>https://cryspen.com/post/cyber-campus-hax/</link><pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/cyber-campus-hax/</guid><description>&lt;p&gt;🎉 We&amp;rsquo;re excited to announce that Cryspen &lt;a href="https://ptcc.fr/projets/circus-2/"&gt;partnered&lt;/a&gt; with &lt;a href="https://www.inria.fr/fr"&gt;Inria&lt;/a&gt; on a transfer project to build a new integrated development and verification environment (IDVE). The project is part of the transfer program at &lt;a href="https://campuscyber.fr/"&gt;Campus Cyber&lt;/a&gt;, which brings together France&amp;rsquo;s top cybersecurity experts.&lt;/p&gt;</description></item><item><title>Specifying Oblivious Pseudonymization</title><link>https://cryspen.com/post/scrambledb/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/scrambledb/</guid><description>&lt;p&gt;In this blog post we announce an executable specification in the
+Others are using it to create new &lt;a href="https://eprint.iacr.org/2023/185"&gt;ground-breaking research results&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Key benefits of using hax:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Uncover potential bugs and vulnerabilities early: Hax’s rigorous formal analysis can identify potential errors and security flaws before they reach production, saving you time and resources.&lt;/li&gt;
+&lt;li&gt;Reduce development time and costs: By formally verifying your code, you can reduce the need for manual testing and reduce the risk of regressions.&lt;/li&gt;
+&lt;li&gt;Gain a competitive edge: Demonstrate the high quality and reliability of your software to your customers and partners.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Today, we&amp;rsquo;re announcing a collaboration with &lt;a href="https://www.sandboxaq.com/"&gt;SandboxAQ&lt;/a&gt; to help them verify their software using hax.
+We are excited to see what new applications we come up with together and how we can evolve hax to be directly usable by software engineers.
+Read SandboxAQ&amp;rsquo;s post on the collaboration &lt;a href="https://cryptographycaffe.sandboxaq.com/posts/formal-verification-overview/"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Announcing Campus Cyber Circus Project</title><link>https://cryspen.com/post/cyber-campus-hax/</link><pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/cyber-campus-hax/</guid><description>&lt;p&gt;🎉 We&amp;rsquo;re excited to announce that Cryspen &lt;a href="https://ptcc.fr/projets/circus-2/"&gt;partnered&lt;/a&gt; with &lt;a href="https://www.inria.fr/fr"&gt;Inria&lt;/a&gt; on a transfer project to build a new integrated development and verification environment (IDVE). The project is part of the transfer program at &lt;a href="https://campuscyber.fr/"&gt;Campus Cyber&lt;/a&gt;, which brings together France&amp;rsquo;s top cybersecurity experts.&lt;/p&gt;
+&lt;p&gt;The goal of this project is to advocate the commercial use of automated reasoning in security critical solutions in software engineering processes. We plan to make the IDVE, based on &lt;a href="https://hax.cryspen.com"&gt;hax&lt;/a&gt;, usable by any developer, even if they don&amp;rsquo;t have formal verification knowledge. We will apply hax to &lt;a href="https://github.com/cryspen/bertie"&gt;Bertie&lt;/a&gt;, the first formally verified, high-performance, implementation of TLS 1.3. &lt;/p&gt;</description></item><item><title>Specifying Oblivious Pseudonymization</title><link>https://cryspen.com/post/scrambledb/</link><pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/scrambledb/</guid><description>&lt;p&gt;In this blog post we announce an executable specification in the
 &lt;code&gt;hacspec&lt;/code&gt; specification language for the &lt;code&gt;ScrambleDB&lt;/code&gt; pseudonymization
-system, developed by Cryspen as part of the &lt;a href="https://www.forschung-it-sicherheit-kommunikationssysteme.de/projekte/atlas"&gt;BMBF ATLAS project&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Prairie and Atlas</title><link>https://cryspen.com/post/prarie-and-atlas/</link><pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/prarie-and-atlas/</guid><description>&lt;p&gt;With the widespread adoption and deployment of machine learning across enterprises,
+system, developed by Cryspen as part of the &lt;a href="https://www.forschung-it-sicherheit-kommunikationssysteme.de/projekte/atlas"&gt;BMBF ATLAS project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Find the specification at our &lt;a href="https://github.com/cryspen/atlas/"&gt;GitHub
+repository&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;First, we will motivate the need for utility-preserving
+pseudonymization. Then we will describe how &lt;code&gt;ScrambleDB&lt;/code&gt; addresses the
+issues found with conventional pseudonymization approaches. We
+conclude with a demo of our executable specification that takes you
+through a full protocol flow running right here in your browser.&lt;/p&gt;</description></item><item><title>Prairie and Atlas</title><link>https://cryspen.com/post/prarie-and-atlas/</link><pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/prarie-and-atlas/</guid><description>&lt;p&gt;With the widespread adoption and deployment of machine learning across enterprises,
 ever-increasing amounts of data are being collected, stored, communicated,
 combined, and computed over by sophisticated algorithms.
 In parallel, new governmental regulations and rising concerns about privacy are
 giving impetus to new research on how to protect the confidentiality, integrity
-and privacy of all this data.&lt;/p&gt;</description></item><item><title>Cryspen @ RWC 2023</title><link>https://cryspen.com/post/rwc-2023/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/rwc-2023/</guid><description>&lt;p&gt;At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.&lt;/p&gt;</description></item><item><title>hacspec</title><link>https://cryspen.com/hacspec/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/hacspec/</guid><description>&lt;p&gt;&lt;a href="https://hacspec.org"&gt;hacspec&lt;/a&gt; is a language and framework for writing succinct, executable, formally
-verifiable specifications for cryptographic components.&lt;/p&gt;
-&lt;p&gt;Syntactically, hacspec is a purely functional subset of Rust that aims to be
-readable by developers, cryptographers, and verification experts.
-An application developer can use hacspec to specify and prototype cryptographic
-components in Rust, and then replace this specification with a verified
-implementation before deployment.&lt;/p&gt;</description></item><item><title>libcrux</title><link>https://cryspen.com/libcrux-library/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/libcrux-library/</guid><description>&lt;p&gt;Libcrux is a cryptographic library written almost entirely in Rust, a modern
-programming language that is known for its safety and performance. It
-provides a wide range of cryptographic primitives, including symmetric
-encryption, asymmetric encryption, digital signatures, hash
-functions, post-quantum KEMs and post-quantum signatures.&lt;/p&gt;</description></item><item><title>An Executable HPKE Specification</title><link>https://cryspen.com/post/hpke_spec/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hpke_spec/</guid><description>&lt;p&gt;&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;HPKE&lt;/a&gt;, published as &lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;RFC 9180&lt;/a&gt;, describes a scheme for hybrid public key encryption.&lt;/p&gt;
+and privacy of all this data.&lt;/p&gt;
+&lt;p&gt;At Cryspen, we are engaged in multiple R&amp;amp;D projects around these topics.
+We help design new encryption standards, such as &lt;a href="https://www.rfc-editor.org/rfc/rfc9180.html"&gt;HPKE&lt;/a&gt;, for protecting data at
+rest; we implement high-assurance cryptographic libraries, such as &lt;a href="https://github.com/celabshq/libcrux"&gt;libcrux&lt;/a&gt;;
+we design and implement new protocols, such as &lt;a href="https://www.rfc-editor.org/rfc/rfc9420.html"&gt;MLS&lt;/a&gt;, for communicating sensitive data between a large number of endpoints; and we investigate state-of-the-art constructions, such as multi-party computation, for privacy-preserving analysis over distributed data.&lt;/p&gt;</description></item><item><title>Cryspen @ RWC 2023</title><link>https://cryspen.com/post/rwc-2023/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/rwc-2023/</guid><description>&lt;p&gt;At Real World Crypto 2023 in Tokyo, we gave a talk on the hacspec language, the hax tool, and the libcrux crypto library.&lt;/p&gt;
+&lt;p&gt;Designing and implementing cryptographic software is a perilous
+endeavor. Experts (like us) will tell you not to “roll your own
+crypto” and instead rely on standard mechanisms and well-vetted
+open-source implementations. Or else you take the risk of falling prey
+to embarrassing attacks, with &lt;a href="https://en.wikipedia.org/wiki/Heartbleed"&gt;dedicated
+logos&lt;/a&gt;,
+&lt;a href="https://en.wikipedia.org/wiki/FREAK"&gt;backronyms&lt;/a&gt;, and &lt;a href="https://breakingthe3ma.app/"&gt;long-lived
+websites&lt;/a&gt; listing your design flaws and
+coding bugs. Of course, &lt;a href="https://mitls.org/pages/attacks"&gt;published
+standards&lt;/a&gt; and &lt;a href="https://www.openssl.org/news/vulnerabilities.html"&gt;popular crypto
+libraries&lt;/a&gt; are not
+infallible, but the argument goes that at least you share their
+vulnerabilities and subsequent patches with a larger community of
+users.&lt;/p&gt;</description></item><item><title>An Executable HPKE Specification</title><link>https://cryspen.com/post/hpke_spec/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hpke_spec/</guid><description>&lt;p&gt;&lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;HPKE&lt;/a&gt;, published as &lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;RFC 9180&lt;/a&gt;, describes a scheme for hybrid public key encryption.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;📚 Read our &lt;a href="https://cryspen.com/post/tldr-hpke/"&gt;TL;DR on HPKE&lt;/a&gt; if you need more background on HPKE.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;📚 Read our &lt;a href="https://cryspen.com/post/tldr-hpke/"&gt;TL;DR on HPKE&lt;/a&gt; if you need more background on HPKE.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In this post, I describe the first executable HPKE specification using &lt;a href="https://hacspec.org"&gt;hacspec&lt;/a&gt;. It is not only an executable specification of &lt;a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-hpke/"&gt;HPKE&lt;/a&gt;, it is also an annotated version
+of the RFC that can be read instead of (or in addition to) the RFC.
+While the &lt;a href="https://cryspen.com/post/tldr-hpke/"&gt;TL;DR on HPKE&lt;/a&gt; was intended for consumers or potential users of HPKE,
+this blog post is aimed at implementators that want to implement HPKE or understand
+it better.&lt;/p&gt;</description></item></channel></rss>

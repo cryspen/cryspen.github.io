@@ -2,5 +2,29 @@
 implementation of ML-KEM in Rust, and talked about how our
 high-assurance development methodology helped us find a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220"&gt;new timing
 bug&lt;/a&gt;
-in various other Kyber implementations.&lt;/p&gt;</description></item><item><title>Verified ML-KEM (Kyber) in Rust</title><link>https://cryspen.com/post/ml-kem-implementation/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-implementation/</guid><description>&lt;p&gt;ML-KEM, previously known as &lt;a href="https://pq-crystals.org/kyber/"&gt;Kyber&lt;/a&gt;, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in &lt;a href="https://csrc.nist.gov/pubs/fips/203/ipd"&gt;FIPS 203&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Cryspen has built &lt;a href="https://github.com/cryspen/libcrux/tree/main/libcrux-kem"&gt;a new high assurance Rust implementation of ML-KEM&lt;/a&gt;, using our verification framework &lt;a href="https://cryspen.com/hax"&gt;hax&lt;/a&gt; and &lt;a href="https://fstar-lang.org"&gt;F*&lt;/a&gt;. Our implementation is among the fastest portable implementations that we know of (see &lt;a href="#performance-comparison"&gt;Performance comparison&lt;/a&gt;), and helped uncover a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220"&gt;timing bug&lt;/a&gt; (also called &lt;a href="https://kyberslash.cr.yp.to/"&gt;KyberSlash&lt;/a&gt;) in various Kyber implementations that would allow an attacker to &lt;a href="https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/ldX0ThYJuBo/m/uIOqRF5BAwAJ"&gt;recover the private key&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
+in various other Kyber implementations.&lt;/p&gt;
+&lt;p&gt;In this post, we will go into
+some more detail on how we use the &lt;a href="https://github.com/hacspec/hax"&gt;hax verification toolchain&lt;/a&gt; to
+formally prove that our code is panic free and functionally correct.&lt;/p&gt;
+&lt;div class="blog-content fs-6 pb-3"&gt;
+ &lt;details&gt;
+ 
+ &lt;summary&gt;Background on High-Assurance Cryptography&lt;/summary&gt;
+ &lt;p&gt; &lt;p&gt;Cryptographic libraries lie at the heart of the trusted computing base
+of all networked applications and, consequently, programming bugs in
+these libraries are always treated as security vulnerabilities,
+sometimes with high-profile acronyms and news articles. In the past
+decade, a number of companies and research groups have made a
+concerted attempt to improve confidence in cryptographic libraries by
+using techniques from formal verification. This research area, called
+computer-aided cryptography or high-assurance cryptography, is
+surveyed in &lt;a href="https://eprint.iacr.org/2019/1393"&gt;this paper&lt;/a&gt;
+and even has a &lt;a href="https://hacs-workshop.org"&gt;dedicated workshop&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Verified ML-KEM (Kyber) in Rust</title><link>https://cryspen.com/post/ml-kem-implementation/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/ml-kem-implementation/</guid><description>&lt;p&gt;ML-KEM, previously known as &lt;a href="https://pq-crystals.org/kyber/"&gt;Kyber&lt;/a&gt;, is the first post-quantum secure key-encapsulation mechanism (KEM) to get standardised by NIST in &lt;a href="https://csrc.nist.gov/pubs/fips/203/ipd"&gt;FIPS 203&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cryspen has built &lt;a href="https://github.com/celabshq/libcrux/tree/main/libcrux-kem"&gt;a new high assurance Rust implementation of ML-KEM&lt;/a&gt;, using our verification framework &lt;a href="https://hax.cryspen.com"&gt;hax&lt;/a&gt; and &lt;a href="https://fstar-lang.org"&gt;F*&lt;/a&gt;. Our implementation is among the fastest portable implementations that we know of (see &lt;a href="#performance-comparison"&gt;Performance comparison&lt;/a&gt;), and helped uncover a &lt;a href="https://github.com/pq-crystals/kyber/commit/dda29cc63af721981ee2c831cf00822e69be3220"&gt;timing bug&lt;/a&gt; (also called &lt;a href="https://kyberslash.cr.yp.to/"&gt;KyberSlash&lt;/a&gt;) in various Kyber implementations that would allow an attacker to &lt;a href="https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/ldX0ThYJuBo/m/uIOqRF5BAwAJ"&gt;recover the private key&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="blog-content fs-6 pb-3"&gt;
+ &lt;details&gt;
+ 
+ &lt;summary&gt;Background on Post Quantum Cryptography&lt;/summary&gt;
+ &lt;p&gt; &lt;p&gt;The rise of quantum computing poses a significant threat to current cryptographic systems and protocols.
+In particular, encrypted network traffic may be subjected to store-now-decrypt-later attacks, where encrypted data is collected by the adversary now so that it can be decrypted later,
+maybe in several years, when quantum computers become powerful enough to break the public key cryptographic schemes we currently use to establish encryption keys.&lt;/p&gt;</description></item></channel></rss>
