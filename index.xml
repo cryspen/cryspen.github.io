@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryspen</title><link>https://cryspen.com/</link><description>Recent content on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Announcing CE Labs</title><link>https://cryspen.com/post/announcing-ce-labs/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/announcing-ce-labs/</guid><description>&lt;p&gt;Today, we are announcing the launch of &lt;a href="https://celabs.eu/"&gt;CE Labs&lt;/a&gt;, a Cryspen spin-off dedicated to Cryptographic Engineering, under the leadership of Franziskus Kiefer. Learn more about CE Labs &lt;a href="https://celabs.eu/blog/ce-labs-announcement/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cryspen</title><link>https://cryspen.com/</link><description>Recent content on Cryspen</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cryspen.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Contact us</title><link>https://cryspen.com/contact/</link><pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate><guid>https://cryspen.com/contact/</guid><description>&lt;div class="text-center"&gt;
+ &lt;div class="d-flex flex-column flex-sm-row align-items-center justify-content-center gap-3 py-3"&gt;
+ &lt;a id="contact-email" class="fs-5 fw-semibold text-primary user-select-all" href="mailto:info@cryspen.com"&gt;info@cryspen.com&lt;/a&gt;
+ &lt;button id="copy-email-btn" type="button" class="btn btn-primary text-light px-4"&gt;Copy address&lt;/button&gt;
+ &lt;/div&gt;
+ &lt;p class="text-black-61 pt-5 pb-2"&gt;You can also find us here:&lt;/p&gt;
+ &lt;ul class="d-flex justify-content-center list-unstyled gap-2 pt-2 mb-0"&gt;
+ 
+ &lt;li class="rounded-circle bg-red-16 p-2"&gt;
+ &lt;a class="d-flex align-items-center justify-content-center size-16 text-primary" href="https://www.linkedin.com/company/cryspen" aria-label="LinkedIn"&gt;&lt;svg
+ xmlns="http://www.w3.org/2000/svg"
+ width="16"
+ height="16"
+ fill="currentColor"
+ class="bi bi-linkedin"
+ viewBox="0 0 448 512"
+ &gt;
+ &lt;path
+ d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+ /&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+ 
+ 
+ &lt;li class="rounded-circle bg-red-16 p-2"&gt;
+ &lt;a class="d-flex align-items-center justify-content-center size-16 text-primary" href="https://github.com/cryspen" aria-label="GitHub"&gt;&lt;svg
+ xmlns="http://www.w3.org/2000/svg"
+ width="16"
+ height="16"
+ fill="currentColor"
+ viewBox="0 0 496 512"
+ &gt;
+ &lt;path
+ d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+ /&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+ 
+ 
+ &lt;li class="rounded-circle bg-red-16 p-2"&gt;
+ &lt;a class="d-flex align-items-center justify-content-center size-16 text-primary" href="https://bsky.app/profile/cryspen.bsky.social" aria-label="Bluesky"&gt;&lt;svg
+ width="568"
+ height="501"
+ viewBox="0 0 568 501"
+ fill="currentColor"
+ xmlns="http://www.w3.org/2000/svg"
+ &gt;
+ &lt;path
+ d="M123.121 33.6637C188.241 82.5526 258.281 181.681 284 234.873C309.719 181.681 379.759 82.5526 444.879 33.6637C491.866 -1.61183 568 -28.9064 568 57.9464C568 75.2916 558.055 203.659 552.222 224.501C531.947 296.954 458.067 315.434 392.347 304.249C507.222 323.8 536.444 388.56 473.333 453.32C353.473 576.312 301.061 422.461 287.631 383.039C285.169 375.812 284.017 372.431 284 375.306C283.983 372.431 282.831 375.812 280.369 383.039C266.939 422.461 214.527 576.312 94.6667 453.32C31.5556 388.56 60.7778 323.8 175.653 304.249C109.933 315.434 36.0535 296.954 15.7778 224.501C9.94525 203.659 0 75.2916 0 57.9464C0 -28.9064 76.1345 -1.61183 123.121 33.6637Z"
+ /&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+ 
+ 
+ &lt;li class="rounded-circle bg-red-16 p-2"&gt;
+ &lt;a class="d-flex align-items-center justify-content-center size-16 text-primary" href="https://ioc.exchange/@cryspen" aria-label="Mastodon"&gt;&lt;svg
+ xmlns="http://www.w3.org/2000/svg"
+ width="16"
+ height="16"
+ fill="currentColor"
+ class="bi bi-mastodon"
+ viewBox="0 0 16 16"
+ &gt;
+ &lt;path
+ d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a4 4 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522q0-1.288.66-2.046c.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764q.662.757.661 2.046z"
+ /&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+ 
+ &lt;/ul&gt;
+
+&lt;/div&gt;
+&lt;script&gt;
+(function () {
+ var btn = document.getElementById('copy-email-btn');
+ if (!btn) return;
+ var email = 'info@cryspen.com';
+ function flash() {
+ btn.textContent = 'Copied!';
+ btn.disabled = true;
+ setTimeout(function () { btn.textContent = 'Copy address'; btn.disabled = false; }, 2000);
+ }
+ function legacyCopy() {
+ var ta = document.createElement('textarea');
+ ta.value = email;
+ ta.setAttribute('readonly', '');
+ ta.style.position = 'fixed';
+ ta.style.left = '-9999px';
+ document.body.appendChild(ta);
+ ta.select();
+ try { document.execCommand('copy'); flash(); } catch (e) {}
+ document.body.removeChild(ta);
+ }
+ btn.addEventListener('click', function () {
+ if (navigator.clipboard &amp;&amp; navigator.clipboard.writeText) {
+ navigator.clipboard.writeText(email).then(flash, legacyCopy);
+ } else {
+ legacyCopy();
+ }
+ });
+})();
+&lt;/script&gt;</description></item><item><title>Announcing CE Labs</title><link>https://cryspen.com/post/announcing-ce-labs/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/announcing-ce-labs/</guid><description>&lt;p&gt;Today, we are announcing the launch of &lt;a href="https://celabs.eu/"&gt;CE Labs&lt;/a&gt;, a Cryspen spin-off dedicated to Cryptographic Engineering, under the leadership of Franziskus Kiefer. Learn more about CE Labs &lt;a href="https://celabs.eu/blog/ce-labs-announcement/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Going forward, Cryspen will be led by Karthik Bhargavan and will focus on building usable formal verification tools, helping users apply them on real-world software, and working towards a new product funded by an &lt;a href="https://eic.ec.europa.eu/eic-funding-opportunities/eic-transition_en"&gt;EIC Transition Grant&lt;/a&gt; called &lt;a href="https://cryspen.com/post/eic-transition-spectrum/"&gt;Spectrum&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Cryspen and CE Labs are continuing their close collaboration at the intersection of formal verification and cryptography. This partnership allows CE Labs to build high-assurance software using Cryspen&amp;rsquo;s tools, while Cryspen uses CE Labs&amp;rsquo; production code to refine and optimize its verification suite.&lt;/p&gt;</description></item><item><title>EIC Transition: Spectrum</title><link>https://cryspen.com/post/eic-transition-spectrum/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/eic-transition-spectrum/</guid><description>&lt;p&gt;We are excited to have been awarded a Transition Grant from the European Innovation Council to build a specification and verification toolkit that developers can use to build and deploy provably-secure software. The project is called &lt;a href="https://cryspen.com/spectrum/"&gt;Spectrum&lt;/a&gt; and it builds on our &lt;a href="https://hax.cryspen.com"&gt;hax&lt;/a&gt; open-source framework.&lt;/p&gt;
 &lt;p&gt;In the coming months, we will describe how we and our customers use the Spectrum tools on a daily basis to design and implement security-critical systems. If you would like to know how Spectrum can help you, get in touch.&lt;/p&gt;</description></item><item><title>Spectrum</title><link>https://cryspen.com/spectrum/</link><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate><guid>https://cryspen.com/spectrum/</guid><description>&lt;p&gt;Does your team use AI coding agents to write your software? How confident are you that the agent built what you actually intended, and that it didn&amp;rsquo;t introduce security vulnerabilities along the way? How can you check that the generated code complies with your security and privacy policies?&lt;/p&gt;
@@ -50,12 +155,10 @@ Usenix Security&lt;/a&gt;.
 This time, Cryspen and Signal agreed to collaborate from the very
 beginning of the design process for SPQR all the way through to its
 implementation.&lt;/p&gt;</description></item><item><title>PQC Support for JZLint</title><link>https://cryspen.com/post/pqc-jzlint/</link><pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/pqc-jzlint/</guid><description>&lt;p&gt;We joined forces with &lt;a href="https://mtg.de/"&gt;MTG AG&lt;/a&gt;, a leader in public key infrastructures, to release &lt;a href="https://github.com/MTG-AG/jzlint"&gt;JZLint 2.0&lt;/a&gt; with support for analyzing post-quantum (PQC) certificates and their public keys.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;JZLint 2.0&lt;/strong&gt; is a certificate linter that plays a crucial role in the issuance of digital certificates. Linting involves checking certificates for errors and ensuring their conformance to relevant specifications. This vital step is performed by public certificate authorities (CAs) to ensure compliance with technical standards and security requirements before the certificates are issued. Tools like JZLint play an essential role in the &lt;a href="https://celabs.eu/"&gt;transition to post-quantum secure cryptography&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Research @ Cryspen</title><link>https://cryspen.com/research/</link><pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/research/</guid><description>&lt;p&gt;Cryspen is deeply committed to cutting-edge research in formal
-verification tools and provably secure cryptographic solutions. We
-engage in long-term collaborations with universities and research
-institutes, and we seek to bridge the gap between academic research and
-their industrial application, allowing us to bring state-of-the-art
-research results directly into all our products and services.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JZLint 2.0&lt;/strong&gt; is a certificate linter that plays a crucial role in the issuance of digital certificates. Linting involves checking certificates for errors and ensuring their conformance to relevant specifications. This vital step is performed by public certificate authorities (CAs) to ensure compliance with technical standards and security requirements before the certificates are issued. Tools like JZLint play an essential role in the &lt;a href="https://celabs.eu/"&gt;transition to post-quantum secure cryptography&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Research</title><link>https://cryspen.com/research/</link><pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate><guid>https://cryspen.com/research/</guid><description>&lt;p&gt;We work with our colleagues in academia and industry to extend the
+state-of-the-art in software verification and security analysis. We
+regularly publish and present our research in peer-reviewed conferences
+and workshops.&lt;/p&gt;
 &lt;h2 id="presentations"&gt;Presentations&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Real World Crypto 2025: &lt;em&gt;Using Formally Verified Post-Quantum Algorithms at Scale&lt;/em&gt;. Lucas Franceschino with Andres Erbsen.
@@ -78,9 +181,14 @@ research results directly into all our products and services.&lt;/p&gt;
 (&lt;a href="https://cryspen.com/documents-and-slides/MatchPoints%E2%80%93High-Assurance_Post-Quantum_Cryptography.pdf"&gt;Slides&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="papers"&gt;Papers&lt;/h2&gt;
+&lt;h4 id="2026"&gt;2026&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Project Everest: Perspectives from Developing Industrial-Grade High-Assurance Software&lt;/em&gt;.
+Danel Ahman, Karthikeyan Bhargavan, Barry Bond, Jay Bosamiya, Christopher Brzuska, Antoine Delignat-Lavaud, Cédric Fournet, Aymeric Fromherz, Sydney Gibson, Chris Hawblitzel, Cătălin Hrițcu, Markulf Kohlweiss, Guido Martínez, Haobin Ni, Bryan Parno, Jonathan Protzenko, Tahina Ramananandro, Aseem Rastogi, Exequiel Rivas, Nikhil Swamy and Santiago Zanella-Béguelin. ACM Transactions on Programming Languages and SystemsVolume 48, Issue 2. June 2026.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id="2025"&gt;2025&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust&lt;/em&gt;.
+&lt;li&gt;&lt;em&gt;Functional Verification of Cryptographic Protocol Implementations in Rust&lt;/em&gt;.
 Karthikeyan Bhargavan, Lasse Letager Hansen, Franziskus Kiefer, Jonas Schneider-Bensch, Bas Spitters.
 ACM SIGSAC Conference on Computer and Communications Security (CCS) 2025
 (&lt;a href="https://eprint.iacr.org/2025/980"&gt;Paper&lt;/a&gt;)&lt;/li&gt;
@@ -352,7 +460,8 @@ standards&lt;/a&gt; and &lt;a href="https://www.openssl.org/news/vulnerabilities
 libraries&lt;/a&gt; are not
 infallible, but the argument goes that at least you share their
 vulnerabilities and subsequent patches with a larger community of
-users.&lt;/p&gt;</description></item><item><title>Diversity, Equity, and Inclusion</title><link>https://cryspen.com/company/dei/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/company/dei/</guid><description>&lt;p&gt;Cryspen is committed to creating a diverse, equitable, and inclusive workplace
+users.&lt;/p&gt;</description></item><item><title>About us</title><link>https://cryspen.com/about/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/about/</guid><description>&lt;p&gt;Cryspen was founded in December 2021 by &lt;a href="https://bhargavan.info/"&gt;Karthik Bhargavan&lt;/a&gt;, &lt;a href="https://franziskuskiefer.de"&gt;Franziskus Kiefer&lt;/a&gt;, and &lt;a href="https://jonathan.protzenko.fr/"&gt;Jonathan Protzenko&lt;/a&gt;, with the goal of adapting and extending cutting-edge formal verification tools developed at research labs like &lt;a href="https://www.inria.fr/"&gt;Inria&lt;/a&gt; and applying them to commercial software development.&lt;/p&gt;
+&lt;p&gt;In June 2026, Cryspen spun off &lt;a href="https://celabs.eu"&gt;CE Labs&lt;/a&gt; under the leadership of Franziskus to continue our work on Cryptographic Engineering. Cryspen itself pivoted to focus on developing formal verification tools for real-world security-critical software, funded by a new &lt;a href="https://eic.ec.europa.eu/eic-funding-opportunities/eic-transition_en"&gt;EIC Transition&lt;/a&gt; project called &lt;a href="https://cryspen.com/spectrum/"&gt;Spectrum&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Diversity, Equity, and Inclusion</title><link>https://cryspen.com/company/dei/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/company/dei/</guid><description>&lt;p&gt;Cryspen is committed to creating a diverse, equitable, and inclusive workplace
 where all employees feel valued, respected, and empowered.
 This policy outlines our commitment to fostering a positive and productive work
 environment that celebrates differences and promotes equal opportunities for all.&lt;/p&gt;
@@ -376,7 +485,6 @@ valued, respected, and able to contribute their best.&lt;/li&gt;
 &lt;p&gt;Hosting: &lt;a href="https://pages.github.com/"&gt;Github&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="image-credits"&gt;Image Credits&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Some data illustrations were created using &lt;a href="https://storyset.com"&gt;storyset.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.freepik.com/free-vector/maintenance-concept-illustration_5421740.htm#query=illustrations%20engineering&amp;amp;position=7&amp;amp;from_view=search&amp;amp;track=ais"&gt;Hero based on Image by storyset on Freepik&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.freepik.com/free-vector/ecology-concept-enviroment_6930130.htm#query=tree%20cyber&amp;amp;position=4&amp;amp;from_view=search&amp;amp;track=locales"&gt;MLS tree image&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.freepik.com/free-vector/abstract-vector-colorful-mesh-dark-background-futuristic-style-card-elegant-background-business-presentations-corrupted-point-sphere-chaos-aesthetics_22421018.htm#query=ai&amp;amp;position=1&amp;amp;from_view=search&amp;amp;track=sph"&gt;abstract vector colorful mesh image by GarryKillian on Freepik&lt;/a&gt;&lt;/li&gt;
@@ -388,8 +496,7 @@ valued, respected, and able to contribute their best.&lt;/li&gt;
  data-mount-in="#join-widget"
  src="https://join.com/api/widget/bundle/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXR0aW5ncyI6eyJzaG93Q2F0ZWdvcnlGaWx0ZXIiOnRydWUsInNob3dMb2NhdGlvbkZpbHRlciI6dHJ1ZSwic2hvd0VtcGxveW1lbnRUeXBlRmlsdGVyIjp0cnVlLCJsYW5ndWFnZSI6ImVuIiwiam9ic1BlclBhZ2UiOjI1fSwiam9icyI6e30sImRlc2lnbiI6eyJzaG93TG9nbyI6dHJ1ZSwic2hvd0xvY2F0aW9uIjp0cnVlLCJzaG93RW1wbG95bWVudFR5cGUiOnRydWUsInNob3dDYXRlZ29yeSI6dHJ1ZSwiY29sb3JzIjp7IndpZGdldCI6eyJiYWNrZ3JvdW5kIjoiI0ZGRkZGRiIsImZpbHRlckJvcmRlciI6IiNENEQ0RDgiLCJwYWdpbmF0aW9uIjoiIzk5MDAwMCJ9LCJqb2JDYXJkIjp7InNoYWRvdyI6IiNGRkRCREIiLCJiYWNrZ3JvdW5kIjoiI0ZGRkZGRiIsInByaW1hcnlUZXh0IjoiIzNGM0Y0NiIsInNlY29uZGFyeVRleHQiOiIjNTI1MjVCIn19fSwidmVyc2lvbiI6MiwiY29tcGFueVB1YmxpY0lkIjoiNzUyMjA2YjVmYmM2ZmI5ZjA2YmM3NDEzM2JhMjdmYzciLCJpYXQiOjE2NzYxOTc0NTYsImp0aSI6ImVjZDJjYzA0LWEzYWUtNGI2ZC04ZWNlLTRiOTRjODhkYzlmOSJ9.x-Zdbbs8_ht6hYNS3DQs6UcLlN2mVps_eFaPGJU4vwU"
  &gt;&lt;/script&gt;
- &lt;/div&gt;</description></item><item><title>Our Team</title><link>https://cryspen.com/about/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://cryspen.com/about/</guid><description>&lt;p&gt;Cryspen was founded in December 2021 by &lt;a href="https://bhargavan.info/"&gt;Karthik Bhargavan&lt;/a&gt;, &lt;a href="https://franziskuskiefer.de"&gt;Franziskus Kiefer&lt;/a&gt;, and &lt;a href="https://jonathan.protzenko.fr/"&gt;Jonathan Protzenko&lt;/a&gt;, with the goal of adapting and extending cutting-edge formal verification tools developed at research labs like &lt;a href="https://www.inria.fr/"&gt;Inria&lt;/a&gt; and applying them to commercial software development.&lt;/p&gt;
-&lt;p&gt;In June 2026, Cryspen spun off &lt;a href="https://celabs.eu"&gt;CE Labs&lt;/a&gt; under the leadership of Franziskus to continue our work on Cryptographic Engineering. Cryspen itself pivoted to focus on developing formal verification tools for real-world security-critical software, funded by a new &lt;a href="https://eic.ec.europa.eu/eic-funding-opportunities/eic-transition_en"&gt;EIC Transition&lt;/a&gt; project called &lt;a href="https://cryspen.com/spectrum/"&gt;Spectrum&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>HACL Packages v0.6</title><link>https://cryspen.com/post/hacl-0_6/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hacl-0_6/</guid><description>&lt;blockquote&gt;
+ &lt;/div&gt;</description></item><item><title>HACL Packages v0.6</title><link>https://cryspen.com/post/hacl-0_6/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://cryspen.com/post/hacl-0_6/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;Today, we announce the first release of the HACL Packages libraries. 🎉&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;This release of HACL packages includes the first release of the &lt;a href="https://github.com/cryspen/hacl-packages/releases/tag/c-v0.6.0"&gt;HACL C library&lt;/a&gt;
